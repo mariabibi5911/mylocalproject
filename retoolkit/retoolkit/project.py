@@ -12,6 +12,8 @@ Layout (generic, no feature/cheat-specific folders):
 │   ├── strings/          per-library strings dump + regex search index
 │   ├── calls/            per-library call graph (edges) JSON
 │   └── vtables/          per-library vtable/function-pointer candidates
+├── features/             analyst-owned command/feature records
+├── offsets/              analyst-owned offsets and patch notes
 ├── reports/              metadata.json, manifest_report.json, hashes.json
 ├── notes/                free-form analyst notes (never auto-written)
 └── scripts/              copies of the helper scripts used to produce this
@@ -28,6 +30,8 @@ SUBDIRS = [
     "analysis/strings",
     "analysis/calls",
     "analysis/vtables",
+    "features",
+    "offsets",
     "reports",
     "notes",
     "scripts",

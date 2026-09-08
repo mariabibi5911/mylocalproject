@@ -26,8 +26,10 @@ pip install -r requirements.txt
 python3 -m retoolkit.pipeline /path/to/app.apk /path/to/project_dir
 ```
 
-This creates the following structure under `project_dir/` (matching the
-layout you specified, minus any feature-tagging folders):
+This creates the following structure under `project_dir/`. The
+`features/` and `offsets/` folders are intentionally analyst-owned: the
+tool creates the folders but does not invent feature meanings or write
+program-modifying actions into them:
 
 ```
 project_dir/
@@ -43,6 +45,8 @@ project_dir/
 │   ├── strings/            strings dump per library
 │   ├── calls/              call graph (edges + indirect call sites)
 │   └── vtables/            function-pointer table candidates
+├── features/               analyst-owned command/feature records
+├── offsets/                analyst-owned offsets and patch notes
 ├── reports/
 │   ├── metadata.json       APK metadata, hashes
 │   ├── manifest_report.json  permissions, exported components, url schemes
@@ -71,7 +75,9 @@ python3 -m retoolkit.pipeline app.apk project_dir armeabi-v7a,x86
 | `retoolkit.native_inventory` | extracts every `.so` per ABI, ELF class/machine/build-id |
 | `retoolkit.native_analysis` | function list, strings, imports/exports, PLT/GOT for one `.so` |
 | `retoolkit.callgraph` | builds + queries the call graph (see below) |
-| `retoolkit.vtable_scan` | scans for function-pointer table candidates |
+| `retoolkit.vtable_scan` | scans raw pointers and dynamic relocations for function-pointer table candidates |
+| `retoolkit.command_discovery` | matches analyst-supplied string families and locates code references/nearby branches |
+| `retoolkit.feature_records` | creates and validates the analyst's feature investigation records |
 | `retoolkit.search` | search strings/functions/imports/manifest across a whole project |
 | `retoolkit.pc_bridge` | local file server + zip export + "copy as" formatting helpers |
 
@@ -112,6 +118,54 @@ address just from disassembly — those are recorded separately in
 `indirect_call_sites` so you know exactly where to point a vtable/
 function-pointer analysis, instead of finding them one at a time while
 scrolling.
+
+## Static command discovery
+
+Provide the command families for a binary you are authorized to analyze. The
+module finds matching strings, maps them to virtual addresses, resolves common
+PC-relative references, and records nearby direct branches/calls. It produces
+candidate evidence only; `Handler`, state reads/writes, and vtable meaning
+remain unresolved until you verify them manually.
+
+```bash
+python3 -m retoolkit.command_discovery native/arm64-v8a/libfoo.so features \
+  --pattern '^(COMMAND::|CONFIG::)' --ignore-case
+```
+
+For an analyst-owned library with namespaced command strings, the same flag
+can accept a pattern such as `^(ESP::|AUTO::|CONFIG::)`; the tool treats those
+as labels only and still requires manual verification of every reference.
+
+The output is `features/libfoo.so.command_discovery.json` and each candidate
+contains a worksheet-shaped record:
+
+```json
+{
+  "Feature": "COMMAND::EXAMPLE",
+  "Entry": "0x...",
+  "Command": "COMMAND::EXAMPLE",
+  "Branch": [],
+  "Lookup": [],
+  "Handler": null,
+  "Important globals": [],
+  "Vtable calls": [],
+  "Game-state reads": [],
+  "Game-state writes": [],
+  "Confidence": "medium",
+  "Status": "candidate - manual verification required"
+}
+```
+
+Create a persistent record for notes that are confirmed later:
+
+```bash
+python3 -m retoolkit.feature_records create project_dir COMMAND_EXAMPLE
+python3 -m retoolkit.feature_records validate project_dir
+```
+
+The scanner deliberately does not hard-code feature names, infer game-state
+semantics, or generate hooks/automation. Those fields are for authorized
+manual analysis of the target binary.
 
 ## Global search
 
