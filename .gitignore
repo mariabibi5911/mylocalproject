@@ -1,16 +1,26 @@
-# Gradle / Android build output
-.gradle/
-**/build/
-local.properties
+```
+# Build artifacts
+build/
+dist/
 *.apk
-*.aab
+*.aar
+*.jar
 
-# Python
-__pycache__/
-*.py[cod]
-*.pyd
+# Gradle
+.gradle/
+!gradle.properties
 
-# Databases and local analysis scratch
-*.db
-*.sqlite
-*.sqlite3
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Temp files
+*.tmp
+*.temp
+*.log
+
+# Local configuration
+local.properties
+```

@@ -10,27 +10,20 @@ android {
         applicationId 'nika.ngipro'
         minSdk 21
         targetSdk 33
-        versionCode 2
-        versionName '2.0'
+        versionCode 3
+        versionName '2.1'
     }
 
-    // The recovered source tree contains the merged Java output of the APK's
-    // bundled libraries. Keeping it as a source input avoids inventing Maven
-    // coordinates for dependencies whose original Gradle metadata was lost.
     sourceSets {
         main {
             java {
                 srcDirs = ['src/main/java', '../dependencies/src/main/java']
-                // AAPT2 generates the application R class from the recovered
-                // resource tree; no decompiler-generated application R source is included.
             }
             jniLibs.srcDirs = ['src/main/jniLibs']
         }
     }
 
     buildFeatures {
-        // View-binding classes were recovered with the app sources. Generating
-        // a second set would create duplicate nika.ngipro.databinding classes.
         viewBinding false
         buildConfig true
     }
@@ -42,25 +35,32 @@ android {
 
     packaging {
         jniLibs {
-            // Preserve the APK's extracted native payload, including the
-            // zero-byte libNeoLibDumper placeholder recorded in the source APK.
             useLegacyPackaging true
         }
     }
 
     lint {
         abortOnError false
+        checkReleaseBuilds false
+        disable 'MissingTranslation', 'ExtraTranslation'
     }
 
     buildTypes {
         debug {
             debuggable true
+            applicationIdSuffix '.debug'
         }
         release {
-            // No release keystore is present in the repository. Release output
-            // is intentionally unsigned until an authorized keystore is supplied.
             minifyEnabled false
             shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.recyclerview:recyclerview:1.3.1'
 }
