@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/bg_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarBookmarks"
+            android:background="@color/bg_surface"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:navigationIcon="@android:drawable/ic_menu_close_clear_cancel"
+            app:title="Bookmarks / Notes"
+            app:titleTextColor="@color/text_primary"/>
+        <TextView
+            android:textSize="12.5sp"
+            android:textColor="@color/text_muted"
+            android:gravity="center"
+            android:id="@+id/bookmarksEmpty"
+            android:padding="28dp"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No bookmarks yet — tap + to add one"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/bookmarksRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_gravity="end|bottom"
+        android:id="@+id/btnAddBookmark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="22dp"
+        app:backgroundTint="@color/accent_cyan"
+        app:srcCompat="@android:drawable/ic_input_add"
+        app:tint="@color/text_on_accent"/>
+</FrameLayout>
