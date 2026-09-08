@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/bg_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/listContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarDexList"
+            android:background="@color/bg_surface"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:navigationIcon="@android:drawable/ic_menu_close_clear_cancel"
+            app:title="DEX / Java Disassembler"
+            app:titleTextColor="@color/text_primary"/>
+        <TextView
+            android:textSize="11sp"
+            android:textColor="@color/text_muted"
+            android:id="@+id/dexCountText"
+            android:background="@color/bg_surface_alt"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loading DEX…"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/dexRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/detailContainer"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarDexDetail"
+            android:background="@color/bg_surface"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:navigationIcon="@android:drawable/ic_menu_close_clear_cancel"
+            app:titleTextColor="@color/text_primary"/>
+        <ScrollView
+            android:padding="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textSize="12sp"
+                android:textColor="@color/console_text"
+                android:id="@+id/dexDetailText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Loading…"
+                android:lineSpacingExtra="3dp"
+                android:textIsSelectable="true"
+                android:fontFamily="monospace"/>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

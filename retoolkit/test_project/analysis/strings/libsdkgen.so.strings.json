@@ -1,0 +1,2118 @@
+[
+  {
+    "offset": "0x20c",
+    "value": "Android"
+  },
+  {
+    "offset": "0x258",
+    "value": "8215888"
+  },
+  {
+    "offset": "0x1c50",
+    "value": " @D`"
+  },
+  {
+    "offset": "0x1e27",
+    "value": ";Vl\""
+  },
+  {
+    "offset": "0x1e66",
+    "value": "`zX `"
+  },
+  {
+    "offset": "0x1eb3",
+    "value": "0Zwp("
+  },
+  {
+    "offset": "0x1edc",
+    "value": "|9F_"
+  },
+  {
+    "offset": "0x1eea",
+    "value": "\\{xj"
+  },
+  {
+    "offset": "0x1f01",
+    "value": "w_f>"
+  },
+  {
+    "offset": "0x1f75",
+    "value": "=D/oT"
+  },
+  {
+    "offset": "0x1f80",
+    "value": "hYNH `"
+  },
+  {
+    "offset": "0x1fe5",
+    "value": "n\"O>"
+  },
+  {
+    "offset": "0x27dd",
+    "value": "__cxa_finalize"
+  },
+  {
+    "offset": "0x27ec",
+    "value": "__cxa_atexit"
+  },
+  {
+    "offset": "0x27f9",
+    "value": "_ZNK9Demangler8DemangleERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE"
+  },
+  {
+    "offset": "0x2857",
+    "value": "_ZNK9Demangler9IsMangledERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE"
+  },
+  {
+    "offset": "0x28b6",
+    "value": "__cxa_demangle"
+  },
+  {
+    "offset": "0x28c5",
+    "value": "strlen"
+  },
+  {
+    "offset": "0x28cc",
+    "value": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_"
+  },
+  {
+    "offset": "0x2917",
+    "value": "_Znwm"
+  },
+  {
+    "offset": "0x291d",
+    "value": "memcpy"
+  },
+  {
+    "offset": "0x2924",
+    "value": "free"
+  },
+  {
+    "offset": "0x2929",
+    "value": "_ZNKSt6__ndk121__basic_string_commonILb1EE20__throw_length_errorEv"
+  },
+  {
+    "offset": "0x296c",
+    "value": "__stack_chk_fail"
+  },
+  {
+    "offset": "0x297d",
+    "value": "_ZNKSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE4findEcm"
+  },
+  {
+    "offset": "0x29c9",
+    "value": "_ZNK9Demangler13DemangleBatchERKNSt6__ndk16vectorINS0_12basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEENS5_IS7_EEEE"
+  },
+  {
+    "offset": "0x2a45",
+    "value": "_ZNSt6__ndk16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE7reserveEm"
+  },
+  {
+    "offset": "0x2aa9",
+    "value": "_ZNSt6__ndk16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE21__push_back_slow_pathIS6_EEvOT_"
+  },
+  {
+    "offset": "0x2b24",
+    "value": "_ZdlPv"
+  },
+  {
+    "offset": "0x2b2b",
+    "value": "abort"
+  },
+  {
+    "offset": "0x2b31",
+    "value": "_ZNK9Demangler16ExtractClassNameERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE"
+  },
+  {
+    "offset": "0x2b98",
+    "value": "memchr"
+  },
+  {
+    "offset": "0x2b9f",
+    "value": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_mmRKS4_"
+  },
+  {
+    "offset": "0x2bf1",
+    "value": "_ZNK9Demangler16ExtractNamespaceERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE"
+  },
+  {
+    "offset": "0x2c58",
+    "value": "_ZNK9Demangler17ExtractMethodNameERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE"
+  },
+  {
+    "offset": "0x2cc0",
+    "value": "_ZNK9Demangler13IsConstructorERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEES8_"
+  },
+  {
+    "offset": "0x2d27",
+    "value": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm"
+  },
+  {
+    "offset": "0x2d76",
+    "value": "memcmp"
+  },
+  {
+    "offset": "0x2d7d",
+    "value": "_ZNK9Demangler12IsDestructorERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEES8_"
+  },
+  {
+    "offset": "0x2de3",
+    "value": "_ZNK9Demangler14IsStaticMethodERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE"
+  },
+  {
+    "offset": "0x2e48",
+    "value": "_ZNK9Demangler17ExtractReturnTypeERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE"
+  },
+  {
+    "offset": "0x2eb0",
+    "value": "_ZNK9Demangler17ExtractParametersERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE"
+  },
+  {
+    "offset": "0x2f18",
+    "value": "_ZNKSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5rfindEcm"
+  },
+  {
+    "offset": "0x2f65",
+    "value": "_ZTVNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+  },
+  {
+    "offset": "0x2fb1",
+    "value": "_ZTCNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE0_NS_13basic_istreamIcS2_EE"
+  },
+  {
+    "offset": "0x3018",
+    "value": "_ZNSt6__ndk18ios_base4initEPv"
+  },
+  {
+    "offset": "0x3036",
+    "value": "_ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEEC2Ev"
+  },
+  {
+    "offset": "0x306f",
+    "value": "_ZTVNSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+  },
+  {
+    "offset": "0x30b8",
+    "value": "_ZNSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE3strERKNS_12basic_stringIcS2_S4_EE"
+  },
+  {
+    "offset": "0x3120",
+    "value": "_ZNSt6__ndk17getlineIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS_13basic_istreamIT_T0_EES9_RNS_12basic_stringIS6_S7_T1_EES6_"
+  },
+  {
+    "offset": "0x319d",
+    "value": "_ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEED2Ev"
+  },
+  {
+    "offset": "0x31d6",
+    "value": "_ZTTNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+  },
+  {
+    "offset": "0x3222",
+    "value": "_ZNSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEED2Ev"
+  },
+  {
+    "offset": "0x325a",
+    "value": "_ZNSt6__ndk19basic_iosIcNS_11char_traitsIcEEED2Ev"
+  },
+  {
+    "offset": "0x328c",
+    "value": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5eraseEmm"
+  },
+  {
+    "offset": "0x32d8",
+    "value": "_ZNSt6__ndk16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE21__push_back_slow_pathIRKS6_EEvOT_"
+  },
+  {
+    "offset": "0x3355",
+    "value": "_ZNSt6__ndk113basic_istreamIcNS_11char_traitsIcEEE6sentryC1ERS3_b"
+  },
+  {
+    "offset": "0x3397",
+    "value": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9push_backEc"
+  },
+  {
+    "offset": "0x33e6",
+    "value": "_ZNSt6__ndk18ios_base5clearEj"
+  },
+  {
+    "offset": "0x3404",
+    "value": "_ZNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev"
+  },
+  {
+    "offset": "0x3451",
+    "value": "_ZThn16_NSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev"
+  },
+  {
+    "offset": "0x34a4",
+    "value": "_ZTv0_n24_NSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev"
+  },
+  {
+    "offset": "0x34f9",
+    "value": "_ZNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED0Ev"
+  },
+  {
+    "offset": "0x3546",
+    "value": "_ZThn16_NSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED0Ev"
+  },
+  {
+    "offset": "0x3599",
+    "value": "_ZTv0_n24_NSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED0Ev"
+  },
+  {
+    "offset": "0x35ee",
+    "value": "_ZNSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEED2Ev"
+  },
+  {
+    "offset": "0x3638",
+    "value": "_ZNSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEED0Ev"
+  },
+  {
+    "offset": "0x3682",
+    "value": "_ZNSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE7seekoffExNS_8ios_base7seekdirEj"
+  },
+  {
+    "offset": "0x36e8",
+    "value": "_ZNSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE9underflowEv"
+  },
+  {
+    "offset": "0x373a",
+    "value": "_ZNSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE9pbackfailEi"
+  },
+  {
+    "offset": "0x378c",
+    "value": "_ZNSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE8overflowEi"
+  },
+  {
+    "offset": "0x37dd",
+    "value": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6resizeEmc"
+  },
+  {
+    "offset": "0x382a",
+    "value": "_ZNKSt6__ndk120__vector_base_commonILb1EE20__throw_length_errorEv"
+  },
+  {
+    "offset": "0x386c",
+    "value": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEaSERKS5_"
+  },
+  {
+    "offset": "0x38b7",
+    "value": "_ZTCNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE0_NS_14basic_iostreamIcS2_EE"
+  },
+  {
+    "offset": "0x391f",
+    "value": "_ZTCNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE16_NS_13basic_ostreamIcS2_EE"
+  },
+  {
+    "offset": "0x3987",
+    "value": "_ZNSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEED1Ev"
+  },
+  {
+    "offset": "0x39bf",
+    "value": "_ZNSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEED0Ev"
+  },
+  {
+    "offset": "0x39f7",
+    "value": "_ZThn16_NSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEED1Ev"
+  },
+  {
+    "offset": "0x3a35",
+    "value": "_ZThn16_NSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEED0Ev"
+  },
+  {
+    "offset": "0x3a73",
+    "value": "_ZTv0_n24_NSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEED1Ev"
+  },
+  {
+    "offset": "0x3ab3",
+    "value": "_ZTv0_n24_NSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEED0Ev"
+  },
+  {
+    "offset": "0x3af3",
+    "value": "_ZNSt6__ndk113basic_istreamIcNS_11char_traitsIcEEED1Ev"
+  },
+  {
+    "offset": "0x3b2a",
+    "value": "_ZNSt6__ndk113basic_istreamIcNS_11char_traitsIcEEED0Ev"
+  },
+  {
+    "offset": "0x3b61",
+    "value": "_ZTv0_n24_NSt6__ndk113basic_istreamIcNS_11char_traitsIcEEED1Ev"
+  },
+  {
+    "offset": "0x3ba0",
+    "value": "_ZTv0_n24_NSt6__ndk113basic_istreamIcNS_11char_traitsIcEEED0Ev"
+  },
+  {
+    "offset": "0x3bdf",
+    "value": "_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEED1Ev"
+  },
+  {
+    "offset": "0x3c16",
+    "value": "_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEED0Ev"
+  },
+  {
+    "offset": "0x3c4d",
+    "value": "_ZTv0_n24_NSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEED1Ev"
+  },
+  {
+    "offset": "0x3c8c",
+    "value": "_ZTv0_n24_NSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEED0Ev"
+  },
+  {
+    "offset": "0x3ccb",
+    "value": "_ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEE5imbueERKNS_6localeE"
+  },
+  {
+    "offset": "0x3d14",
+    "value": "_ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEE6setbufEPcl"
+  },
+  {
+    "offset": "0x3d54",
+    "value": "_ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEE4syncEv"
+  },
+  {
+    "offset": "0x3d90",
+    "value": "_ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEE9showmanycEv"
+  },
+  {
+    "offset": "0x3dd1",
+    "value": "_ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEE6xsgetnEPcl"
+  },
+  {
+    "offset": "0x3e11",
+    "value": "_ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEE5uflowEv"
+  },
+  {
+    "offset": "0x3e4e",
+    "value": "_ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEE6xsputnEPKcl"
+  },
+  {
+    "offset": "0x3e8f",
+    "value": "_ZN9ElfParserC2Ev"
+  },
+  {
+    "offset": "0x3ea1",
+    "value": "_ZN9ElfParser8LoadFileERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE"
+  },
+  {
+    "offset": "0x3efe",
+    "value": "_ZTCNSt6__ndk114basic_ifstreamIcNS_11char_traitsIcEEEE0_NS_13basic_istreamIcS2_EE"
+  },
+  {
+    "offset": "0x3f50",
+    "value": "_ZTVNSt6__ndk114basic_ifstreamIcNS_11char_traitsIcEEEE"
+  },
+  {
+    "offset": "0x3f87",
+    "value": "_ZNSt6__ndk113basic_filebufIcNS_11char_traitsIcEEEC2Ev"
+  },
+  {
+    "offset": "0x3fbe",
+    "value": "fopen"
+  },
+  {
+    "offset": "0x3fc4",
+    "value": "_ZNSt6__ndk113basic_istreamIcNS_11char_traitsIcEEE5seekgExNS_8ios_base7seekdirE"
+  },
+  {
+    "offset": "0x4014",
+    "value": "_ZNSt6__ndk113basic_istreamIcNS_11char_traitsIcEEE5tellgEv"
+  },
+  {
+    "offset": "0x404f",
+    "value": "_ZNSt6__ndk113basic_istreamIcNS_11char_traitsIcEEE5seekgENS_4fposI9mbstate_tEE"
+  },
+  {
+    "offset": "0x409e",
+    "value": "_ZNSt6__ndk16vectorIhNS_9allocatorIhEEE8__appendEm"
+  },
+  {
+    "offset": "0x40d1",
+    "value": "_ZNSt6__ndk113basic_istreamIcNS_11char_traitsIcEEE4readEPcl"
+  },
+  {
+    "offset": "0x410d",
+    "value": "_ZN9ElfParser12ParseHeadersEv"
+  },
+  {
+    "offset": "0x412b",
+    "value": "_ZNSt6__ndk113basic_filebufIcNS_11char_traitsIcEEED2Ev"
+  },
+  {
+    "offset": "0x4162",
+    "value": "_ZTTNSt6__ndk114basic_ifstreamIcNS_11char_traitsIcEEEE"
+  },
+  {
+    "offset": "0x4199",
+    "value": "_ZNSt6__ndk113basic_istreamIcNS_11char_traitsIcEEED2Ev"
+  },
+  {
+    "offset": "0x41d0",
+    "value": "_ZNSt6__ndk16vectorI15SectionLocationNS_9allocatorIS1_EEE7reserveEm"
+  },
+  {
+    "offset": "0x4214",
+    "value": "_ZNSt6__ndk16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE6resizeEm"
+  },
+  {
+    "offset": "0x4277",
+    "value": "_ZNSt6__ndk16vectorIjNS_9allocatorIjEEEC2Em"
+  },
+  {
+    "offset": "0x42a3",
+    "value": "_ZNSt6__ndk16vectorI15SectionLocationNS_9allocatorIS1_EEE21__push_back_slow_pathIRKS1_EEvOT_"
+  },
+  {
+    "offset": "0x4300",
+    "value": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignEPKc"
+  },
+  {
+    "offset": "0x434e",
+    "value": "strnlen"
+  },
+  {
+    "offset": "0x4356",
+    "value": "_ZNSt6__ndk114basic_ifstreamIcNS_11char_traitsIcEEED1Ev"
+  },
+  {
+    "offset": "0x438e",
+    "value": "_ZN9ElfParser9IsElfFileERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE"
+  },
+  {
+    "offset": "0x43ec",
+    "value": "_ZNK9ElfParser7GetDataEv"
+  },
+  {
+    "offset": "0x4405",
+    "value": "_ZNSt6__ndk16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE8__appendEm"
+  },
+  {
+    "offset": "0x446a",
+    "value": "memset"
+  },
+  {
+    "offset": "0x4471",
+    "value": "_ZNK9ElfParser11GetSectionsEv"
+  },
+  {
+    "offset": "0x448f",
+    "value": "_ZNSt6__ndk16vectorI11SectionInfoNS_9allocatorIS1_EEE7reserveEm"
+  },
+  {
+    "offset": "0x44cf",
+    "value": "_ZNSt6__ndk16vectorI11SectionInfoNS_9allocatorIS1_EEE21__push_back_slow_pathIS1_EEvOT_"
+  },
+  {
+    "offset": "0x4526",
+    "value": "_ZNK9ElfParser16GetSectionByNameERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE"
+  },
+  {
+    "offset": "0x458d",
+    "value": "_ZNK9ElfParser15GetSectionBytesERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE"
+  },
+  {
+    "offset": "0x45f3",
+    "value": "_ZNK9ElfParser10ReadStringEmm"
+  },
+  {
+    "offset": "0x4611",
+    "value": "_ZNK9ElfParser9HasSymtabEv"
+  },
+  {
+    "offset": "0x462c",
+    "value": "_ZNK9ElfParser9HasDynsymEv"
+  },
+  {
+    "offset": "0x4647",
+    "value": "_ZNK9ElfParser10GetElfInfoERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE"
+  },
+  {
+    "offset": "0x46a8",
+    "value": "_ZNSt6__ndk19to_stringEi"
+  },
+  {
+    "offset": "0x46c1",
+    "value": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmPKc"
+  },
+  {
+    "offset": "0x4710",
+    "value": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKc"
+  },
+  {
+    "offset": "0x475e",
+    "value": "_ZTv0_n24_NSt6__ndk114basic_ifstreamIcNS_11char_traitsIcEEED1Ev"
+  },
+  {
+    "offset": "0x479e",
+    "value": "_ZNSt6__ndk114basic_ifstreamIcNS_11char_traitsIcEEED0Ev"
+  },
+  {
+    "offset": "0x47d6",
+    "value": "_ZTv0_n24_NSt6__ndk114basic_ifstreamIcNS_11char_traitsIcEEED0Ev"
+  },
+  {
+    "offset": "0x4816",
+    "value": "_ZTVNSt6__ndk113basic_filebufIcNS_11char_traitsIcEEEE"
+  },
+  {
+    "offset": "0x484c",
+    "value": "_ZNSt6__ndk113basic_filebufIcNS_11char_traitsIcEEE4syncEv"
+  },
+  {
+    "offset": "0x4886",
+    "value": "fclose"
+  },
+  {
+    "offset": "0x488d",
+    "value": "_ZdaPv"
+  },
+  {
+    "offset": "0x4894",
+    "value": "_ZNSt6__ndk113basic_filebufIcNS_11char_traitsIcEEED0Ev"
+  },
+  {
+    "offset": "0x48cb",
+    "value": "_ZNSt6__ndk113basic_filebufIcNS_11char_traitsIcEEE5imbueERKNS_6localeE"
+  },
+  {
+    "offset": "0x4912",
+    "value": "_ZNSt6__ndk17codecvtIcc9mbstate_tE2idE"
+  },
+  {
+    "offset": "0x4939",
+    "value": "_ZNKSt6__ndk16locale9use_facetERNS0_2idE"
+  },
+  {
+    "offset": "0x4962",
+    "value": "_Znam"
+  },
+  {
+    "offset": "0x4968",
+    "value": "_ZNSt6__ndk113basic_filebufIcNS_11char_traitsIcEEE6setbufEPcl"
+  },
+  {
+    "offset": "0x49a6",
+    "value": "_ZNSt6__ndk113basic_filebufIcNS_11char_traitsIcEEE7seekoffExNS_8ios_base7seekdirEj"
+  },
+  {
+    "offset": "0x49f9",
+    "value": "fseeko"
+  },
+  {
+    "offset": "0x4a00",
+    "value": "ftello"
+  },
+  {
+    "offset": "0x4a07",
+    "value": "_ZNSt6__ndk113basic_filebufIcNS_11char_traitsIcEEE7seekposENS_4fposI9mbstate_tEEj"
+  },
+  {
+    "offset": "0x4a59",
+    "value": "fwrite"
+  },
+  {
+    "offset": "0x4a60",
+    "value": "fflush"
+  },
+  {
+    "offset": "0x4a67",
+    "value": "_ZNSt6__ndk113basic_filebufIcNS_11char_traitsIcEEE9underflowEv"
+  },
+  {
+    "offset": "0x4aa6",
+    "value": "memmove"
+  },
+  {
+    "offset": "0x4aae",
+    "value": "fread"
+  },
+  {
+    "offset": "0x4ab4",
+    "value": "_ZNSt6__ndk113basic_filebufIcNS_11char_traitsIcEEE9pbackfailEi"
+  },
+  {
+    "offset": "0x4af3",
+    "value": "_ZNSt6__ndk113basic_filebufIcNS_11char_traitsIcEEE8overflowEi"
+  },
+  {
+    "offset": "0x4b31",
+    "value": "_ZNSt6__ndk16localeC1ERKS0_"
+  },
+  {
+    "offset": "0x4b4d",
+    "value": "_ZNKSt6__ndk16locale9has_facetERNS0_2idE"
+  },
+  {
+    "offset": "0x4b76",
+    "value": "_ZNSt6__ndk16localeD1Ev"
+  },
+  {
+    "offset": "0x4b8e",
+    "value": "_ZN9ElfParserC1Ev"
+  },
+  {
+    "offset": "0x4ba0",
+    "value": "_ZN15SymbolExtractorC2Ev"
+  },
+  {
+    "offset": "0x4bb9",
+    "value": "_ZN15SymbolExtractor14ExtractSymbolsERK9ElfParserRK10DumpConfig"
+  },
+  {
+    "offset": "0x4bf9",
+    "value": "_ZN15SymbolExtractor15ReadSymbolTableERK9ElfParserRKNSt6__ndk112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEESB_RK10DumpConfig"
+  },
+  {
+    "offset": "0x4c82",
+    "value": "_ZNSt6__ndk16vectorI6SymbolNS_9allocatorIS1_EEE6insertINS_11__wrap_iterIPS1_EEEENS_9enable_ifIXaasr27__is_cpp17_forward_iteratorIT_EE5valuesr16is_constructibleIS1_NS_15iterator_traitsISA_E9referenceEEE5valueES8_E4typeENS6_IPKS1_EESA_SA_"
+  },
+  {
+    "offset": "0x4d6f",
+    "value": "_ZN15SymbolExtractor15ExtractExportedERK9ElfParserRK10DumpConfig"
+  },
+  {
+    "offset": "0x4db0",
+    "value": "_ZN15SymbolExtractor15ExtractImportedERK9ElfParserRK10DumpConfig"
+  },
+  {
+    "offset": "0x4df1",
+    "value": "_ZN6SymbolaSEOS_"
+  },
+  {
+    "offset": "0x4e02",
+    "value": "_ZN15SymbolExtractor17ExtractFromSymtabERK9ElfParserRK10DumpConfig"
+  },
+  {
+    "offset": "0x4e45",
+    "value": "_ZN15SymbolExtractor17ExtractFromDynsymERK9ElfParserRK10DumpConfig"
+  },
+  {
+    "offset": "0x4e88",
+    "value": "_ZNSt6__ndk16vectorI6SymbolNS_9allocatorIS1_EEE21__push_back_slow_pathIRKS1_EEvOT_"
+  },
+  {
+    "offset": "0x4edb",
+    "value": "_ZNSt6__ndk16vectorI6SymbolNS_9allocatorIS1_EEE7reserveEm"
+  },
+  {
+    "offset": "0x4f15",
+    "value": "_ZNSt6__ndk16vectorI6SymbolNS_9allocatorIS1_EEE21__push_back_slow_pathIS1_EEvOT_"
+  },
+  {
+    "offset": "0x4f66",
+    "value": "_ZNK15SymbolExtractor17GetSymbolTypeNameEh"
+  },
+  {
+    "offset": "0x4f91",
+    "value": "_ZNK15SymbolExtractor14GetBindingNameEh"
+  },
+  {
+    "offset": "0x4fb9",
+    "value": "_ZNK15SymbolExtractor16IsExportedSymbolEhm"
+  },
+  {
+    "offset": "0x4fe4",
+    "value": "_ZNK15SymbolExtractor16IsImportedSymbolEm"
+  },
+  {
+    "offset": "0x500e",
+    "value": "_ZN15SymbolExtractorC1Ev"
+  },
+  {
+    "offset": "0x5027",
+    "value": "_ZN17NamespaceDetectorC2Ev"
+  },
+  {
+    "offset": "0x5042",
+    "value": "_ZN17NamespaceDetector16DetectNamespacesERKNSt6__ndk16vectorI6SymbolNS0_9allocatorIS2_EEEE"
+  },
+  {
+    "offset": "0x509d",
+    "value": "_ZN17NamespaceDetector13ProcessSymbolERK6SymbolRNSt6__ndk113unordered_mapINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE13NamespaceInfoNS3_4hashISA_EENS3_8equal_toISA_EENS8_INS3_4pairIKSA_SB_EEEEEE"
+  },
+  {
+    "offset": "0x5172",
+    "value": "_ZNSt6__ndk16vectorI13NamespaceInfoNS_9allocatorIS1_EEE21__push_back_slow_pathIS1_EEvOT_"
+  },
+  {
+    "offset": "0x51cb",
+    "value": "_ZN13NamespaceInfoD2Ev"
+  },
+  {
+    "offset": "0x51e2",
+    "value": "_ZNK17NamespaceDetector14SplitNamespaceERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE"
+  },
+  {
+    "offset": "0x5250",
+    "value": "_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE13NamespaceInfoEENS_22__unordered_map_hasherIS7_S9_NS_4hashIS7_EELb1EEENS_21__unordered_map_equalIS7_S9_NS_8equal_toIS7_EELb1EEENS5_IS9_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSO_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS9_PvEEEEbEERKT_DpOT0_"
+  },
+  {
+    "offset": "0x53ea",
+    "value": "_ZNK17NamespaceDetector9BuildPathERKNSt6__ndk16vectorINS0_12basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEENS5_IS7_EEEEm"
+  },
+  {
+    "offset": "0x546b",
+    "value": "_ZNSt6__ndk121__murmur2_or_cityhashImLm64EEclEPKvm"
+  },
+  {
+    "offset": "0x549e",
+    "value": "_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE13NamespaceInfoEENS_22__unordered_map_hasherIS7_S9_NS_4hashIS7_EELb1EEENS_21__unordered_map_equalIS7_S9_NS_8equal_toIS7_EELb1EEENS5_IS9_EEE6rehashEm"
+  },
+  {
+    "offset": "0x559f",
+    "value": "_ZNSt6__ndk112__next_primeEm"
+  },
+  {
+    "offset": "0x55bc",
+    "value": "_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE13NamespaceInfoEENS_22__unordered_map_hasherIS7_S9_NS_4hashIS7_EELb1EEENS_21__unordered_map_equalIS7_S9_NS_8equal_toIS7_EELb1EEENS5_IS9_EEE8__rehashEm"
+  },
+  {
+    "offset": "0x56bf",
+    "value": "_ZNSt6__ndk121__murmur2_or_cityhashImLm64EE18__hash_len_0_to_16EPKcm"
+  },
+  {
+    "offset": "0x5704",
+    "value": "_ZN17NamespaceDetectorC1Ev"
+  },
+  {
+    "offset": "0x571f",
+    "value": "_ZN18ClassReconstructorC2Ev"
+  },
+  {
+    "offset": "0x573b",
+    "value": "_ZN18ClassReconstructor11ReconstructERKNSt6__ndk16vectorI6SymbolNS0_9allocatorIS2_EEEERK10DumpConfig"
+  },
+  {
+    "offset": "0x57a0",
+    "value": "_ZN18ClassReconstructor13ProcessSymbolERK6SymbolRNSt6__ndk113unordered_mapINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE9ClassInfoNS3_4hashISA_EENS3_8equal_toISA_EENS8_INS3_4pairIKSA_SB_EEEEEERK10DumpConfig"
+  },
+  {
+    "offset": "0x587f",
+    "value": "_ZN9ClassInfoD2Ev"
+  },
+  {
+    "offset": "0x5891",
+    "value": "_ZNSt6__ndk16vectorI9ClassInfoNS_9allocatorIS1_EEE21__push_back_slow_pathIS1_EEvOT_"
+  },
+  {
+    "offset": "0x58e5",
+    "value": "_ZN18ClassReconstructor18DetectConstructorsER9ClassInfo"
+  },
+  {
+    "offset": "0x591d",
+    "value": "_ZN18ClassReconstructor17DetectDestructorsER9ClassInfo"
+  },
+  {
+    "offset": "0x5954",
+    "value": "_ZN18ClassReconstructor15DetectOverloadsER9ClassInfo"
+  },
+  {
+    "offset": "0x5989",
+    "value": "_ZNSt6__ndk19allocatorI9ClassInfoE9constructIS1_JS1_EEEvPT_DpOT0_"
+  },
+  {
+    "offset": "0x59cb",
+    "value": "_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE9ClassInfoEENS_22__unordered_map_hasherIS7_S9_NS_4hashIS7_EELb1EEENS_21__unordered_map_equalIS7_S9_NS_8equal_toIS7_EELb1EEENS5_IS9_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSO_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS9_PvEEEEbEERKT_DpOT0_"
+  },
+  {
+    "offset": "0x5b60",
+    "value": "_ZN18ClassReconstructor12CreateMethodERK6Symbol"
+  },
+  {
+    "offset": "0x5b90",
+    "value": "_ZNSt6__ndk16vectorI10MethodInfoNS_9allocatorIS1_EEE21__push_back_slow_pathIS1_EEvOT_"
+  },
+  {
+    "offset": "0x5be6",
+    "value": "_ZNSt6__ndk16vectorI10MethodInfoNS_9allocatorIS1_EEE21__push_back_slow_pathIRKS1_EEvOT_"
+  },
+  {
+    "offset": "0x5c3e",
+    "value": "_ZN10MethodInfoC2ERKS_"
+  },
+  {
+    "offset": "0x5c55",
+    "value": "_ZNSt6__ndk1plIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEPKS6_RKS9_"
+  },
+  {
+    "offset": "0x5cb3",
+    "value": "_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorI10MethodInfoNS5_IS9_EEEEEENS_22__unordered_map_hasherIS7_SC_NS_4hashIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_NS_8equal_toIS7_EELb1EEENS5_ISC_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSR_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISC_PvEEEEbEERKT_DpOT0_"
+  },
+  {
+    "offset": "0x5e61",
+    "value": "_ZNSt6__ndk16vectorINS0_I10MethodInfoNS_9allocatorIS1_EEEENS2_IS4_EEE21__push_back_slow_pathIS4_EEvOT_"
+  },
+  {
+    "offset": "0x5ec8",
+    "value": "_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorI10MethodInfoNS5_IS9_EEEEEENS_22__unordered_map_hasherIS7_SC_NS_4hashIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_NS_8equal_toIS7_EELb1EEENS5_ISC_EEED2Ev"
+  },
+  {
+    "offset": "0x5fd8",
+    "value": "_ZN10MethodInfoD2Ev"
+  },
+  {
+    "offset": "0x5fec",
+    "value": "_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE9ClassInfoEENS_22__unordered_map_hasherIS7_S9_NS_4hashIS7_EELb1EEENS_21__unordered_map_equalIS7_S9_NS_8equal_toIS7_EELb1EEENS5_IS9_EEE6rehashEm"
+  },
+  {
+    "offset": "0x60e8",
+    "value": "_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE9ClassInfoEENS_22__unordered_map_hasherIS7_S9_NS_4hashIS7_EELb1EEENS_21__unordered_map_equalIS7_S9_NS_8equal_toIS7_EELb1EEENS5_IS9_EEE8__rehashEm"
+  },
+  {
+    "offset": "0x61e6",
+    "value": "_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorI10MethodInfoNS5_IS9_EEEEEENS_22__unordered_map_hasherIS7_SC_NS_4hashIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_NS_8equal_toIS7_EELb1EEENS5_ISC_EEE6rehashEm"
+  },
+  {
+    "offset": "0x62fb",
+    "value": "_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorI10MethodInfoNS5_IS9_EEEEEENS_22__unordered_map_hasherIS7_SC_NS_4hashIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_NS_8equal_toIS7_EELb1EEENS5_ISC_EEE8__rehashEm"
+  },
+  {
+    "offset": "0x6412",
+    "value": "_ZN18ClassReconstructorC1Ev"
+  },
+  {
+    "offset": "0x642e",
+    "value": "_ZN12JsonExporterC2Ev"
+  },
+  {
+    "offset": "0x6444",
+    "value": "_ZN12JsonExporter6ExportERK10DumpResult"
+  },
+  {
+    "offset": "0x646c",
+    "value": "_ZNSt6__ndk124__put_character_sequenceIcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m"
+  },
+  {
+    "offset": "0x64cf",
+    "value": "_ZN12JsonExporter13ExportElfInfoERK7ElfInfo"
+  },
+  {
+    "offset": "0x64fb",
+    "value": "_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEElsEm"
+  },
+  {
+    "offset": "0x6532",
+    "value": "_ZN12JsonExporter12ExportSymbolERK6Symbol"
+  },
+  {
+    "offset": "0x655c",
+    "value": "_ZN12JsonExporter11ExportClassERK9ClassInfo"
+  },
+  {
+    "offset": "0x6588",
+    "value": "_ZNKSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE3strEv"
+  },
+  {
+    "offset": "0x65d5",
+    "value": "_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEElsEj"
+  },
+  {
+    "offset": "0x660c",
+    "value": "_ZN12JsonExporter12ExportMethodERK10MethodInfo"
+  },
+  {
+    "offset": "0x663b",
+    "value": "_ZN12JsonExporter6EscapeERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE"
+  },
+  {
+    "offset": "0x669a",
+    "value": "_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEE6sentryC1ERS3_"
+  },
+  {
+    "offset": "0x66db",
+    "value": "_ZNKSt6__ndk18ios_base6getlocEv"
+  },
+  {
+    "offset": "0x66fb",
+    "value": "_ZNSt6__ndk15ctypeIcE2idE"
+  },
+  {
+    "offset": "0x6715",
+    "value": "_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEE6sentryD1Ev"
+  },
+  {
+    "offset": "0x6753",
+    "value": "_ZN12JsonExporterC1Ev"
+  },
+  {
+    "offset": "0x6769",
+    "value": "_ZN12DumpPipelineC2Ev"
+  },
+  {
+    "offset": "0x677f",
+    "value": "_ZN12DumpPipeline7ExecuteERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEERK10DumpConfig"
+  },
+  {
+    "offset": "0x67ed",
+    "value": "_ZNSt6__ndk16chrono12steady_clock3nowEv"
+  },
+  {
+    "offset": "0x6815",
+    "value": "_ZN7ElfInfoaSEOS_"
+  },
+  {
+    "offset": "0x6827",
+    "value": "_ZN12DumpPipelineC1Ev"
+  },
+  {
+    "offset": "0x683d",
+    "value": "_ZN11SDKExporterC2Ev"
+  },
+  {
+    "offset": "0x6852",
+    "value": "_ZN11SDKExporter8GenerateERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEES8_RK10DumpConfig"
+  },
+  {
+    "offset": "0x68c3",
+    "value": "mkdir"
+  },
+  {
+    "offset": "0x68c9",
+    "value": "_ZTCNSt6__ndk114basic_ofstreamIcNS_11char_traitsIcEEEE0_NS_13basic_ostreamIcS2_EE"
+  },
+  {
+    "offset": "0x691b",
+    "value": "_ZTVNSt6__ndk114basic_ofstreamIcNS_11char_traitsIcEEEE"
+  },
+  {
+    "offset": "0x6952",
+    "value": "_ZTTNSt6__ndk114basic_ofstreamIcNS_11char_traitsIcEEEE"
+  },
+  {
+    "offset": "0x6989",
+    "value": "_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEED2Ev"
+  },
+  {
+    "offset": "0x69c0",
+    "value": "_ZNSt6__ndk114basic_ofstreamIcNS_11char_traitsIcEEED1Ev"
+  },
+  {
+    "offset": "0x69f8",
+    "value": "_ZTv0_n24_NSt6__ndk114basic_ofstreamIcNS_11char_traitsIcEEED1Ev"
+  },
+  {
+    "offset": "0x6a38",
+    "value": "_ZNSt6__ndk114basic_ofstreamIcNS_11char_traitsIcEEED0Ev"
+  },
+  {
+    "offset": "0x6a70",
+    "value": "_ZTv0_n24_NSt6__ndk114basic_ofstreamIcNS_11char_traitsIcEEED0Ev"
+  },
+  {
+    "offset": "0x6ab0",
+    "value": "_ZN11SDKExporterC1Ev"
+  },
+  {
+    "offset": "0x6ac5",
+    "value": "_ZN9JNIBridge12ToJavaStringEP7_JNIEnvRKNSt6__ndk112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE"
+  },
+  {
+    "offset": "0x6b30",
+    "value": "_ZN9JNIBridge14FromJavaStringEP7_JNIEnvP8_jstring"
+  },
+  {
+    "offset": "0x6b62",
+    "value": "_Z43Java_nika_ngipro_MainActivity_listFunctionsP7_JNIEnvP8_jobjectP8_jstring"
+  },
+  {
+    "offset": "0x6baf",
+    "value": "_Z46Java_nika_ngipro_IDAViewActivity_listFunctionsP7_JNIEnvP8_jobjectP8_jstring"
+  },
+  {
+    "offset": "0x6bff",
+    "value": "Java_nika_ngipro_MainActivity_generateSdk"
+  },
+  {
+    "offset": "0x6c29",
+    "value": "_ZN10DumpResultD2Ev"
+  },
+  {
+    "offset": "0x6c3d",
+    "value": "_ZN7ElfInfoD2Ev"
+  },
+  {
+    "offset": "0x6c4d",
+    "value": "libc.so"
+  },
+  {
+    "offset": "0x6c55",
+    "value": "LIBC"
+  },
+  {
+    "offset": "0x6c5a",
+    "value": "libc++_shared.so"
+  },
+  {
+    "offset": "0x6c6b",
+    "value": "liblog.so"
+  },
+  {
+    "offset": "0x6c75",
+    "value": "libm.so"
+  },
+  {
+    "offset": "0x6c7d",
+    "value": "libdl.so"
+  },
+  {
+    "offset": "0x6c86",
+    "value": "libsdkgen.so"
+  },
+  {
+    "offset": "0x8482",
+    "value": "\"is_static\":"
+  },
+  {
+    "offset": "0x848f",
+    "value": "[-] Not a valid ELF file"
+  },
+  {
+    "offset": "0x84a8",
+    "value": "Methods: "
+  },
+  {
+    "offset": "0x84b2",
+    "value": "\"methods\":["
+  },
+  {
+    "offset": "0x84be",
+    "value": "/dump.json"
+  },
+  {
+    "offset": "0x84ce",
+    "value": "Duration: "
+  },
+  {
+    "offset": "0x84dd",
+    "value": "\"demangled\":\""
+  },
+  {
+    "offset": "0x84f1",
+    "value": "Big Endian"
+  },
+  {
+    "offset": "0x84fc",
+    "value": "false"
+  },
+  {
+    "offset": "0x8502",
+    "value": "Symbols: "
+  },
+  {
+    "offset": "0x8510",
+    "value": "\"type\":\""
+  },
+  {
+    "offset": "0x8519",
+    "value": "Little Endian"
+  },
+  {
+    "offset": "0x8527",
+    "value": "UNKNOWN"
+  },
+  {
+    "offset": "0x8531",
+    "value": "\"binding\":\""
+  },
+  {
+    "offset": "0x8541",
+    "value": "LOCAL"
+  },
+  {
+    "offset": "0x8547",
+    "value": "\"symbols\":["
+  },
+  {
+    "offset": "0x8554",
+    "value": "\"bit_width\":"
+  },
+  {
+    "offset": "0x8561",
+    "value": "[-] Failed to parse ELF file"
+  },
+  {
+    "offset": "0x8582",
+    "value": ".dynstr"
+  },
+  {
+    "offset": "0x858a",
+    "value": "\"section\":\""
+  },
+  {
+    "offset": "0x859c",
+    "value": "\"total_classes\":"
+  },
+  {
+    "offset": "0x85b2",
+    "value": "\"address\":"
+  },
+  {
+    "offset": "0x85bd",
+    "value": "\"destructor_count\":"
+  },
+  {
+    "offset": "0x85d1",
+    "value": "Unknown (0x"
+  },
+  {
+    "offset": "0x85dd",
+    "value": "GLOBAL"
+  },
+  {
+    "offset": "0x85e4",
+    "value": "true"
+  },
+  {
+    "offset": "0x85e9",
+    "value": "GNU_IFUNC"
+  },
+  {
+    "offset": "0x85f3",
+    "value": "\"elf_info\":"
+  },
+  {
+    "offset": "0x8605",
+    "value": "\"is_valid\":"
+  },
+  {
+    "offset": "0x8611",
+    "value": "Classes reconstructed: "
+  },
+  {
+    "offset": "0x862d",
+    "value": "\"size\":"
+  },
+  {
+    "offset": "0x8635",
+    "value": "{\"name\":\""
+  },
+  {
+    "offset": "0x863f",
+    "value": ".strtab"
+  },
+  {
+    "offset": "0x8647",
+    "value": "\"architecture\":\""
+  },
+  {
+    "offset": "0x8658",
+    "value": "\"total_symbols\":"
+  },
+  {
+    "offset": "0x8669",
+    "value": "Namespaces: "
+  },
+  {
+    "offset": "0x8676",
+    "value": ".symtab"
+  },
+  {
+    "offset": "0x867e",
+    "value": ".dynsym"
+  },
+  {
+    "offset": "0x8689",
+    "value": "\"constructor_count\":"
+  },
+  {
+    "offset": "0x869e",
+    "value": "static"
+  },
+  {
+    "offset": "0x86a5",
+    "value": "OBJECT"
+  },
+  {
+    "offset": "0x86b2",
+    "value": "\"name\":\""
+  },
+  {
+    "offset": "0x86bb",
+    "value": "\"method_count\":"
+  },
+  {
+    "offset": "0x86cb",
+    "value": "NOTYPE"
+  },
+  {
+    "offset": "0x86d2",
+    "value": "\"classes\":["
+  },
+  {
+    "offset": "0x86e7",
+    "value": "\"total_namespaces\":"
+  },
+  {
+    "offset": "0x86fb",
+    "value": "\"entry_point\":"
+  },
+  {
+    "offset": "0x870c",
+    "value": "\"file_name\":\""
+  },
+  {
+    "offset": "0x871e",
+    "value": "SECTION"
+  },
+  {
+    "offset": "0x8726",
+    "value": "-bit)"
+  },
+  {
+    "offset": "0x872f",
+    "value": "[+] SDK generated successfully"
+  },
+  {
+    "offset": "0x874f",
+    "value": "Saved to: "
+  },
+  {
+    "offset": "0x875a",
+    "value": "\"elf_type\":\""
+  },
+  {
+    "offset": "0x8789",
+    "value": "oreC"
+  },
+  {
+    "offset": "0xa53f",
+    "value": "T+%@8"
+  },
+  {
+    "offset": "0xa608",
+    "value": "l%@8"
+  },
+  {
+    "offset": "0xaa0f",
+    "value": "TKii8"
+  },
+  {
+    "offset": "0xaa61",
+    "value": "c@9*"
+  },
+  {
+    "offset": "0xab37",
+    "value": "Tlij8"
+  },
+  {
+    "offset": "0xac5f",
+    "value": "Tlij8"
+  },
+  {
+    "offset": "0xb417",
+    "value": "Tlij8"
+  },
+  {
+    "offset": "0xb611",
+    "value": "#@9h"
+  },
+  {
+    "offset": "0xb79c",
+    "value": "lij8J"
+  },
+  {
+    "offset": "0xb9a3",
+    "value": "6`6@"
+  },
+  {
+    "offset": "0xbaa9",
+    "value": "bA9)"
+  },
+  {
+    "offset": "0xbb43",
+    "value": "6`6@"
+  },
+  {
+    "offset": "0xbc58",
+    "value": "hbA9)"
+  },
+  {
+    "offset": "0xbc6f",
+    "value": "6`6@"
+  },
+  {
+    "offset": "0xbcd7",
+    "value": "6`*@"
+  },
+  {
+    "offset": "0xbd17",
+    "value": "6`*@"
+  },
+  {
+    "offset": "0xc13b",
+    "value": "Tt.@"
+  },
+  {
+    "offset": "0xc20e",
+    "value": "A9j&D"
+  },
+  {
+    "offset": "0xc3ab",
+    "value": "<?}?"
+  },
+  {
+    "offset": "0xc3c3",
+    "value": "Tt&@"
+  },
+  {
+    "offset": "0xc6b6",
+    "value": "@9?1"
+  },
+  {
+    "offset": "0xc735",
+    "value": "\"@yI"
+  },
+  {
+    "offset": "0xc779",
+    "value": "&@yh>"
+  },
+  {
+    "offset": "0xc7c1",
+    "value": "jj8A"
+  },
+  {
+    "offset": "0xc7ec",
+    "value": "af@y`B"
+  },
+  {
+    "offset": "0xc7fc",
+    "value": "af@y"
+  },
+  {
+    "offset": "0xc808",
+    "value": "hf@y"
+  },
+  {
+    "offset": "0xc82c",
+    "value": "hf@y"
+  },
+  {
+    "offset": "0xc83b",
+    "value": "Thb@9j"
+  },
+  {
+    "offset": "0xc844",
+    "value": "kb@yi2@"
+  },
+  {
+    "offset": "0xc928",
+    "value": "ij@y"
+  },
+  {
+    "offset": "0xcf47",
+    "value": "Th&E"
+  },
+  {
+    "offset": "0xcf89",
+    "value": "#@9h"
+  },
+  {
+    "offset": "0xd5e8",
+    "value": "!kx8B"
+  },
+  {
+    "offset": "0xd7fb",
+    "value": "6`N@"
+  },
+  {
+    "offset": "0xd917",
+    "value": "6`B@"
+  },
+  {
+    "offset": "0xdb2b",
+    "value": "4`\"@"
+  },
+  {
+    "offset": "0xdb3f",
+    "value": "4`6@"
+  },
+  {
+    "offset": "0xdbeb",
+    "value": "4`\"@"
+  },
+  {
+    "offset": "0xdc1b",
+    "value": "4`2@"
+  },
+  {
+    "offset": "0xdc47",
+    "value": "T`2@"
+  },
+  {
+    "offset": "0xdc9f",
+    "value": "4`\"@"
+  },
+  {
+    "offset": "0xdcb3",
+    "value": "4`6@"
+  },
+  {
+    "offset": "0xdce6",
+    "value": "B9hb"
+  },
+  {
+    "offset": "0xddd3",
+    "value": "T`>@"
+  },
+  {
+    "offset": "0xded7",
+    "value": "6hJ@"
+  },
+  {
+    "offset": "0xdf23",
+    "value": "T`B@"
+  },
+  {
+    "offset": "0xdf7f",
+    "value": "T`>@"
+  },
+  {
+    "offset": "0xdfcf",
+    "value": "T`B@"
+  },
+  {
+    "offset": "0xe00b",
+    "value": "*`>@"
+  },
+  {
+    "offset": "0xe1bf",
+    "value": "T`\"@"
+  },
+  {
+    "offset": "0xe26f",
+    "value": "Th\"@"
+  },
+  {
+    "offset": "0xe38a",
+    "value": " 7h2@"
+  },
+  {
+    "offset": "0xe3a7",
+    "value": "4x\"@"
+  },
+  {
+    "offset": "0xe43b",
+    "value": "4c>@"
+  },
+  {
+    "offset": "0xeb5f",
+    "value": "<t.@"
+  },
+  {
+    "offset": "0xebaf",
+    "value": "Tt.@"
+  },
+  {
+    "offset": "0xece1",
+    "value": "c@9h"
+  },
+  {
+    "offset": "0xedd9",
+    "value": "c@9h"
+  },
+  {
+    "offset": "0xefea",
+    "value": "@9+hi8_"
+  },
+  {
+    "offset": "0xf096",
+    "value": "@9+hh8_"
+  },
+  {
+    "offset": "0xf239",
+    "value": "#@9h"
+  },
+  {
+    "offset": "0xf4cb",
+    "value": "=+5@"
+  },
+  {
+    "offset": "0xf4eb",
+    "value": "=+M@"
+  },
+  {
+    "offset": "0xf797",
+    "value": "=k6@"
+  },
+  {
+    "offset": "0xf7b7",
+    "value": "=kN@"
+  },
+  {
+    "offset": "0xf8f5",
+    "value": "#@9h"
+  },
+  {
+    "offset": "0xf9e5",
+    "value": "c@9h"
+  },
+  {
+    "offset": "0xfbd1",
+    "value": "c@9h"
+  },
+  {
+    "offset": "0xfd92",
+    "value": "^8(8"
+  },
+  {
+    "offset": "0xfda8",
+    "value": "ic@9"
+  },
+  {
+    "offset": "0x10074",
+    "value": "jih8)"
+  },
+  {
+    "offset": "0x1022d",
+    "value": "cE9("
+  },
+  {
+    "offset": "0x1024d",
+    "value": "cE9h"
+  },
+  {
+    "offset": "0x10409",
+    "value": "CC9H"
+  },
+  {
+    "offset": "0x106ac",
+    "value": "Lii8k"
+  },
+  {
+    "offset": "0x10870",
+    "value": "( B9"
+  },
+  {
+    "offset": "0x10883",
+    "value": "7hBA9"
+  },
+  {
+    "offset": "0x1088b",
+    "value": "7hb@9H"
+  },
+  {
+    "offset": "0x108b7",
+    "value": "6`B@"
+  },
+  {
+    "offset": "0x108c0",
+    "value": "hBA9H"
+  },
+  {
+    "offset": "0x108c7",
+    "value": "6`2@"
+  },
+  {
+    "offset": "0x108d0",
+    "value": "hb@9"
+  },
+  {
+    "offset": "0x10977",
+    "value": "6`2@"
+  },
+  {
+    "offset": "0x109ab",
+    "value": "6`B@"
+  },
+  {
+    "offset": "0x109d7",
+    "value": "6`N@"
+  },
+  {
+    "offset": "0x11115",
+    "value": "yixJ"
+  },
+  {
+    "offset": "0x113ee",
+    "value": "B9)[@"
+  },
+  {
+    "offset": "0x114cf",
+    "value": "6@3@"
+  },
+  {
+    "offset": "0x114ff",
+    "value": "6@C@"
+  },
+  {
+    "offset": "0x11527",
+    "value": "6@O@"
+  },
+  {
+    "offset": "0x116a4",
+    "value": "jb@9|"
+  },
+  {
+    "offset": "0x116d0",
+    "value": "jBA9yb"
+  },
+  {
+    "offset": "0x116eb",
+    "value": "6`2@"
+  },
+  {
+    "offset": "0x1170a",
+    "value": "A9h\""
+  },
+  {
+    "offset": "0x1171b",
+    "value": "6`B@"
+  },
+  {
+    "offset": "0x1172c",
+    "value": "j\"B9"
+  },
+  {
+    "offset": "0x1174f",
+    "value": "6`N@"
+  },
+  {
+    "offset": "0x11f84",
+    "value": "+yhxJ"
+  },
+  {
+    "offset": "0x12317",
+    "value": "6`2@"
+  },
+  {
+    "offset": "0x12347",
+    "value": "6`B@"
+  },
+  {
+    "offset": "0x1236f",
+    "value": "6`N@"
+  },
+  {
+    "offset": "0x1263f",
+    "value": "TtZ@"
+  },
+  {
+    "offset": "0x12893",
+    "value": "Tu^@"
+  },
+  {
+    "offset": "0x12b08",
+    "value": "hB@9"
+  },
+  {
+    "offset": "0x12ccd",
+    "value": "#@9h"
+  },
+  {
+    "offset": "0x1302c",
+    "value": "h\"A9"
+  },
+  {
+    "offset": "0x1303b",
+    "value": "6`\"@"
+  },
+  {
+    "offset": "0x13044",
+    "value": "hb@9"
+  },
+  {
+    "offset": "0x13540",
+    "value": "JE@9"
+  },
+  {
+    "offset": "0x13545",
+    "value": "ki8_"
+  },
+  {
+    "offset": "0x13b91",
+    "value": "ij8j"
+  },
+  {
+    "offset": "0x13cfc",
+    "value": "WC@9I"
+  },
+  {
+    "offset": "0x13f0c",
+    "value": "hB@9"
+  },
+  {
+    "offset": "0x13f34",
+    "value": "h\"@9h"
+  },
+  {
+    "offset": "0x13f44",
+    "value": "h&@9h"
+  },
+  {
+    "offset": "0x13f54",
+    "value": "h*@9h"
+  },
+  {
+    "offset": "0x142a2",
+    "value": "@9+hi8_"
+  },
+  {
+    "offset": "0x143c6",
+    "value": "@9+hi8_"
+  },
+  {
+    "offset": "0x143ef",
+    "value": "5v\"H"
+  },
+  {
+    "offset": "0x14563",
+    "value": "Th&K"
+  },
+  {
+    "offset": "0x146a1",
+    "value": "c@9h"
+  },
+  {
+    "offset": "0x1476f",
+    "value": "6`>@"
+  },
+  {
+    "offset": "0x1479b",
+    "value": "6`>@"
+  },
+  {
+    "offset": "0x147d5",
+    "value": "c@9h"
+  },
+  {
+    "offset": "0x14887",
+    "value": "6`>@"
+  },
+  {
+    "offset": "0x14890",
+    "value": "hBA9("
+  },
+  {
+    "offset": "0x14897",
+    "value": "7hb@9h"
+  },
+  {
+    "offset": "0x148c0",
+    "value": "hb@9"
+  },
+  {
+    "offset": "0x14954",
+    "value": "hbC9"
+  },
+  {
+    "offset": "0x14963",
+    "value": "6`j@"
+  },
+  {
+    "offset": "0x14a0b",
+    "value": "T`J@"
+  },
+  {
+    "offset": "0x14a47",
+    "value": "T`>@"
+  },
+  {
+    "offset": "0x14a83",
+    "value": "T`2@"
+  },
+  {
+    "offset": "0x14abf",
+    "value": "T`&@"
+  },
+  {
+    "offset": "0x14adb",
+    "value": "7hb@9"
+  },
+  {
+    "offset": "0x14b08",
+    "value": "hb@9"
+  },
+  {
+    "offset": "0x14c2f",
+    "value": "TtZ@"
+  },
+  {
+    "offset": "0x14cc7",
+    "value": "<H @"
+  },
+  {
+    "offset": "0x14dbb",
+    "value": "9I`C9)"
+  },
+  {
+    "offset": "0x14dc3",
+    "value": "4Ih@"
+  },
+  {
+    "offset": "0x15004",
+    "value": "JE@9"
+  },
+  {
+    "offset": "0x15009",
+    "value": "ki8_"
+  },
+  {
+    "offset": "0x15350",
+    "value": "WC@9I"
+  },
+  {
+    "offset": "0x155d3",
+    "value": "=t.@"
+  },
+  {
+    "offset": "0x15af1",
+    "value": "B@9h"
+  },
+  {
+    "offset": "0x15cc8",
+    "value": "JE@9"
+  },
+  {
+    "offset": "0x15ccd",
+    "value": "ki8_"
+  },
+  {
+    "offset": "0x16014",
+    "value": "WC@9I"
+  },
+  {
+    "offset": "0x16921",
+    "value": "C@9h"
+  },
+  {
+    "offset": "0x16a4d",
+    "value": "C@9h"
+  },
+  {
+    "offset": "0x16e3d",
+    "value": "C@9h"
+  },
+  {
+    "offset": "0x16f3d",
+    "value": "C@9h"
+  },
+  {
+    "offset": "0x17095",
+    "value": "C@9h"
+  },
+  {
+    "offset": "0x17195",
+    "value": "C@9h"
+  },
+  {
+    "offset": "0x17651",
+    "value": "C@9h"
+  },
+  {
+    "offset": "0x179fd",
+    "value": "C@9h"
+  },
+  {
+    "offset": "0x17d1c",
+    "value": "?k78h"
+  },
+  {
+    "offset": "0x18125",
+    "value": "#@9h"
+  },
+  {
+    "offset": "0x181c5",
+    "value": "#@9("
+  },
+  {
+    "offset": "0x181e6",
+    "value": "@9`."
+  },
+  {
+    "offset": "0x1822f",
+    "value": "T`f@"
+  },
+  {
+    "offset": "0x18255",
+    "value": ".@9("
+  },
+  {
+    "offset": "0x18293",
+    "value": "T`r@"
+  },
+  {
+    "offset": "0x18378",
+    "value": "hBF9"
+  },
+  {
+    "offset": "0x1848f",
+    "value": "6`&@"
+  },
+  {
+    "offset": "0x184c3",
+    "value": "6`6@"
+  },
+  {
+    "offset": "0x184ef",
+    "value": "6`B@"
+  },
+  {
+    "offset": "0x1851b",
+    "value": "6`N@"
+  },
+  {
+    "offset": "0x185b4",
+    "value": "hBF9("
+  },
+  {
+    "offset": "0x186d1",
+    "value": "#@9h"
+  },
+  {
+    "offset": "0x18702",
+    "value": "E9k*X"
+  },
+  {
+    "offset": "0x1947d",
+    "value": "CA9h"
+  },
+  {
+    "offset": "0x194f7",
+    "value": "4hbE9h"
+  },
+  {
+    "offset": "0x19508",
+    "value": "hBE9"
+  },
+  {
+    "offset": "0x19527",
+    "value": "4hbD9h"
+  },
+  {
+    "offset": "0x19538",
+    "value": "hBD9"
+  },
+  {
+    "offset": "0x19577",
+    "value": "T`r@"
+  },
+  {
+    "offset": "0x195b3",
+    "value": "T`f@"
+  },
+  {
+    "offset": "0x195f3",
+    "value": "T`Z@"
+  },
+  {
+    "offset": "0x1963b",
+    "value": "7hbA9H"
+  },
+  {
+    "offset": "0x1964b",
+    "value": "7hb@9"
+  },
+  {
+    "offset": "0x19677",
+    "value": "6`B@"
+  },
+  {
+    "offset": "0x19680",
+    "value": "hbA9"
+  },
+  {
+    "offset": "0x19687",
+    "value": "6`6@"
+  },
+  {
+    "offset": "0x19697",
+    "value": "6`&@"
+  },
+  {
+    "offset": "0x196a0",
+    "value": "hb@9"
+  },
+  {
+    "offset": "0x1ac60",
+    "value": "Linker: LLD 14.0.1"
+  },
+  {
+    "offset": "0x1ac73",
+    "value": "Android (8075178, based on r437112b) clang version 14.0.1 (https://android.googlesource.com/toolchain/llvm-project 8671348b81b95fc603505dfc881b45103bee1731)"
+  },
+  {
+    "offset": "0x1ad10",
+    "value": "Android (8075178, based on r437112b) clang version 14.0.1 (https://android.googlesource.com/toolchain/llvm-project)"
+  },
+  {
+    "offset": "0x1ad86",
+    "value": ".fini_array"
+  },
+  {
+    "offset": "0x1ad92",
+    "value": ".text"
+  },
+  {
+    "offset": "0x1ad98",
+    "value": ".got"
+  },
+  {
+    "offset": "0x1ad9d",
+    "value": ".comment"
+  },
+  {
+    "offset": "0x1ada6",
+    "value": ".note.android.ident"
+  },
+  {
+    "offset": "0x1adba",
+    "value": ".got.plt"
+  },
+  {
+    "offset": "0x1adc3",
+    "value": ".rela.plt"
+  },
+  {
+    "offset": "0x1adcd",
+    "value": ".dynstr"
+  },
+  {
+    "offset": "0x1add5",
+    "value": ".eh_frame_hdr"
+  },
+  {
+    "offset": "0x1ade3",
+    "value": ".gnu.version_r"
+  },
+  {
+    "offset": "0x1adf2",
+    "value": ".data.rel.ro"
+  },
+  {
+    "offset": "0x1adff",
+    "value": ".rela.dyn"
+  },
+  {
+    "offset": "0x1ae09",
+    "value": ".gnu.version"
+  },
+  {
+    "offset": "0x1ae16",
+    "value": ".dynsym"
+  },
+  {
+    "offset": "0x1ae1e",
+    "value": ".gnu.hash"
+  },
+  {
+    "offset": "0x1ae28",
+    "value": ".eh_frame"
+  },
+  {
+    "offset": "0x1ae32",
+    "value": ".note.gnu.build-id"
+  },
+  {
+    "offset": "0x1ae45",
+    "value": ".dynamic"
+  },
+  {
+    "offset": "0x1ae4e",
+    "value": ".shstrtab"
+  },
+  {
+    "offset": "0x1ae58",
+    "value": ".rodata"
+  }
+]

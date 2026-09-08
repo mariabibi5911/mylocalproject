@@ -1,0 +1,42 @@
+package com.android.tools.smali.dexlib2.immutable.instruction;
+
+import com.android.tools.smali.dexlib2.Format;
+import com.android.tools.smali.dexlib2.Opcode;
+import com.android.tools.smali.dexlib2.iface.instruction.formats.Instruction51l;
+import com.android.tools.smali.dexlib2.util.Preconditions;
+import javax.annotation.Nonnull;
+
+/* loaded from: classes.dex */
+public class ImmutableInstruction51l extends ImmutableInstruction implements Instruction51l {
+    public static final Format FORMAT = Format.Format51l;
+    protected final long literal;
+    protected final int registerA;
+
+    public ImmutableInstruction51l(@Nonnull Opcode opcode, int registerA, long literal) {
+        super(opcode);
+        this.registerA = Preconditions.checkByteRegister(registerA);
+        this.literal = literal;
+    }
+
+    public static ImmutableInstruction51l of(Instruction51l instruction) {
+        if (instruction instanceof ImmutableInstruction51l) {
+            return (ImmutableInstruction51l) instruction;
+        }
+        return new ImmutableInstruction51l(instruction.getOpcode(), instruction.getRegisterA(), instruction.getWideLiteral());
+    }
+
+    @Override // com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
+    public int getRegisterA() {
+        return this.registerA;
+    }
+
+    @Override // com.android.tools.smali.dexlib2.iface.instruction.WideLiteralInstruction
+    public long getWideLiteral() {
+        return this.literal;
+    }
+
+    @Override // com.android.tools.smali.dexlib2.immutable.instruction.ImmutableInstruction
+    public Format getFormat() {
+        return FORMAT;
+    }
+}
