@@ -1,0 +1,226 @@
+[
+  {
+    "offset": "0x20c",
+    "value": "Android"
+  },
+  {
+    "offset": "0x258",
+    "value": "8215888"
+  },
+  {
+    "offset": "0x46e",
+    "value": "{4o>B"
+  },
+  {
+    "offset": "0x4ed",
+    "value": "__cxa_finalize"
+  },
+  {
+    "offset": "0x4fc",
+    "value": "__cxa_atexit"
+  },
+  {
+    "offset": "0x509",
+    "value": "_Z14secure_decryptRKNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+  },
+  {
+    "offset": "0x55f",
+    "value": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_"
+  },
+  {
+    "offset": "0x5aa",
+    "value": "Java_nika_ngipro_LoginActivity_getConfigValue"
+  },
+  {
+    "offset": "0x5d8",
+    "value": "strlen"
+  },
+  {
+    "offset": "0x5df",
+    "value": "_Znwm"
+  },
+  {
+    "offset": "0x5e5",
+    "value": "memcpy"
+  },
+  {
+    "offset": "0x5ec",
+    "value": "_ZNKSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7compareEmmPKcm"
+  },
+  {
+    "offset": "0x63f",
+    "value": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignEPKc"
+  },
+  {
+    "offset": "0x68d",
+    "value": "_ZdlPv"
+  },
+  {
+    "offset": "0x694",
+    "value": "_ZNKSt6__ndk121__basic_string_commonILb1EE20__throw_length_errorEv"
+  },
+  {
+    "offset": "0x6d7",
+    "value": "__stack_chk_fail"
+  },
+  {
+    "offset": "0x6e8",
+    "value": "libc.so"
+  },
+  {
+    "offset": "0x6f0",
+    "value": "LIBC"
+  },
+  {
+    "offset": "0x6f5",
+    "value": "libc++_shared.so"
+  },
+  {
+    "offset": "0x706",
+    "value": "liblog.so"
+  },
+  {
+    "offset": "0x710",
+    "value": "libm.so"
+  },
+  {
+    "offset": "0x718",
+    "value": "libdl.so"
+  },
+  {
+    "offset": "0x721",
+    "value": "libNGI.so"
+  },
+  {
+    "offset": "0x880",
+    "value": "6b9cbca68d99031ced3ae4bdca6f5ec924ee86c4"
+  },
+  {
+    "offset": "0x8a9",
+    "value": "PREFS_NAME"
+  },
+  {
+    "offset": "0x8b4",
+    "value": "Ov23liVLVtW4JE9fYNp2"
+  },
+  {
+    "offset": "0x8c9",
+    "value": "REDIRECT_URI"
+  },
+  {
+    "offset": "0x8d6",
+    "value": "ngi://callback"
+  },
+  {
+    "offset": "0x8e5",
+    "value": "CLIENT_ID"
+  },
+  {
+    "offset": "0x8ef",
+    "value": "github_token"
+  },
+  {
+    "offset": "0x8fc",
+    "value": "CLIENT_SECRET"
+  },
+  {
+    "offset": "0x90a",
+    "value": "KEY_TOKEN"
+  },
+  {
+    "offset": "0x914",
+    "value": "NGI_PREFS"
+  },
+  {
+    "offset": "0xb0b",
+    "value": "Rli(8k"
+  },
+  {
+    "offset": "0x1128",
+    "value": "Linker: LLD 14.0.1"
+  },
+  {
+    "offset": "0x113b",
+    "value": "Android (8075178, based on r437112b) clang version 14.0.1 (https://android.googlesource.com/toolchain/llvm-project 8671348b81b95fc603505dfc881b45103bee1731)"
+  },
+  {
+    "offset": "0x11d8",
+    "value": "Android (8075178, based on r437112b) clang version 14.0.1 (https://android.googlesource.com/toolchain/llvm-project)"
+  },
+  {
+    "offset": "0x124e",
+    "value": ".fini_array"
+  },
+  {
+    "offset": "0x125a",
+    "value": ".text"
+  },
+  {
+    "offset": "0x1260",
+    "value": ".comment"
+  },
+  {
+    "offset": "0x1269",
+    "value": ".note.android.ident"
+  },
+  {
+    "offset": "0x127d",
+    "value": ".got.plt"
+  },
+  {
+    "offset": "0x1286",
+    "value": ".rela.plt"
+  },
+  {
+    "offset": "0x1290",
+    "value": ".dynstr"
+  },
+  {
+    "offset": "0x1298",
+    "value": ".eh_frame_hdr"
+  },
+  {
+    "offset": "0x12a6",
+    "value": ".gnu.version_r"
+  },
+  {
+    "offset": "0x12b5",
+    "value": ".data.rel.ro"
+  },
+  {
+    "offset": "0x12c2",
+    "value": ".rela.dyn"
+  },
+  {
+    "offset": "0x12cc",
+    "value": ".gnu.version"
+  },
+  {
+    "offset": "0x12d9",
+    "value": ".dynsym"
+  },
+  {
+    "offset": "0x12e1",
+    "value": ".gnu.hash"
+  },
+  {
+    "offset": "0x12eb",
+    "value": ".eh_frame"
+  },
+  {
+    "offset": "0x12f5",
+    "value": ".note.gnu.build-id"
+  },
+  {
+    "offset": "0x1308",
+    "value": ".dynamic"
+  },
+  {
+    "offset": "0x1311",
+    "value": ".shstrtab"
+  },
+  {
+    "offset": "0x131b",
+    "value": ".rodata"
+  }
+]

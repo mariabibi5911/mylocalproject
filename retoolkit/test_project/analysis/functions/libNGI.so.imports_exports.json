@@ -1,0 +1,200 @@
+{
+  "imports": [
+    {
+      "name": "__cxa_finalize",
+      "value": "0x0",
+      "size": 0,
+      "type": "STT_FUNC",
+      "bind": "STB_GLOBAL",
+      "section_index": "SHN_UNDEF"
+    },
+    {
+      "name": "__cxa_atexit",
+      "value": "0x0",
+      "size": 0,
+      "type": "STT_FUNC",
+      "bind": "STB_GLOBAL",
+      "section_index": "SHN_UNDEF"
+    },
+    {
+      "name": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_",
+      "value": "0x0",
+      "size": 0,
+      "type": "STT_FUNC",
+      "bind": "STB_GLOBAL",
+      "section_index": "SHN_UNDEF"
+    },
+    {
+      "name": "strlen",
+      "value": "0x0",
+      "size": 0,
+      "type": "STT_FUNC",
+      "bind": "STB_GLOBAL",
+      "section_index": "SHN_UNDEF"
+    },
+    {
+      "name": "_Znwm",
+      "value": "0x0",
+      "size": 0,
+      "type": "STT_FUNC",
+      "bind": "STB_GLOBAL",
+      "section_index": "SHN_UNDEF"
+    },
+    {
+      "name": "memcpy",
+      "value": "0x0",
+      "size": 0,
+      "type": "STT_FUNC",
+      "bind": "STB_GLOBAL",
+      "section_index": "SHN_UNDEF"
+    },
+    {
+      "name": "_ZNKSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7compareEmmPKcm",
+      "value": "0x0",
+      "size": 0,
+      "type": "STT_FUNC",
+      "bind": "STB_GLOBAL",
+      "section_index": "SHN_UNDEF"
+    },
+    {
+      "name": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignEPKc",
+      "value": "0x0",
+      "size": 0,
+      "type": "STT_FUNC",
+      "bind": "STB_GLOBAL",
+      "section_index": "SHN_UNDEF"
+    },
+    {
+      "name": "_ZdlPv",
+      "value": "0x0",
+      "size": 0,
+      "type": "STT_FUNC",
+      "bind": "STB_GLOBAL",
+      "section_index": "SHN_UNDEF"
+    },
+    {
+      "name": "_ZNKSt6__ndk121__basic_string_commonILb1EE20__throw_length_errorEv",
+      "value": "0x0",
+      "size": 0,
+      "type": "STT_FUNC",
+      "bind": "STB_GLOBAL",
+      "section_index": "SHN_UNDEF"
+    },
+    {
+      "name": "__stack_chk_fail",
+      "value": "0x0",
+      "size": 0,
+      "type": "STT_FUNC",
+      "bind": "STB_GLOBAL",
+      "section_index": "SHN_UNDEF"
+    }
+  ],
+  "exports": [
+    {
+      "name": "_Z14secure_decryptRKNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+      "value": "0xaa0",
+      "size": 160,
+      "type": "STT_FUNC",
+      "bind": "STB_GLOBAL",
+      "section_index": 14,
+      "end": "0xb40",
+      "end_inferred": false
+    },
+    {
+      "name": "Java_nika_ngipro_LoginActivity_getConfigValue",
+      "value": "0xb40",
+      "size": 716,
+      "type": "STT_FUNC",
+      "bind": "STB_GLOBAL",
+      "section_index": 14,
+      "end": "0xe0c",
+      "end_inferred": false
+    }
+  ],
+  "plt_got": [
+    {
+      "section": ".rela.dyn",
+      "offset": "0x1ee0",
+      "symbol": null,
+      "reloc_type": 1027
+    },
+    {
+      "section": ".rela.dyn",
+      "offset": "0x1ee8",
+      "symbol": null,
+      "reloc_type": 1027
+    },
+    {
+      "section": ".rela.dyn",
+      "offset": "0x1ef0",
+      "symbol": null,
+      "reloc_type": 1027
+    },
+    {
+      "section": ".rela.plt",
+      "offset": "0x20d0",
+      "symbol": "__cxa_finalize",
+      "reloc_type": 1026
+    },
+    {
+      "section": ".rela.plt",
+      "offset": "0x20d8",
+      "symbol": "__cxa_atexit",
+      "reloc_type": 1026
+    },
+    {
+      "section": ".rela.plt",
+      "offset": "0x20e0",
+      "symbol": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_",
+      "reloc_type": 1026
+    },
+    {
+      "section": ".rela.plt",
+      "offset": "0x20e8",
+      "symbol": "strlen",
+      "reloc_type": 1026
+    },
+    {
+      "section": ".rela.plt",
+      "offset": "0x20f0",
+      "symbol": "_Znwm",
+      "reloc_type": 1026
+    },
+    {
+      "section": ".rela.plt",
+      "offset": "0x20f8",
+      "symbol": "memcpy",
+      "reloc_type": 1026
+    },
+    {
+      "section": ".rela.plt",
+      "offset": "0x2100",
+      "symbol": "_ZNKSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7compareEmmPKcm",
+      "reloc_type": 1026
+    },
+    {
+      "section": ".rela.plt",
+      "offset": "0x2108",
+      "symbol": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignEPKc",
+      "reloc_type": 1026
+    },
+    {
+      "section": ".rela.plt",
+      "offset": "0x2110",
+      "symbol": "_ZdlPv",
+      "reloc_type": 1026
+    },
+    {
+      "section": ".rela.plt",
+      "offset": "0x2118",
+      "symbol": "_ZNKSt6__ndk121__basic_string_commonILb1EE20__throw_length_errorEv",
+      "reloc_type": 1026
+    },
+    {
+      "section": ".rela.plt",
+      "offset": "0x2120",
+      "symbol": "__stack_chk_fail",
+      "reloc_type": 1026
+    }
+  ]
+}
