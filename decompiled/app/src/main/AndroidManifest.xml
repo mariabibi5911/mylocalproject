@@ -81,7 +81,7 @@
         <provider
             android:name="androidx.startup.InitializationProvider"
             android:exported="false"
-            android:authorities="nika.ngipro.androidx-startup">
+            android:authorities="${applicationId}.androidx-startup">
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"
                 android:value="androidx.startup"/>
