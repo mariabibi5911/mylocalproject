@@ -16,8 +16,11 @@ android {
 
     sourceSets {
         main {
+            // Compile only the app sources and the small, valid local ViewBinding
+            // compatibility sources. The recovered dependency tree is malformed
+            // decompiler output and must not be compiled as application code.
             java {
-                srcDirs = ['src/main/java', '../dependencies/src/main/java']
+                srcDirs = ['src/main/java', '../dependencies/src/main/java/androidx/viewbinding']
             }
             jniLibs.srcDirs = ['src/main/jniLibs']
         }
@@ -56,4 +59,59 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+}
+
+// The recovered app already contains its library resources. Resolve the
+// libraries for their classes, but extract only classes.jar from AARs so their
+// duplicate resource trees are not merged a second time.
+def embeddedLibraryDir = layout.buildDirectory.dir('generated/embedded-libraries')
+
+configurations {
+    embeddedLibraries
+}
+
+dependencies {
+    embeddedLibraries 'androidx.appcompat:appcompat:1.6.1'
+    embeddedLibraries 'androidx.cardview:cardview:1.0.0'
+    embeddedLibraries 'androidx.constraintlayout:constraintlayout:2.1.4'
+    embeddedLibraries 'androidx.drawerlayout:drawerlayout:1.1.1'
+    embeddedLibraries 'androidx.recyclerview:recyclerview:1.3.1'
+    embeddedLibraries 'com.google.android.material:material:1.9.0'
+    embeddedLibraries 'com.github.bumptech.glide:glide:4.16.0'
+
+    implementation 'com.google.guava:guava:32.1.3-android'
+    implementation 'org.smali:dexlib2:2.5.2'
+    implementation fileTree(dir: embeddedLibraryDir.get().asFile, include: ['*.jar'])
+}
+
+tasks.register('extractEmbeddedLibraries') {
+    inputs.files(configurations.embeddedLibraries)
+    outputs.dir(embeddedLibraryDir)
+
+    doLast {
+        def outputDir = embeddedLibraryDir.get().asFile
+        delete outputDir
+        outputDir.mkdirs()
+
+        configurations.embeddedLibraries.files.each { artifact ->
+            if (artifact.name.endsWith('.aar')) {
+                def baseName = artifact.name.substring(0, artifact.name.length() - 4)
+                copy {
+                    from zipTree(artifact)
+                    include 'classes.jar'
+                    into outputDir
+                    rename { "${baseName}.jar" }
+                }
+            } else if (artifact.name.endsWith('.jar')) {
+                copy {
+                    from artifact
+                    into outputDir
+                }
+            }
+        }
+    }
+}
+
+tasks.named('preBuild').configure {
+    dependsOn tasks.named('extractEmbeddedLibraries')
 }

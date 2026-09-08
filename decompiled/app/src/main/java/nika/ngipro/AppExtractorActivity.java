@@ -12,7 +12,7 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
-import com.android.tools.smali.dexlib2.dexbacked.raw.CdexHeaderItem;
+import org.jf.dexlib2.dexbacked.raw.CdexHeaderItem;
 import java.util.ArrayList;
 import java.util.List;
 
