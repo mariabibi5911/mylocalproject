@@ -1,0 +1,2670 @@
+[
+  {
+    "offset": "0x20c",
+    "value": "Android"
+  },
+  {
+    "offset": "0x258",
+    "value": "8215888"
+  },
+  {
+    "offset": "0x18c5",
+    "value": "Y.)h?p"
+  },
+  {
+    "offset": "0x18cf",
+    "value": " XVi"
+  },
+  {
+    "offset": "0x19b5",
+    "value": "n\"O~"
+  },
+  {
+    "offset": "0x19c2",
+    "value": "#nVW"
+  },
+  {
+    "offset": "0x19d8",
+    "value": "hYNH"
+  },
+  {
+    "offset": "0x2091",
+    "value": "__cxa_finalize"
+  },
+  {
+    "offset": "0x20a0",
+    "value": "__cxa_atexit"
+  },
+  {
+    "offset": "0x20ad",
+    "value": "Java_nika_ngipro_MainActivity_analyzeElfFile"
+  },
+  {
+    "offset": "0x20da",
+    "value": "__open_2"
+  },
+  {
+    "offset": "0x20e3",
+    "value": "pread"
+  },
+  {
+    "offset": "0x20e9",
+    "value": "_ZTVNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+  },
+  {
+    "offset": "0x2135",
+    "value": "_ZTCNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE0_NS_13basic_istreamIcS2_EE"
+  },
+  {
+    "offset": "0x219c",
+    "value": "_ZNSt6__ndk18ios_base4initEPv"
+  },
+  {
+    "offset": "0x21ba",
+    "value": "_ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEEC2Ev"
+  },
+  {
+    "offset": "0x21f3",
+    "value": "_ZTVNSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+  },
+  {
+    "offset": "0x223c",
+    "value": "_ZNSt6__ndk124__put_character_sequenceIcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m"
+  },
+  {
+    "offset": "0x229f",
+    "value": "_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEElsEt"
+  },
+  {
+    "offset": "0x22d6",
+    "value": "_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEElsEy"
+  },
+  {
+    "offset": "0x230d",
+    "value": "close"
+  },
+  {
+    "offset": "0x2313",
+    "value": "_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEElsEj"
+  },
+  {
+    "offset": "0x234a",
+    "value": "_ZNKSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE3strEv"
+  },
+  {
+    "offset": "0x2397",
+    "value": "_ZdlPv"
+  },
+  {
+    "offset": "0x239e",
+    "value": "_ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEED2Ev"
+  },
+  {
+    "offset": "0x23d7",
+    "value": "_ZTTNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+  },
+  {
+    "offset": "0x2423",
+    "value": "_ZNSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEED2Ev"
+  },
+  {
+    "offset": "0x245b",
+    "value": "_ZNSt6__ndk19basic_iosIcNS_11char_traitsIcEEED2Ev"
+  },
+  {
+    "offset": "0x248d",
+    "value": "__stack_chk_fail"
+  },
+  {
+    "offset": "0x249e",
+    "value": "_ZNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev"
+  },
+  {
+    "offset": "0x24eb",
+    "value": "_ZNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED2Ev"
+  },
+  {
+    "offset": "0x2538",
+    "value": "Java_nika_ngipro_MainActivity_huntFunctions"
+  },
+  {
+    "offset": "0x2564",
+    "value": "_Znwm"
+  },
+  {
+    "offset": "0x256a",
+    "value": "memset"
+  },
+  {
+    "offset": "0x2571",
+    "value": "strlen"
+  },
+  {
+    "offset": "0x2578",
+    "value": "strnlen"
+  },
+  {
+    "offset": "0x2580",
+    "value": "memcpy"
+  },
+  {
+    "offset": "0x2587",
+    "value": "_ZNKSt6__ndk121__basic_string_commonILb1EE20__throw_length_errorEv"
+  },
+  {
+    "offset": "0x25ca",
+    "value": "_ZNKSt6__ndk120__vector_base_commonILb1EE20__throw_length_errorEv"
+  },
+  {
+    "offset": "0x260c",
+    "value": "_ZNSt6__ndk1lsIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS_13basic_ostreamIT_T0_EES9_RKNS_12basic_stringIS6_S7_T1_EE"
+  },
+  {
+    "offset": "0x2681",
+    "value": "Java_nika_ngipro_MainActivity_smartScanner"
+  },
+  {
+    "offset": "0x26ac",
+    "value": "lseek"
+  },
+  {
+    "offset": "0x26b2",
+    "value": "mmap"
+  },
+  {
+    "offset": "0x26b7",
+    "value": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9push_backEc"
+  },
+  {
+    "offset": "0x2706",
+    "value": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_"
+  },
+  {
+    "offset": "0x2751",
+    "value": "memchr"
+  },
+  {
+    "offset": "0x2758",
+    "value": "_ZNKSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE4findEcm"
+  },
+  {
+    "offset": "0x27a4",
+    "value": "_ZNSt6__ndk1plIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEPKS6_RKS9_"
+  },
+  {
+    "offset": "0x2802",
+    "value": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKc"
+  },
+  {
+    "offset": "0x2850",
+    "value": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm"
+  },
+  {
+    "offset": "0x289f",
+    "value": "_ZNSt6__ndk19to_stringEm"
+  },
+  {
+    "offset": "0x28b8",
+    "value": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmPKc"
+  },
+  {
+    "offset": "0x2907",
+    "value": "munmap"
+  },
+  {
+    "offset": "0x290e",
+    "value": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2IDnEEPKc"
+  },
+  {
+    "offset": "0x295b",
+    "value": "Java_nika_ngipro_MainActivity_patchFile"
+  },
+  {
+    "offset": "0x2983",
+    "value": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5eraseEmm"
+  },
+  {
+    "offset": "0x29cf",
+    "value": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_mmRKS4_"
+  },
+  {
+    "offset": "0x2a21",
+    "value": "strtoul"
+  },
+  {
+    "offset": "0x2a29",
+    "value": "write"
+  },
+  {
+    "offset": "0x2a2f",
+    "value": "fsync"
+  },
+  {
+    "offset": "0x2a35",
+    "value": "Java_nika_ngipro_MainActivity_searchInBinary"
+  },
+  {
+    "offset": "0x2a62",
+    "value": "_ZNSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE3strERKNS_12basic_stringIcS2_S4_EE"
+  },
+  {
+    "offset": "0x2aca",
+    "value": "_ZNSt6__ndk1rsIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS_13basic_istreamIT_T0_EES9_RNS_12basic_stringIS6_S7_T1_EE"
+  },
+  {
+    "offset": "0x2b3e",
+    "value": "_ZNKSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7compareEmmPKcm"
+  },
+  {
+    "offset": "0x2b91",
+    "value": "strtol"
+  },
+  {
+    "offset": "0x2b98",
+    "value": "_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEElsEm"
+  },
+  {
+    "offset": "0x2bcf",
+    "value": "memcmp"
+  },
+  {
+    "offset": "0x2bd6",
+    "value": "abort"
+  },
+  {
+    "offset": "0x2bdc",
+    "value": "Java_nika_ngipro_MainActivity_findCallers"
+  },
+  {
+    "offset": "0x2c06",
+    "value": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignEPKc"
+  },
+  {
+    "offset": "0x2c54",
+    "value": "_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEElsEl"
+  },
+  {
+    "offset": "0x2c8b",
+    "value": "_ZNSt6__ndk19to_stringEj"
+  },
+  {
+    "offset": "0x2ca4",
+    "value": "Java_nika_ngipro_MainActivity_dumpFunctionBytes"
+  },
+  {
+    "offset": "0x2cd4",
+    "value": "_ZTCNSt6__ndk114basic_ifstreamIcNS_11char_traitsIcEEEE0_NS_13basic_istreamIcS2_EE"
+  },
+  {
+    "offset": "0x2d26",
+    "value": "_ZTVNSt6__ndk114basic_ifstreamIcNS_11char_traitsIcEEEE"
+  },
+  {
+    "offset": "0x2d5d",
+    "value": "_ZNSt6__ndk113basic_filebufIcNS_11char_traitsIcEEEC2Ev"
+  },
+  {
+    "offset": "0x2d94",
+    "value": "_ZNSt6__ndk18ios_base5clearEj"
+  },
+  {
+    "offset": "0x2db2",
+    "value": "fopen"
+  },
+  {
+    "offset": "0x2db8",
+    "value": "_ZNSt6__ndk113basic_istreamIcNS_11char_traitsIcEEE5seekgENS_4fposI9mbstate_tEE"
+  },
+  {
+    "offset": "0x2e07",
+    "value": "_ZNSt6__ndk113basic_istreamIcNS_11char_traitsIcEEE4readEPcl"
+  },
+  {
+    "offset": "0x2e43",
+    "value": "_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEElsEi"
+  },
+  {
+    "offset": "0x2e7a",
+    "value": "fclose"
+  },
+  {
+    "offset": "0x2e81",
+    "value": "_ZNSt6__ndk113basic_filebufIcNS_11char_traitsIcEEED2Ev"
+  },
+  {
+    "offset": "0x2eb8",
+    "value": "_ZTTNSt6__ndk114basic_ifstreamIcNS_11char_traitsIcEEEE"
+  },
+  {
+    "offset": "0x2eef",
+    "value": "_ZNSt6__ndk113basic_istreamIcNS_11char_traitsIcEEED2Ev"
+  },
+  {
+    "offset": "0x2f26",
+    "value": "_ZNSt6__ndk114basic_ifstreamIcNS_11char_traitsIcEEED1Ev"
+  },
+  {
+    "offset": "0x2f5e",
+    "value": "Java_nika_ngipro_MainActivity_autoAnalyze"
+  },
+  {
+    "offset": "0x2f88",
+    "value": "Java_nika_ngipro_MainActivity_disassembleARM64"
+  },
+  {
+    "offset": "0x2fb7",
+    "value": "Java_nika_ngipro_IDAViewActivity_disassembleARM64"
+  },
+  {
+    "offset": "0x2fe9",
+    "value": "Java_nika_ngipro_MainActivity_findReferences"
+  },
+  {
+    "offset": "0x3016",
+    "value": "_ZNSt6__ndk127__tree_balance_after_insertIPNS_16__tree_node_baseIPvEEEEvT_S5_"
+  },
+  {
+    "offset": "0x3064",
+    "value": "_ZNSt6__ndk16__treeImNS_4lessImEENS_9allocatorImEEE7destroyEPNS_11__tree_nodeImPvEE"
+  },
+  {
+    "offset": "0x30b8",
+    "value": "Java_nika_ngipro_MainActivity_listSections"
+  },
+  {
+    "offset": "0x30e3",
+    "value": "_ZNSt6__ndk16vectorI9SecInfo64NS_9allocatorIS1_EEE7reserveEm"
+  },
+  {
+    "offset": "0x3120",
+    "value": "_ZNSt6__ndk16vectorI9SecInfo64NS_9allocatorIS1_EEE21__push_back_slow_pathIRKS1_EEvOT_"
+  },
+  {
+    "offset": "0x3176",
+    "value": "_ZNSt6__ndk16vectorI9SecInfo32NS_9allocatorIS1_EEE7reserveEm"
+  },
+  {
+    "offset": "0x31b3",
+    "value": "_ZNSt6__ndk16vectorI9SecInfo32NS_9allocatorIS1_EEE21__push_back_slow_pathIRKS1_EEvOT_"
+  },
+  {
+    "offset": "0x3209",
+    "value": "Java_nika_ngipro_MainActivity_resolveImports"
+  },
+  {
+    "offset": "0x3236",
+    "value": "Java_nika_ngipro_MainActivity_buildCfgJson"
+  },
+  {
+    "offset": "0x3261",
+    "value": "_ZNSt6__ndk16vectorIhNS_9allocatorIhEEE8__appendEm"
+  },
+  {
+    "offset": "0x3294",
+    "value": "_ZNSt6__ndk16vectorINS_4pairImmEENS_9allocatorIS2_EEE12emplace_backIJmmEEERS2_DpOT_"
+  },
+  {
+    "offset": "0x32e8",
+    "value": "Java_nika_ngipro_MainActivity_fullDumpToDir"
+  },
+  {
+    "offset": "0x3314",
+    "value": "stat"
+  },
+  {
+    "offset": "0x3319",
+    "value": "mkdir"
+  },
+  {
+    "offset": "0x331f",
+    "value": "_ZTCNSt6__ndk114basic_ofstreamIcNS_11char_traitsIcEEEE0_NS_13basic_ostreamIcS2_EE"
+  },
+  {
+    "offset": "0x3371",
+    "value": "_ZTVNSt6__ndk114basic_ofstreamIcNS_11char_traitsIcEEEE"
+  },
+  {
+    "offset": "0x33a8",
+    "value": "_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEE5writeEPKcl"
+  },
+  {
+    "offset": "0x33e6",
+    "value": "_ZTTNSt6__ndk114basic_ofstreamIcNS_11char_traitsIcEEEE"
+  },
+  {
+    "offset": "0x341d",
+    "value": "_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEED2Ev"
+  },
+  {
+    "offset": "0x3454",
+    "value": "_ZNSt6__ndk113__vector_baseI9SecInfo32NS_9allocatorIS1_EEED2Ev"
+  },
+  {
+    "offset": "0x3493",
+    "value": "_ZNSt6__ndk113basic_istreamIcNS_11char_traitsIcEEE3getEv"
+  },
+  {
+    "offset": "0x34cc",
+    "value": "_ZTCNSt6__ndk119basic_istringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE0_NS_13basic_istreamIcS2_EE"
+  },
+  {
+    "offset": "0x3534",
+    "value": "_ZTVNSt6__ndk119basic_istringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+  },
+  {
+    "offset": "0x3581",
+    "value": "_ZNKSt6__ndk18ios_base6getlocEv"
+  },
+  {
+    "offset": "0x35a1",
+    "value": "_ZNSt6__ndk15ctypeIcE2idE"
+  },
+  {
+    "offset": "0x35bb",
+    "value": "_ZNKSt6__ndk16locale9use_facetERNS0_2idE"
+  },
+  {
+    "offset": "0x35e4",
+    "value": "_ZNSt6__ndk16localeD1Ev"
+  },
+  {
+    "offset": "0x35fc",
+    "value": "_ZNSt6__ndk17getlineIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS_13basic_istreamIT_T0_EES9_RNS_12basic_stringIS6_S7_T1_EES6_"
+  },
+  {
+    "offset": "0x3679",
+    "value": "_ZTTNSt6__ndk119basic_istringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+  },
+  {
+    "offset": "0x36c6",
+    "value": "_ZNSt6__ndk16vectorIhNS_9allocatorIhEEEC2INS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEET_NS_9enable_ifIXaaaasr25__is_cpp17_input_iteratorIS9_EE5valuentsr27__is_cpp17_forward_iteratorIS9_EE5valuesr16is_constructibleIhNS_15iterator_traitsIS9_E9referenceEEE5valueES9_E4typeE"
+  },
+  {
+    "offset": "0x37db",
+    "value": "_ZNSt6__ndk119basic_istringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev"
+  },
+  {
+    "offset": "0x3829",
+    "value": "_ZNSt6__ndk16vectorIhNS_9allocatorIhEEE14__emplace_backIcEEvOT_"
+  },
+  {
+    "offset": "0x3869",
+    "value": "Java_nika_ngipro_MainActivity_buildCfgForRange"
+  },
+  {
+    "offset": "0x3898",
+    "value": "_ZNSt6__ndk113basic_istreamIcNS_11char_traitsIcEEE5seekgExNS_8ios_base7seekdirE"
+  },
+  {
+    "offset": "0x38e8",
+    "value": "_ZNSt6__ndk16vectorI11DecodedInsnNS_9allocatorIS1_EEE7reserveEm"
+  },
+  {
+    "offset": "0x3928",
+    "value": "_ZNSt6__ndk16vectorI11DecodedInsnNS_9allocatorIS1_EEE21__push_back_slow_pathIS1_EEvOT_"
+  },
+  {
+    "offset": "0x397f",
+    "value": "_ZNSt6__ndk16vectorImNS_9allocatorImEEEC2INS_21__tree_const_iteratorImPNS_11__tree_nodeImPvEElEEEET_NS_9enable_ifIXaasr27__is_cpp17_forward_iteratorISB_EE5valuesr16is_constructibleImNS_15iterator_traitsISB_E9referenceEEE5valueESB_E4typeE"
+  },
+  {
+    "offset": "0x3a6d",
+    "value": "_ZNSt6__ndk19to_stringEi"
+  },
+  {
+    "offset": "0x3a86",
+    "value": "Java_nika_ngipro_MainActivity_trackReferences"
+  },
+  {
+    "offset": "0x3ab4",
+    "value": "Java_nika_ngipro_MainActivity_decompileFunction"
+  },
+  {
+    "offset": "0x3ae4",
+    "value": "_ZNSt6__ndk16__sortIRNS_6__lessImmEEPmEEvT0_S5_T_"
+  },
+  {
+    "offset": "0x3b16",
+    "value": "memmove"
+  },
+  {
+    "offset": "0x3b1e",
+    "value": "Java_nika_ngipro_IDAViewActivity_decompileFunction"
+  },
+  {
+    "offset": "0x3b51",
+    "value": "Java_nika_ngipro_IDAViewActivity_buildCfgForRange"
+  },
+  {
+    "offset": "0x3b83",
+    "value": "Java_nika_ngipro_IDAViewActivity_trackReferences"
+  },
+  {
+    "offset": "0x3bb4",
+    "value": "Java_nika_ngipro_MainActivity_scanFunctions"
+  },
+  {
+    "offset": "0x3be0",
+    "value": "_ZNSt6__ndk113basic_istreamIcNS_11char_traitsIcEEE5tellgEv"
+  },
+  {
+    "offset": "0x3c1b",
+    "value": "Java_nika_ngipro_IDAViewActivity_scanFunctions"
+  },
+  {
+    "offset": "0x3c4a",
+    "value": "_ZThn16_NSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev"
+  },
+  {
+    "offset": "0x3c9d",
+    "value": "_ZTv0_n24_NSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev"
+  },
+  {
+    "offset": "0x3cf2",
+    "value": "_ZNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED0Ev"
+  },
+  {
+    "offset": "0x3d3f",
+    "value": "_ZThn16_NSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED0Ev"
+  },
+  {
+    "offset": "0x3d92",
+    "value": "_ZTv0_n24_NSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED0Ev"
+  },
+  {
+    "offset": "0x3de7",
+    "value": "_ZNSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEED2Ev"
+  },
+  {
+    "offset": "0x3e31",
+    "value": "_ZNSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEED0Ev"
+  },
+  {
+    "offset": "0x3e7b",
+    "value": "_ZNSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE7seekoffExNS_8ios_base7seekdirEj"
+  },
+  {
+    "offset": "0x3ee1",
+    "value": "_ZNSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE9underflowEv"
+  },
+  {
+    "offset": "0x3f33",
+    "value": "_ZNSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE9pbackfailEi"
+  },
+  {
+    "offset": "0x3f85",
+    "value": "_ZNSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE8overflowEi"
+  },
+  {
+    "offset": "0x3fd6",
+    "value": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6resizeEmc"
+  },
+  {
+    "offset": "0x4023",
+    "value": "_ZNSt6__ndk113basic_istreamIcNS_11char_traitsIcEEE6sentryC1ERS3_b"
+  },
+  {
+    "offset": "0x4065",
+    "value": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEaSERKS5_"
+  },
+  {
+    "offset": "0x40b0",
+    "value": "_ZTv0_n24_NSt6__ndk114basic_ifstreamIcNS_11char_traitsIcEEED1Ev"
+  },
+  {
+    "offset": "0x40f0",
+    "value": "_ZNSt6__ndk114basic_ifstreamIcNS_11char_traitsIcEEED0Ev"
+  },
+  {
+    "offset": "0x4128",
+    "value": "_ZTv0_n24_NSt6__ndk114basic_ifstreamIcNS_11char_traitsIcEEED0Ev"
+  },
+  {
+    "offset": "0x4168",
+    "value": "_ZTVNSt6__ndk113basic_filebufIcNS_11char_traitsIcEEEE"
+  },
+  {
+    "offset": "0x419e",
+    "value": "_ZNSt6__ndk113basic_filebufIcNS_11char_traitsIcEEE4syncEv"
+  },
+  {
+    "offset": "0x41d8",
+    "value": "_ZdaPv"
+  },
+  {
+    "offset": "0x41df",
+    "value": "_ZNSt6__ndk113basic_filebufIcNS_11char_traitsIcEEED0Ev"
+  },
+  {
+    "offset": "0x4216",
+    "value": "_ZNSt6__ndk113basic_filebufIcNS_11char_traitsIcEEE5imbueERKNS_6localeE"
+  },
+  {
+    "offset": "0x425d",
+    "value": "_ZNSt6__ndk17codecvtIcc9mbstate_tE2idE"
+  },
+  {
+    "offset": "0x4284",
+    "value": "_Znam"
+  },
+  {
+    "offset": "0x428a",
+    "value": "_ZNSt6__ndk113basic_filebufIcNS_11char_traitsIcEEE6setbufEPcl"
+  },
+  {
+    "offset": "0x42c8",
+    "value": "_ZNSt6__ndk113basic_filebufIcNS_11char_traitsIcEEE7seekoffExNS_8ios_base7seekdirEj"
+  },
+  {
+    "offset": "0x431b",
+    "value": "fseeko"
+  },
+  {
+    "offset": "0x4322",
+    "value": "ftello"
+  },
+  {
+    "offset": "0x4329",
+    "value": "_ZNSt6__ndk113basic_filebufIcNS_11char_traitsIcEEE7seekposENS_4fposI9mbstate_tEEj"
+  },
+  {
+    "offset": "0x437b",
+    "value": "fwrite"
+  },
+  {
+    "offset": "0x4382",
+    "value": "fflush"
+  },
+  {
+    "offset": "0x4389",
+    "value": "_ZNSt6__ndk113basic_filebufIcNS_11char_traitsIcEEE9underflowEv"
+  },
+  {
+    "offset": "0x43c8",
+    "value": "fread"
+  },
+  {
+    "offset": "0x43ce",
+    "value": "_ZNSt6__ndk113basic_filebufIcNS_11char_traitsIcEEE9pbackfailEi"
+  },
+  {
+    "offset": "0x440d",
+    "value": "_ZNSt6__ndk113basic_filebufIcNS_11char_traitsIcEEE8overflowEi"
+  },
+  {
+    "offset": "0x444b",
+    "value": "_ZNSt6__ndk114basic_ofstreamIcNS_11char_traitsIcEEED1Ev"
+  },
+  {
+    "offset": "0x4483",
+    "value": "_ZNSt6__ndk16localeC1ERKS0_"
+  },
+  {
+    "offset": "0x449f",
+    "value": "_ZNKSt6__ndk16locale9has_facetERNS0_2idE"
+  },
+  {
+    "offset": "0x44c8",
+    "value": "_ZNSt6__ndk114basic_ofstreamIcNS_11char_traitsIcEEED0Ev"
+  },
+  {
+    "offset": "0x4500",
+    "value": "_ZTv0_n24_NSt6__ndk114basic_ofstreamIcNS_11char_traitsIcEEED1Ev"
+  },
+  {
+    "offset": "0x4540",
+    "value": "_ZTv0_n24_NSt6__ndk114basic_ofstreamIcNS_11char_traitsIcEEED0Ev"
+  },
+  {
+    "offset": "0x4580",
+    "value": "_ZTv0_n24_NSt6__ndk119basic_istringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev"
+  },
+  {
+    "offset": "0x45d6",
+    "value": "_ZNSt6__ndk119basic_istringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED0Ev"
+  },
+  {
+    "offset": "0x4624",
+    "value": "_ZTv0_n24_NSt6__ndk119basic_istringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED0Ev"
+  },
+  {
+    "offset": "0x467a",
+    "value": "_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEE6sentryC1ERS3_"
+  },
+  {
+    "offset": "0x46bb",
+    "value": "_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEE6sentryD1Ev"
+  },
+  {
+    "offset": "0x46f9",
+    "value": "_ZTCNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE0_NS_14basic_iostreamIcS2_EE"
+  },
+  {
+    "offset": "0x4761",
+    "value": "_ZTCNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE16_NS_13basic_ostreamIcS2_EE"
+  },
+  {
+    "offset": "0x47c9",
+    "value": "_ZNSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEED1Ev"
+  },
+  {
+    "offset": "0x4801",
+    "value": "_ZNSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEED0Ev"
+  },
+  {
+    "offset": "0x4839",
+    "value": "_ZThn16_NSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEED1Ev"
+  },
+  {
+    "offset": "0x4877",
+    "value": "_ZThn16_NSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEED0Ev"
+  },
+  {
+    "offset": "0x48b5",
+    "value": "_ZTv0_n24_NSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEED1Ev"
+  },
+  {
+    "offset": "0x48f5",
+    "value": "_ZTv0_n24_NSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEED0Ev"
+  },
+  {
+    "offset": "0x4935",
+    "value": "_ZNSt6__ndk113basic_istreamIcNS_11char_traitsIcEEED1Ev"
+  },
+  {
+    "offset": "0x496c",
+    "value": "_ZNSt6__ndk113basic_istreamIcNS_11char_traitsIcEEED0Ev"
+  },
+  {
+    "offset": "0x49a3",
+    "value": "_ZTv0_n24_NSt6__ndk113basic_istreamIcNS_11char_traitsIcEEED1Ev"
+  },
+  {
+    "offset": "0x49e2",
+    "value": "_ZTv0_n24_NSt6__ndk113basic_istreamIcNS_11char_traitsIcEEED0Ev"
+  },
+  {
+    "offset": "0x4a21",
+    "value": "_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEED1Ev"
+  },
+  {
+    "offset": "0x4a58",
+    "value": "_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEED0Ev"
+  },
+  {
+    "offset": "0x4a8f",
+    "value": "_ZTv0_n24_NSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEED1Ev"
+  },
+  {
+    "offset": "0x4ace",
+    "value": "_ZTv0_n24_NSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEED0Ev"
+  },
+  {
+    "offset": "0x4b0d",
+    "value": "_ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEE5imbueERKNS_6localeE"
+  },
+  {
+    "offset": "0x4b56",
+    "value": "_ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEE6setbufEPcl"
+  },
+  {
+    "offset": "0x4b96",
+    "value": "_ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEE4syncEv"
+  },
+  {
+    "offset": "0x4bd2",
+    "value": "_ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEE9showmanycEv"
+  },
+  {
+    "offset": "0x4c13",
+    "value": "_ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEE6xsgetnEPcl"
+  },
+  {
+    "offset": "0x4c53",
+    "value": "_ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEE5uflowEv"
+  },
+  {
+    "offset": "0x4c90",
+    "value": "_ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEE6xsputnEPKcl"
+  },
+  {
+    "offset": "0x4cd1",
+    "value": "libc.so"
+  },
+  {
+    "offset": "0x4cd9",
+    "value": "LIBC"
+  },
+  {
+    "offset": "0x4cde",
+    "value": "libc++_shared.so"
+  },
+  {
+    "offset": "0x4cef",
+    "value": "liblog.so"
+  },
+  {
+    "offset": "0x4cf9",
+    "value": "libandroid.so"
+  },
+  {
+    "offset": "0x4d07",
+    "value": "libm.so"
+  },
+  {
+    "offset": "0x4d0f",
+    "value": "libdl.so"
+  },
+  {
+    "offset": "0x4d18",
+    "value": "libngi_pro_engine.so"
+  },
+  {
+    "offset": "0x6468",
+    "value": "Type: "
+  },
+  {
+    "offset": "0x646f",
+    "value": "[FUNC]["
+  },
+  {
+    "offset": "0x6477",
+    "value": "Found '"
+  },
+  {
+    "offset": "0x6480",
+    "value": "Total: "
+  },
+  {
+    "offset": "0x6488",
+    "value": " | off="
+  },
+  {
+    "offset": "0x6490",
+    "value": ".rela.plt"
+  },
+  {
+    "offset": "0x649a",
+    "value": "{\"error\":\".text not found\"}"
+  },
+  {
+    "offset": "0x64b6",
+    "value": "/sections.txt"
+  },
+  {
+    "offset": "0x64c4",
+    "value": "Target: "
+  },
+  {
+    "offset": "0x64cd",
+    "value": "[-] Error: not enough bytes read"
+  },
+  {
+    "offset": "0x64ee",
+    "value": "  TAIL_CALL/EXTERNAL_JUMP -> 0x"
+  },
+  {
+    "offset": "0x650e",
+    "value": "// epilogue: restore x29/x30, release stack frame"
+  },
+  {
+    "offset": "0x6541",
+    "value": "goto loc_"
+  },
+  {
+    "offset": "0x654b",
+    "value": "(no matches)"
+  },
+  {
+    "offset": "0x6559",
+    "value": "/cfg.json"
+  },
+  {
+    "offset": "0x6563",
+    "value": "/sensitive_strings.txt"
+  },
+  {
+    "offset": "0x657a",
+    "value": "Artifacts:"
+  },
+  {
+    "offset": "0x6586",
+    "value": " - strings_all.txt"
+  },
+  {
+    "offset": "0x6599",
+    "value": " - sensitive_strings.txt"
+  },
+  {
+    "offset": "0x65b2",
+    "value": " - security_audit.txt"
+  },
+  {
+    "offset": "0x65c8",
+    "value": " - cfg.json"
+  },
+  {
+    "offset": "0x65d5",
+    "value": "// Reference Tracking "
+  },
+  {
+    "offset": "0x65ee",
+    "value": " outgoing calls & data refs, code-based"
+  },
+  {
+    "offset": "0x661a",
+    "value": "], #"
+  },
+  {
+    "offset": "0x6623",
+    "value": "    -> 0x"
+  },
+  {
+    "offset": "0x6634",
+    "value": "[CODE] 0x"
+  },
+  {
+    "offset": "0x663e",
+    "value": " code refs, "
+  },
+  {
+    "offset": "0x664b",
+    "value": "<dyn>"
+  },
+  {
+    "offset": "0x6651",
+    "value": ".text"
+  },
+  {
+    "offset": "0x6657",
+    "value": ".bss"
+  },
+  {
+    "offset": "0x665c",
+    "value": ".init_array"
+  },
+  {
+    "offset": "0x6668",
+    "value": "- strings_all.txt"
+  },
+  {
+    "offset": "0x667b",
+    "value": ", LSL #"
+  },
+  {
+    "offset": "0x6683",
+    "value": " (fallthrough)"
+  },
+  {
+    "offset": "0x6696",
+    "value": "ShOff: 0x"
+  },
+  {
+    "offset": "0x66a0",
+    "value": " results"
+  },
+  {
+    "offset": "0x66aa",
+    "value": "[!] WARNING: File is Packed with UPX."
+  },
+  {
+    "offset": "0x66d1",
+    "value": "[PLT] "
+  },
+  {
+    "offset": "0x66d8",
+    "value": "- sensitive_strings.txt"
+  },
+  {
+    "offset": "0x66f1",
+    "value": " - suspicious_instructions.txt"
+  },
+  {
+    "offset": "0x6716",
+    "value": "OTHER"
+  },
+  {
+    "offset": "0x671c",
+    "value": "prctl"
+  },
+  {
+    "offset": "0x6722",
+    "value": "--- [ ARM64 DISASSEMBLY ] ---"
+  },
+  {
+    "offset": "0x6741",
+    "value": "Error: Sections failed."
+  },
+  {
+    "offset": "0x6759",
+    "value": "Error: invalid input paths."
+  },
+  {
+    "offset": "0x6775",
+    "value": "/.rodata.bin"
+  },
+  {
+    "offset": "0x6782",
+    "value": "# NGI PRO Full Dump"
+  },
+  {
+    "offset": "0x679c",
+    "value": "Error: Short read."
+  },
+  {
+    "offset": "0x67b2",
+    "value": "--- [ LINKS & IPS ] ---"
+  },
+  {
+    "offset": "0x67cb",
+    "value": "Error: File open failed."
+  },
+  {
+    "offset": "0x67e6",
+    "value": "[i] INFO: seccomp usage suspected."
+  },
+  {
+    "offset": "0x680a",
+    "value": " -> GOT@"
+  },
+  {
+    "offset": "0x6813",
+    "value": "mmap"
+  },
+  {
+    "offset": "0x6818",
+    "value": "/report.md"
+  },
+  {
+    "offset": "0x6823",
+    "value": " external jumps --"
+  },
+  {
+    "offset": "0x683d",
+    "value": "    {\"name\":\""
+  },
+  {
+    "offset": "0x684b",
+    "value": "; // STP"
+  },
+  {
+    "offset": "0x6855",
+    "value": "(no direct BL callers found "
+  },
+  {
+    "offset": "0x6874",
+    "value": " target may not be a function,"
+  },
+  {
+    "offset": "0x6893",
+    "value": " or is only reached indirectly via function pointer)"
+  },
+  {
+    "offset": "0x68c9",
+    "value": "[i] Bits: 64"
+  },
+  {
+    "offset": "0x68d7",
+    "value": " data refs"
+  },
+  {
+    "offset": "0x68e3",
+    "value": ".rodata"
+  },
+  {
+    "offset": "0x68ef",
+    "value": "secret"
+  },
+  {
+    "offset": "0x68f6",
+    "value": "- symbols.txt"
+  },
+  {
+    "offset": "0x6905",
+    "value": "CBNZ"
+  },
+  {
+    "offset": "0x690a",
+    "value": " bytes stack frame"
+  },
+  {
+    "offset": "0x6922",
+    "value": "\" ] ---"
+  },
+  {
+    "offset": "0x6936",
+    "value": "*(int64_t*)(x"
+  },
+  {
+    "offset": "0x6944",
+    "value": " * x"
+  },
+  {
+    "offset": "0x6949",
+    "value": "<sym>"
+  },
+  {
+    "offset": "0x694f",
+    "value": "/.data.bin"
+  },
+  {
+    "offset": "0x695a",
+    "value": "pass"
+  },
+  {
+    "offset": "0x695f",
+    "value": "auth"
+  },
+  {
+    "offset": "0x6965",
+    "value": "-- Summary: "
+  },
+  {
+    "offset": "0x6972",
+    "value": ".onion"
+  },
+  {
+    "offset": "0x697f",
+    "value": "{\"from\":\""
+  },
+  {
+    "offset": "0x6989",
+    "value": "// x29 = frame pointer"
+  },
+  {
+    "offset": "0x69a1",
+    "value": "Class: "
+  },
+  {
+    "offset": "0x69a9",
+    "value": "--- [ FUNCTIONS ] ---"
+  },
+  {
+    "offset": "0x69c0",
+    "value": " @ 0x"
+  },
+  {
+    "offset": "0x69c6",
+    "value": ".rela.dyn"
+  },
+  {
+    "offset": "0x69d0",
+    "value": "/security_audit.txt"
+  },
+  {
+    "offset": "0x69e4",
+    "value": "http://"
+  },
+  {
+    "offset": "0x69ec",
+    "value": "\",\"to\":\""
+  },
+  {
+    "offset": "0x69f5",
+    "value": "    -> BB_"
+  },
+  {
+    "offset": "0x6a00",
+    "value": "    "
+  },
+  {
+    "offset": "0x6a05",
+    "value": " = *(int64_t*)(x"
+  },
+  {
+    "offset": "0x6a16",
+    "value": "local_"
+  },
+  {
+    "offset": "0x6a21",
+    "value": "Error: Memory mapping failed."
+  },
+  {
+    "offset": "0x6a3f",
+    "value": "--- [ CALLERS OF 0x"
+  },
+  {
+    "offset": "0x6a53",
+    "value": "--- [ NGI PRO AUTO-REPORT ] ---"
+  },
+  {
+    "offset": "0x6a74",
+    "value": "[i] Bits: 32"
+  },
+  {
+    "offset": "0x6a82",
+    "value": "Error: Sections read failed."
+  },
+  {
+    "offset": "0x6a9f",
+    "value": "- .text.bin, .data.bin, .rodata.bin, .bss.bin, .got.bin, .plt.bin, .init_array.bin"
+  },
+  {
+    "offset": "0x6af6",
+    "value": ", 0x"
+  },
+  {
+    "offset": "0x6afb",
+    "value": "<anon>"
+  },
+  {
+    "offset": "0x6b04",
+    "value": " - 0x"
+  },
+  {
+    "offset": "0x6b0a",
+    "value": "// NGI PRO Decompiler "
+  },
+  {
+    "offset": "0x6b23",
+    "value": " heuristic pseudo-C (approximate, not type-aware)"
+  },
+  {
+    "offset": "0x6b56",
+    "value": "// prologue: save x29/x30, allocate "
+  },
+  {
+    "offset": "0x6b7b",
+    "value": " = local_"
+  },
+  {
+    "offset": "0x6b85",
+    "value": "LOCAL"
+  },
+  {
+    "offset": "0x6b8b",
+    "value": "<invalid_name>"
+  },
+  {
+    "offset": "0x6ba8",
+    "value": "Entry: 0x"
+  },
+  {
+    "offset": "0x6bb2",
+    "value": " | PhOff: 0x"
+  },
+  {
+    "offset": "0x6bbf",
+    "value": "execve"
+  },
+  {
+    "offset": "0x6bc6",
+    "value": "- security_audit.txt"
+  },
+  {
+    "offset": "0x6bf1",
+    "value": "],\"calls\":["
+  },
+  {
+    "offset": "0x6bff",
+    "value": " (taken), "
+  },
+  {
+    "offset": "0x6c0a",
+    "value": ") goto loc_"
+  },
+  {
+    "offset": "0x6c16",
+    "value": "Endian: "
+  },
+  {
+    "offset": "0x6c1f",
+    "value": " | Segments: "
+  },
+  {
+    "offset": "0x6c2d",
+    "value": "[!] DANGER: execve syscall referenced."
+  },
+  {
+    "offset": "0x6c55",
+    "value": ".dynstr"
+  },
+  {
+    "offset": "0x6c5d",
+    "value": ".rel.plt"
+  },
+  {
+    "offset": "0x6c68",
+    "value": "  \"functions\": ["
+  },
+  {
+    "offset": "0x6c7a",
+    "value": "  ],\"note\":\"CFG currently implemented for ELF64 (ARM64)\""
+  },
+  {
+    "offset": "0x6cb5",
+    "value": ".data"
+  },
+  {
+    "offset": "0x6cbb",
+    "value": "/strings_all.txt"
+  },
+  {
+    "offset": "0x6ccc",
+    "value": "/suspicious_instructions.txt"
+  },
+  {
+    "offset": "0x6ce9",
+    "value": "- imports.txt"
+  },
+  {
+    "offset": "0x6cfb",
+    "value": "[hit] "
+  },
+  {
+    "offset": "0x6d02",
+    "value": "int64_t "
+  },
+  {
+    "offset": "0x6d0b",
+    "value": "[i] Arch: "
+  },
+  {
+    "offset": "0x6d16",
+    "value": "ARM64"
+  },
+  {
+    "offset": "0x6d1c",
+    "value": "--- [ SECTIONS ] ---"
+  },
+  {
+    "offset": "0x6d35",
+    "value": "  CALL -> 0x"
+  },
+  {
+    "offset": "0x6d42",
+    "value": " data refs, "
+  },
+  {
+    "offset": "0x6d57",
+    "value": "Error: Open failed."
+  },
+  {
+    "offset": "0x6d6b",
+    "value": "GLOBAL"
+  },
+  {
+    "offset": "0x6d72",
+    "value": "Error: mmap failed."
+  },
+  {
+    "offset": "0x6d86",
+    "value": "  (BL)"
+  },
+  {
+    "offset": "0x6d8e",
+    "value": "/.init_array.bin"
+  },
+  {
+    "offset": "0x6d9f",
+    "value": " == 0) goto loc_"
+  },
+  {
+    "offset": "0x6db0",
+    "value": "Sections: "
+  },
+  {
+    "offset": "0x6dbb",
+    "value": "--- [ IMPORT RESOLUTION ] ---"
+  },
+  {
+    "offset": "0x6dda",
+    "value": "Output: "
+  },
+  {
+    "offset": "0x6de3",
+    "value": "https://"
+  },
+  {
+    "offset": "0x6def",
+    "value": "if (x"
+  },
+  {
+    "offset": "0x6df5",
+    "value": " @0x"
+  },
+  {
+    "offset": "0x6dfa",
+    "value": "[i] INFO: Anti-Debugging (ptrace) detected."
+  },
+  {
+    "offset": "0x6e27",
+    "value": " | addr="
+  },
+  {
+    "offset": "0x6e30",
+    "value": "/imports.txt"
+  },
+  {
+    "offset": "0x6e48",
+    "value": "    -> (return)"
+  },
+  {
+    "offset": "0x6e59",
+    "value": "// Generated from ARM64 disassembly, start=0x"
+  },
+  {
+    "offset": "0x6e87",
+    "value": "// stack pointer adjust: sp += "
+  },
+  {
+    "offset": "0x6ea8",
+    "value": "    // "
+  },
+  {
+    "offset": "0x6ece",
+    "value": " prologue "
+  },
+  {
+    "offset": "0x6ee2",
+    "value": " (STP x29,x30) "
+  },
+  {
+    "offset": "0x6f6d",
+    "value": "[i] INFO: prctl use detected."
+  },
+  {
+    "offset": "0x6f8f",
+    "value": "_code"
+  },
+  {
+    "offset": "0x6f95",
+    "value": "/strings_scan.txt"
+  },
+  {
+    "offset": "0x6fa7",
+    "value": "mprotect"
+  },
+  {
+    "offset": "0x6fb0",
+    "value": "- cfg.json"
+  },
+  {
+    "offset": "0x6fc5",
+    "value": "\",\"blocks\":["
+  },
+  {
+    "offset": "0x6fd5",
+    "value": " | size="
+  },
+  {
+    "offset": "0x6fde",
+    "value": ".strtab"
+  },
+  {
+    "offset": "0x6fe6",
+    "value": "  DATA_REF -> 0x"
+  },
+  {
+    "offset": "0x6ff7",
+    "value": "MOVZ"
+  },
+  {
+    "offset": "0x7000",
+    "value": "],\"branches\":["
+  },
+  {
+    "offset": "0x700f",
+    "value": ", condition unresolved */) goto loc_"
+  },
+  {
+    "offset": "0x7034",
+    "value": "UPX!"
+  },
+  {
+    "offset": "0x7041",
+    "value": "## Files generated"
+  },
+  {
+    "offset": "0x7058",
+    "value": " != 0) goto loc_"
+  },
+  {
+    "offset": "0x706e",
+    "value": "--- [ AOB PATTERN SCAN: "
+  },
+  {
+    "offset": "0x7087",
+    "value": "[DATA] 0x"
+  },
+  {
+    "offset": "0x7091",
+    "value": "/.plt.bin"
+  },
+  {
+    "offset": "0x709b",
+    "value": " = x"
+  },
+  {
+    "offset": "0x70a0",
+    "value": "ELF32"
+  },
+  {
+    "offset": "0x70a8",
+    "value": "[i] Total: "
+  },
+  {
+    "offset": "0x70b4",
+    "value": "Other"
+  },
+  {
+    "offset": "0x70ba",
+    "value": "/.got.bin"
+  },
+  {
+    "offset": "0x70c4",
+    "value": ".plt"
+  },
+  {
+    "offset": "0x70c9",
+    "value": "syscall"
+  },
+  {
+    "offset": "0x70d1",
+    "value": "- elf_header.txt"
+  },
+  {
+    "offset": "0x70e9",
+    "value": "\",\"start\":\""
+  },
+  {
+    "offset": "0x70f9",
+    "value": "stack_"
+  },
+  {
+    "offset": "0x7100",
+    "value": "// compare "
+  },
+  {
+    "offset": "0x710c",
+    "value": "--- [ ELF INFO ] ---"
+  },
+  {
+    "offset": "0x7122",
+    "value": "system("
+  },
+  {
+    "offset": "0x712a",
+    "value": "/.bss.bin"
+  },
+  {
+    "offset": "0x7134",
+    "value": "- sections.txt"
+  },
+  {
+    "offset": "0x714e",
+    "value": ", [x"
+  },
+  {
+    "offset": "0x7153",
+    "value": "loc_"
+  },
+  {
+    "offset": "0x715d",
+    "value": "return x"
+  },
+  {
+    "offset": "0x7166",
+    "value": "Machine: "
+  },
+  {
+    "offset": "0x7170",
+    "value": "Bytes at 0x"
+  },
+  {
+    "offset": "0x717f",
+    "value": "[!] DANGER: 'system()' call found."
+  },
+  {
+    "offset": "0x71a3",
+    "value": "[i] No dynamic symbols."
+  },
+  {
+    "offset": "0x71bc",
+    "value": "Error: cannot create folder "
+  },
+  {
+    "offset": "0x71d9",
+    "value": "flag"
+  },
+  {
+    "offset": "0x71e2",
+    "value": " - elf_header.txt"
+  },
+  {
+    "offset": "0x71f4",
+    "value": " - sections.txt"
+  },
+  {
+    "offset": "0x7204",
+    "value": " - symbols.txt"
+  },
+  {
+    "offset": "0x7213",
+    "value": " - imports.txt"
+  },
+  {
+    "offset": "0x7222",
+    "value": " - strings_scan.txt"
+  },
+  {
+    "offset": "0x723d",
+    "value": " basic blocks, code-based (no symbols used)"
+  },
+  {
+    "offset": "0x726b",
+    "value": "if ("
+  },
+  {
+    "offset": "0x7270",
+    "value": " = (int64_t)0x"
+  },
+  {
+    "offset": "0x727f",
+    "value": "; // address"
+  },
+  {
+    "offset": "0x728d",
+    "value": "ELF64"
+  },
+  {
+    "offset": "0x7293",
+    "value": "Error: empty or unreadable file."
+  },
+  {
+    "offset": "0x72b4",
+    "value": "... truncated at "
+  },
+  {
+    "offset": "0x72c6",
+    "value": "--- [ X-REFS TO 0x"
+  },
+  {
+    "offset": "0x72d9",
+    "value": "sub_"
+  },
+  {
+    "offset": "0x72de",
+    "value": " calls, "
+  },
+  {
+    "offset": "0x72ed",
+    "value": "call_0x"
+  },
+  {
+    "offset": "0x72f5",
+    "value": "// nop"
+  },
+  {
+    "offset": "0x72fd",
+    "value": "syscall("
+  },
+  {
+    "offset": "0x7306",
+    "value": "--- [ SEARCH RESULTS: \""
+  },
+  {
+    "offset": "0x731e",
+    "value": "ptrace"
+  },
+  {
+    "offset": "0x7325",
+    "value": "/symbols.txt"
+  },
+  {
+    "offset": "0x7332",
+    "value": "- suspicious_instructions.txt"
+  },
+  {
+    "offset": "0x7351",
+    "value": "[-] Error: could not open file"
+  },
+  {
+    "offset": "0x7377",
+    "value": "// CFG Recovery "
+  },
+  {
+    "offset": "0x738c",
+    "value": " (unconditional, external)"
+  },
+  {
+    "offset": "0x73a8",
+    "value": "Little"
+  },
+  {
+    "offset": "0x73af",
+    "value": "WEAK"
+  },
+  {
+    "offset": "0x73b4",
+    "value": " (size "
+  },
+  {
+    "offset": "0x73bc",
+    "value": "seccomp"
+  },
+  {
+    "offset": "0x73c4",
+    "value": "(no references found)"
+  },
+  {
+    "offset": "0x73db",
+    "value": "/.text.bin"
+  },
+  {
+    "offset": "0x73e6",
+    "value": ".got"
+  },
+  {
+    "offset": "0x73ef",
+    "value": " [unknown]"
+  },
+  {
+    "offset": "0x73fa",
+    "value": ") = x"
+  },
+  {
+    "offset": "0x7400",
+    "value": " ] ---"
+  },
+  {
+    "offset": "0x7410",
+    "value": "/elf_header.txt"
+  },
+  {
+    "offset": "0x7421",
+    "value": "Report: "
+  },
+  {
+    "offset": "0x742e",
+    "value": "' at Offset: 0x"
+  },
+  {
+    "offset": "0x743e",
+    "value": " | type="
+  },
+  {
+    "offset": "0x7447",
+    "value": "fork"
+  },
+  {
+    "offset": "0x744c",
+    "value": "- strings_scan.txt"
+  },
+  {
+    "offset": "0x7460",
+    "value": "/report.md"
+  },
+  {
+    "offset": "0x7470",
+    "value": " (unconditional)"
+  },
+  {
+    "offset": "0x7482",
+    "value": "    -> "
+  },
+  {
+    "offset": "0x748a",
+    "value": " = stack_"
+  },
+  {
+    "offset": "0x7494",
+    "value": "token"
+  },
+  {
+    "offset": "0x749a",
+    "value": "=== [ NGI PRO FULL DUMP ] ==="
+  },
+  {
+    "offset": "0x74b9",
+    "value": "Saved to: "
+  },
+  {
+    "offset": "0x74c8",
+    "value": " [0x"
+  },
+  {
+    "offset": "0x74cd",
+    "value": "    0x"
+  },
+  {
+    "offset": "0x74d4",
+    "value": "if (/* "
+  },
+  {
+    "offset": "0x74dc",
+    "value": "Error: Not an ELF file."
+  },
+  {
+    "offset": "0x74f4",
+    "value": ".rel.dyn"
+  },
+  {
+    "offset": "0x74fd",
+    "value": " - .text.bin .data.bin .rodata.bin .bss.bin .got.bin .plt.bin .init_array.bin"
+  },
+  {
+    "offset": "0x7552",
+    "value": "() {"
+  },
+  {
+    "offset": "0x7558",
+    "value": "); // LDP, post += "
+  },
+  {
+    "offset": "0x756c",
+    "value": "// stack pointer adjust: sp -= "
+  },
+  {
+    "offset": "0x758c",
+    "value": "/* unknown 0x"
+  },
+  {
+    "offset": "0x8b0e",
+    "value": "@yhM"
+  },
+  {
+    "offset": "0x8b26",
+    "value": "@ybM"
+  },
+  {
+    "offset": "0x8e62",
+    "value": "B9Ha"
+  },
+  {
+    "offset": "0x9069",
+    "value": "SD9Z"
+  },
+  {
+    "offset": "0x9631",
+    "value": "#B9("
+  },
+  {
+    "offset": "0x9b0a",
+    "value": "E9Ha"
+  },
+  {
+    "offset": "0x9ce5",
+    "value": "kz8("
+  },
+  {
+    "offset": "0x9d87",
+    "value": "nc(a"
+  },
+  {
+    "offset": "0x9d8c",
+    "value": "#(aN"
+  },
+  {
+    "offset": "0x9de4",
+    "value": "$(aN"
+  },
+  {
+    "offset": "0x9df7",
+    "value": "n!(a"
+  },
+  {
+    "offset": "0x9dfc",
+    "value": "A(aN!(!"
+  },
+  {
+    "offset": "0x9e09",
+    "value": "(!N`"
+  },
+  {
+    "offset": "0xaa81",
+    "value": "#C9h"
+  },
+  {
+    "offset": "0xad92",
+    "value": "D9Ha"
+  },
+  {
+    "offset": "0xbb1e",
+    "value": "F9Ic"
+  },
+  {
+    "offset": "0xbc1d",
+    "value": "B@9h"
+  },
+  {
+    "offset": "0xbd8f",
+    "value": "R!p."
+  },
+  {
+    "offset": "0xc281",
+    "value": "C@9H"
+  },
+  {
+    "offset": "0xc42d",
+    "value": "C@9h"
+  },
+  {
+    "offset": "0xc884",
+    "value": "Ai{8"
+  },
+  {
+    "offset": "0xc9ce",
+    "value": "B9Ha"
+  },
+  {
+    "offset": "0xcc88",
+    "value": "?k88"
+  },
+  {
+    "offset": "0xd0a7",
+    "value": "Th'@y"
+  },
+  {
+    "offset": "0xd0d3",
+    "value": "RB,4"
+  },
+  {
+    "offset": "0xd40e",
+    "value": "D9Ha"
+  },
+  {
+    "offset": "0xd5d5",
+    "value": "CA9H"
+  },
+  {
+    "offset": "0xd78a",
+    "value": "D9Ha"
+  },
+  {
+    "offset": "0xd951",
+    "value": "CA9H"
+  },
+  {
+    "offset": "0xdfa2",
+    "value": "D9Ha"
+  },
+  {
+    "offset": "0xe216",
+    "value": "B9hc"
+  },
+  {
+    "offset": "0xe333",
+    "value": "R!T?"
+  },
+  {
+    "offset": "0xe3f5",
+    "value": "#A9H"
+  },
+  {
+    "offset": "0xe4a3",
+    "value": "R!T?"
+  },
+  {
+    "offset": "0xe565",
+    "value": "#A9H"
+  },
+  {
+    "offset": "0xe8f4",
+    "value": "?k78w"
+  },
+  {
+    "offset": "0xec11",
+    "value": "UB)U"
+  },
+  {
+    "offset": "0xed48",
+    "value": "_k88x"
+  },
+  {
+    "offset": "0xeeb9",
+    "value": "sD9Z"
+  },
+  {
+    "offset": "0xf121",
+    "value": "0})?-"
+  },
+  {
+    "offset": "0xf5af",
+    "value": "R!( "
+  },
+  {
+    "offset": "0xf601",
+    "value": "CC9h"
+  },
+  {
+    "offset": "0xf7c7",
+    "value": "R!( "
+  },
+  {
+    "offset": "0xf819",
+    "value": "CC9h"
+  },
+  {
+    "offset": "0xfd57",
+    "value": "R!( "
+  },
+  {
+    "offset": "0xfda9",
+    "value": "#B9h"
+  },
+  {
+    "offset": "0xfe00",
+    "value": "?k:8"
+  },
+  {
+    "offset": "0xff7b",
+    "value": "R!( "
+  },
+  {
+    "offset": "0xffcd",
+    "value": "#B9h"
+  },
+  {
+    "offset": "0x10024",
+    "value": "?k:8"
+  },
+  {
+    "offset": "0x1013a",
+    "value": "E9Ha"
+  },
+  {
+    "offset": "0x10291",
+    "value": "SH9{"
+  },
+  {
+    "offset": "0x106d3",
+    "value": "q-'@"
+  },
+  {
+    "offset": "0x11710",
+    "value": "?k78h"
+  },
+  {
+    "offset": "0x117d0",
+    "value": "?k78h"
+  },
+  {
+    "offset": "0x11999",
+    "value": "CQ9Hc"
+  },
+  {
+    "offset": "0x119e9",
+    "value": "CF9h"
+  },
+  {
+    "offset": "0x11b10",
+    "value": "_k88h"
+  },
+  {
+    "offset": "0x11bfc",
+    "value": "_k88h"
+  },
+  {
+    "offset": "0x11ce8",
+    "value": "_k88h"
+  },
+  {
+    "offset": "0x11dd4",
+    "value": "_k88h"
+  },
+  {
+    "offset": "0x11ec0",
+    "value": "_k88h"
+  },
+  {
+    "offset": "0x11fac",
+    "value": "_k88h"
+  },
+  {
+    "offset": "0x120a0",
+    "value": "?k78h"
+  },
+  {
+    "offset": "0x12e55",
+    "value": "CG9h"
+  },
+  {
+    "offset": "0x12ead",
+    "value": "CG9h"
+  },
+  {
+    "offset": "0x12f05",
+    "value": "CG9h"
+  },
+  {
+    "offset": "0x12f5d",
+    "value": "CG9h"
+  },
+  {
+    "offset": "0x12fb5",
+    "value": "CG9h"
+  },
+  {
+    "offset": "0x1300d",
+    "value": "CG9h"
+  },
+  {
+    "offset": "0x13065",
+    "value": "CG9h"
+  },
+  {
+    "offset": "0x13119",
+    "value": "CG9h"
+  },
+  {
+    "offset": "0x13171",
+    "value": "CG9h"
+  },
+  {
+    "offset": "0x131c9",
+    "value": "CG9h"
+  },
+  {
+    "offset": "0x13221",
+    "value": "CG9h"
+  },
+  {
+    "offset": "0x13279",
+    "value": "CG9h"
+  },
+  {
+    "offset": "0x132d1",
+    "value": "CG9h"
+  },
+  {
+    "offset": "0x13329",
+    "value": "CG9h"
+  },
+  {
+    "offset": "0x138bf",
+    "value": "nc(a"
+  },
+  {
+    "offset": "0x138c4",
+    "value": "#(aN"
+  },
+  {
+    "offset": "0x13918",
+    "value": "$(aN"
+  },
+  {
+    "offset": "0x1392b",
+    "value": "n!(a"
+  },
+  {
+    "offset": "0x13930",
+    "value": "A(aN!(!"
+  },
+  {
+    "offset": "0x1393d",
+    "value": "(!N`"
+  },
+  {
+    "offset": "0x13cef",
+    "value": "R?k78"
+  },
+  {
+    "offset": "0x13e45",
+    "value": "#A9("
+  },
+  {
+    "offset": "0x13ebe",
+    "value": "L9Hc"
+  },
+  {
+    "offset": "0x14932",
+    "value": "L9Hc"
+  },
+  {
+    "offset": "0x14981",
+    "value": "CG9h"
+  },
+  {
+    "offset": "0x14991",
+    "value": "CB9h"
+  },
+  {
+    "offset": "0x149ed",
+    "value": "CC9H"
+  },
+  {
+    "offset": "0x14a2d",
+    "value": "CE9H"
+  },
+  {
+    "offset": "0x14ae1",
+    "value": "CG9h"
+  },
+  {
+    "offset": "0x14b76",
+    "value": "K9(F"
+  },
+  {
+    "offset": "0x14cb6",
+    "value": "@99`@"
+  },
+  {
+    "offset": "0x14d0f",
+    "value": "T++@"
+  },
+  {
+    "offset": "0x14d31",
+    "value": "ji8_"
+  },
+  {
+    "offset": "0x14ffa",
+    "value": "@97d@"
+  },
+  {
+    "offset": "0x15075",
+    "value": "ji8_"
+  },
+  {
+    "offset": "0x1512d",
+    "value": "j68H"
+  },
+  {
+    "offset": "0x15259",
+    "value": "#@9h"
+  },
+  {
+    "offset": "0x152e3",
+    "value": "6`2@"
+  },
+  {
+    "offset": "0x15709",
+    "value": "CC9h"
+  },
+  {
+    "offset": "0x157d5",
+    "value": "cA9H"
+  },
+  {
+    "offset": "0x158a0",
+    "value": "?k88h"
+  },
+  {
+    "offset": "0x15c09",
+    "value": "CE9h"
+  },
+  {
+    "offset": "0x15c31",
+    "value": "CE9h"
+  },
+  {
+    "offset": "0x160a7",
+    "value": "R!D5"
+  },
+  {
+    "offset": "0x1616c",
+    "value": "(C@9+"
+  },
+  {
+    "offset": "0x161ba",
+    "value": "@9++C"
+  },
+  {
+    "offset": "0x161fb",
+    "value": "TJ/@"
+  },
+  {
+    "offset": "0x16449",
+    "value": "CB9h"
+  },
+  {
+    "offset": "0x1649f",
+    "value": "TI/@"
+  },
+  {
+    "offset": "0x16c71",
+    "value": "#A9h"
+  },
+  {
+    "offset": "0x16cb1",
+    "value": "#A9("
+  },
+  {
+    "offset": "0x16d6d",
+    "value": "CD9;"
+  },
+  {
+    "offset": "0x16f1c",
+    "value": "?k88h"
+  },
+  {
+    "offset": "0x175cf",
+    "value": "T(/@"
+  },
+  {
+    "offset": "0x17ae4",
+    "value": "jyhx)"
+  },
+  {
+    "offset": "0x17c17",
+    "value": "R!(0"
+  },
+  {
+    "offset": "0x17c75",
+    "value": "CB9h4"
+  },
+  {
+    "offset": "0x17dcb",
+    "value": "R!|6"
+  },
+  {
+    "offset": "0x17eff",
+    "value": "R!x$"
+  },
+  {
+    "offset": "0x17ffb",
+    "value": "R!X-"
+  },
+  {
+    "offset": "0x1801f",
+    "value": "R!($"
+  },
+  {
+    "offset": "0x18147",
+    "value": "R!X("
+  },
+  {
+    "offset": "0x18347",
+    "value": "R!x$"
+  },
+  {
+    "offset": "0x18385",
+    "value": "CB9t"
+  },
+  {
+    "offset": "0x183f3",
+    "value": "R!,!"
+  },
+  {
+    "offset": "0x185b3",
+    "value": "R!x$"
+  },
+  {
+    "offset": "0x18613",
+    "value": "R!x$"
+  },
+  {
+    "offset": "0x1866d",
+    "value": "CB9h"
+  },
+  {
+    "offset": "0x186fd",
+    "value": "cD9)"
+  },
+  {
+    "offset": "0x188e0",
+    "value": "?k88h"
+  },
+  {
+    "offset": "0x18a50",
+    "value": "?k88h"
+  },
+  {
+    "offset": "0x18e45",
+    "value": "CA9H"
+  },
+  {
+    "offset": "0x18eb3",
+    "value": "R!H?"
+  },
+  {
+    "offset": "0x18f79",
+    "value": "CC9H"
+  },
+  {
+    "offset": "0x19127",
+    "value": "6`6@"
+  },
+  {
+    "offset": "0x19221",
+    "value": "bA9)"
+  },
+  {
+    "offset": "0x192bb",
+    "value": "6`6@"
+  },
+  {
+    "offset": "0x193d0",
+    "value": "hbA9)"
+  },
+  {
+    "offset": "0x193e7",
+    "value": "6`6@"
+  },
+  {
+    "offset": "0x1944f",
+    "value": "6`*@"
+  },
+  {
+    "offset": "0x1948f",
+    "value": "6`*@"
+  },
+  {
+    "offset": "0x19809",
+    "value": "C@9H"
+  },
+  {
+    "offset": "0x199e2",
+    "value": "A9j&D"
+  },
+  {
+    "offset": "0x19c37",
+    "value": "4`\"@"
+  },
+  {
+    "offset": "0x19c4b",
+    "value": "4`6@"
+  },
+  {
+    "offset": "0x19cf7",
+    "value": "4`\"@"
+  },
+  {
+    "offset": "0x19d27",
+    "value": "4`2@"
+  },
+  {
+    "offset": "0x19d53",
+    "value": "T`2@"
+  },
+  {
+    "offset": "0x19dab",
+    "value": "4`\"@"
+  },
+  {
+    "offset": "0x19dbf",
+    "value": "4`6@"
+  },
+  {
+    "offset": "0x19df2",
+    "value": "B9hb"
+  },
+  {
+    "offset": "0x19edf",
+    "value": "T`>@"
+  },
+  {
+    "offset": "0x19fe3",
+    "value": "6hJ@"
+  },
+  {
+    "offset": "0x1a02f",
+    "value": "T`B@"
+  },
+  {
+    "offset": "0x1a08b",
+    "value": "T`>@"
+  },
+  {
+    "offset": "0x1a0db",
+    "value": "T`B@"
+  },
+  {
+    "offset": "0x1a117",
+    "value": "*`>@"
+  },
+  {
+    "offset": "0x1a2cb",
+    "value": "T`\"@"
+  },
+  {
+    "offset": "0x1a37b",
+    "value": "Th\"@"
+  },
+  {
+    "offset": "0x1a496",
+    "value": " 7h2@"
+  },
+  {
+    "offset": "0x1a4b3",
+    "value": "4x\"@"
+  },
+  {
+    "offset": "0x1a547",
+    "value": "4c>@"
+  },
+  {
+    "offset": "0x1a7a6",
+    "value": "^8Ta"
+  },
+  {
+    "offset": "0x1a8ef",
+    "value": "<?}?"
+  },
+  {
+    "offset": "0x1a907",
+    "value": "Tt&@"
+  },
+  {
+    "offset": "0x1a946",
+    "value": "^83a"
+  },
+  {
+    "offset": "0x1ab4b",
+    "value": "<?}?"
+  },
+  {
+    "offset": "0x1ab63",
+    "value": "Tt&@"
+  },
+  {
+    "offset": "0x1b0c5",
+    "value": "BA9)"
+  },
+  {
+    "offset": "0x1b157",
+    "value": "6`2@"
+  },
+  {
+    "offset": "0x1b1d0",
+    "value": "hBA9)"
+  },
+  {
+    "offset": "0x1b1e7",
+    "value": "6`2@"
+  },
+  {
+    "offset": "0x1b61b",
+    "value": "TtV@"
+  },
+  {
+    "offset": "0x1b8bc",
+    "value": "?k78h"
+  },
+  {
+    "offset": "0x1bbf4",
+    "value": "(a@9"
+  },
+  {
+    "offset": "0x1d328",
+    "value": "Linker: LLD 14.0.1"
+  },
+  {
+    "offset": "0x1d33b",
+    "value": "Android (8075178, based on r437112b) clang version 14.0.1 (https://android.googlesource.com/toolchain/llvm-project 8671348b81b95fc603505dfc881b45103bee1731)"
+  },
+  {
+    "offset": "0x1d3d8",
+    "value": "Android (8075178, based on r437112b) clang version 14.0.1 (https://android.googlesource.com/toolchain/llvm-project)"
+  },
+  {
+    "offset": "0x1d44e",
+    "value": ".fini_array"
+  },
+  {
+    "offset": "0x1d45a",
+    "value": ".text"
+  },
+  {
+    "offset": "0x1d460",
+    "value": ".got"
+  },
+  {
+    "offset": "0x1d465",
+    "value": ".comment"
+  },
+  {
+    "offset": "0x1d46e",
+    "value": ".note.android.ident"
+  },
+  {
+    "offset": "0x1d482",
+    "value": ".got.plt"
+  },
+  {
+    "offset": "0x1d48b",
+    "value": ".rela.plt"
+  },
+  {
+    "offset": "0x1d495",
+    "value": ".dynstr"
+  },
+  {
+    "offset": "0x1d49d",
+    "value": ".eh_frame_hdr"
+  },
+  {
+    "offset": "0x1d4ab",
+    "value": ".gnu.version_r"
+  },
+  {
+    "offset": "0x1d4ba",
+    "value": ".data.rel.ro"
+  },
+  {
+    "offset": "0x1d4c7",
+    "value": ".rela.dyn"
+  },
+  {
+    "offset": "0x1d4d1",
+    "value": ".gnu.version"
+  },
+  {
+    "offset": "0x1d4de",
+    "value": ".dynsym"
+  },
+  {
+    "offset": "0x1d4e6",
+    "value": ".gnu.hash"
+  },
+  {
+    "offset": "0x1d4f0",
+    "value": ".eh_frame"
+  },
+  {
+    "offset": "0x1d4fa",
+    "value": ".note.gnu.build-id"
+  },
+  {
+    "offset": "0x1d50d",
+    "value": ".dynamic"
+  },
+  {
+    "offset": "0x1d516",
+    "value": ".shstrtab"
+  },
+  {
+    "offset": "0x1d520",
+    "value": ".rodata"
+  }
+]

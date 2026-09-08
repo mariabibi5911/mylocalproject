@@ -1,0 +1,199 @@
+{
+  "instructions_indexed": 246,
+  "edges": [
+    {
+      "from": "0xab8",
+      "to": "0xde0",
+      "mnemonic": "b"
+    },
+    {
+      "from": "0xac8",
+      "to": "0xabc",
+      "mnemonic": "b"
+    },
+    {
+      "from": "0xafc",
+      "to": "0xdf0",
+      "mnemonic": "b"
+    },
+    {
+      "from": "0xb10",
+      "to": "0xe00",
+      "mnemonic": "bl"
+    },
+    {
+      "from": "0xb30",
+      "to": "0xe10",
+      "mnemonic": "bl"
+    },
+    {
+      "from": "0xb58",
+      "to": "0xe10",
+      "mnemonic": "bl"
+    },
+    {
+      "from": "0xb68",
+      "to": "0xe20",
+      "mnemonic": "bl"
+    },
+    {
+      "from": "0xb78",
+      "to": "0xe10",
+      "mnemonic": "bl"
+    },
+    {
+      "from": "0xb80",
+      "to": "0xe30",
+      "mnemonic": "bl"
+    },
+    {
+      "from": "0xbc8",
+      "to": "0xe40",
+      "mnemonic": "bl"
+    },
+    {
+      "from": "0xbd8",
+      "to": "0xe50",
+      "mnemonic": "bl"
+    },
+    {
+      "from": "0xbe8",
+      "to": "0xe50",
+      "mnemonic": "bl"
+    },
+    {
+      "from": "0xbf8",
+      "to": "0xe50",
+      "mnemonic": "bl"
+    },
+    {
+      "from": "0xc08",
+      "to": "0xe50",
+      "mnemonic": "bl"
+    },
+    {
+      "from": "0xc18",
+      "to": "0xe50",
+      "mnemonic": "bl"
+    },
+    {
+      "from": "0xc30",
+      "to": "0xe10",
+      "mnemonic": "bl"
+    },
+    {
+      "from": "0xc54",
+      "to": "0xe60",
+      "mnemonic": "bl"
+    },
+    {
+      "from": "0xc84",
+      "to": "0xe70",
+      "mnemonic": "bl"
+    },
+    {
+      "from": "0xca8",
+      "to": "0xe10",
+      "mnemonic": "bl"
+    },
+    {
+      "from": "0xcb0",
+      "to": "0xd08",
+      "mnemonic": "b"
+    },
+    {
+      "from": "0xcf8",
+      "to": "0xe80",
+      "mnemonic": "bl"
+    },
+    {
+      "from": "0xdb0",
+      "to": "0xe60",
+      "mnemonic": "bl"
+    }
+  ],
+  "indirect_call_sites": [
+    {
+      "address": "0xad8",
+      "mnemonic": "br",
+      "op_str": "x16"
+    },
+    {
+      "address": "0xcc4",
+      "mnemonic": "blr",
+      "op_str": "x8"
+    },
+    {
+      "address": "0xce8",
+      "mnemonic": "blr",
+      "op_str": "x8"
+    },
+    {
+      "address": "0xd8c",
+      "mnemonic": "blr",
+      "op_str": "x8"
+    },
+    {
+      "address": "0xdd0",
+      "mnemonic": "br",
+      "op_str": "x17"
+    },
+    {
+      "address": "0xdec",
+      "mnemonic": "br",
+      "op_str": "x17"
+    },
+    {
+      "address": "0xdfc",
+      "mnemonic": "br",
+      "op_str": "x17"
+    },
+    {
+      "address": "0xe0c",
+      "mnemonic": "br",
+      "op_str": "x17"
+    },
+    {
+      "address": "0xe1c",
+      "mnemonic": "br",
+      "op_str": "x17"
+    },
+    {
+      "address": "0xe2c",
+      "mnemonic": "br",
+      "op_str": "x17"
+    },
+    {
+      "address": "0xe3c",
+      "mnemonic": "br",
+      "op_str": "x17"
+    },
+    {
+      "address": "0xe4c",
+      "mnemonic": "br",
+      "op_str": "x17"
+    },
+    {
+      "address": "0xe5c",
+      "mnemonic": "br",
+      "op_str": "x17"
+    },
+    {
+      "address": "0xe6c",
+      "mnemonic": "br",
+      "op_str": "x17"
+    },
+    {
+      "address": "0xe7c",
+      "mnemonic": "br",
+      "op_str": "x17"
+    },
+    {
+      "address": "0xe8c",
+      "mnemonic": "br",
+      "op_str": "x17"
+    }
+  ],
+  "edge_count": 22,
+  "indirect_call_site_count": 16
+}

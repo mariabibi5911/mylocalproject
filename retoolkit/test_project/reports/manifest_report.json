@@ -1,0 +1,82 @@
+{
+  "package": "nika.ngipro",
+  "debuggable": "true",
+  "uses_cleartext_traffic": "true",
+  "permissions": [
+    {
+      "name": "android.permission.INTERNET",
+      "sensitive": false
+    },
+    {
+      "name": "android.permission.READ_EXTERNAL_STORAGE",
+      "sensitive": true
+    },
+    {
+      "name": "android.permission.MANAGE_EXTERNAL_STORAGE",
+      "sensitive": true
+    },
+    {
+      "name": "nika.ngipro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+      "sensitive": false
+    },
+    {
+      "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+      "sensitive": true
+    },
+    {
+      "name": "android.permission.ACCESS_NETWORK_STATE",
+      "sensitive": false
+    }
+  ],
+  "sensitive_permission_count": 3,
+  "activities": [
+    {
+      "name": "nika.ngipro.DexDisassemblerActivity",
+      "exported": "false"
+    },
+    {
+      "name": "nika.ngipro.IDAViewActivity",
+      "exported": "false"
+    },
+    {
+      "name": "nika.ngipro.LoginActivity",
+      "exported": "true"
+    },
+    {
+      "name": "nika.ngipro.SettingsActivity",
+      "exported": "false"
+    },
+    {
+      "name": "nika.ngipro.MainActivity",
+      "exported": "true"
+    },
+    {
+      "name": "nika.ngipro.HexEditorActivity",
+      "exported": "false"
+    },
+    {
+      "name": "nika.ngipro.BookmarksActivity",
+      "exported": "false"
+    },
+    {
+      "name": "nika.ngipro.AppExtractorActivity",
+      "exported": "true"
+    },
+    {
+      "name": "nika.ngipro.ProfileActivity",
+      "exported": "false"
+    }
+  ],
+  "services": [],
+  "receivers": [],
+  "providers": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "exported": "false"
+    }
+  ],
+  "custom_url_schemes": [
+    "ngi"
+  ],
+  "exported_component_count": 3
+}

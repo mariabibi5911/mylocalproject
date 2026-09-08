@@ -1,0 +1,22 @@
+[
+  {
+    "name": "_Z14secure_decryptRKNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+    "value": "0xaa0",
+    "size": 160,
+    "type": "STT_FUNC",
+    "bind": "STB_GLOBAL",
+    "section_index": 14,
+    "end": "0xb40",
+    "end_inferred": false
+  },
+  {
+    "name": "Java_nika_ngipro_LoginActivity_getConfigValue",
+    "value": "0xb40",
+    "size": 716,
+    "type": "STT_FUNC",
+    "bind": "STB_GLOBAL",
+    "section_index": 14,
+    "end": "0xe0c",
+    "end_inferred": false
+  }
+]

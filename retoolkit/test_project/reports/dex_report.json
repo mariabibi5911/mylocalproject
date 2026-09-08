@@ -1,0 +1,48 @@
+{
+  "dex_files": [
+    {
+      "name": "classes.dex",
+      "size_bytes": 9861852,
+      "sha256": "9afd2ba6aa32e70bb80e88dccb160d1fb20c56a38e79a8fc587811009eb38a33",
+      "class_count": 7525
+    },
+    {
+      "name": "classes2.dex",
+      "size_bytes": 542276,
+      "sha256": "fc395591f9b4d7a5b1dd582835e3633c4014f71ed947645235434574dcd5b707",
+      "class_count": 269
+    },
+    {
+      "name": "classes3.dex",
+      "size_bytes": 744,
+      "sha256": "904fcd4d6ba713ce8dee48acdae73ac6ce959e73cba5c94c935b9fc53ae2ab55",
+      "class_count": 1
+    },
+    {
+      "name": "classes4.dex",
+      "size_bytes": 127780,
+      "sha256": "04301c1dfbafa744cb2bd7e66fb719042329f27d0ef2af25e367fe4b892bee0a",
+      "class_count": 154
+    },
+    {
+      "name": "classes5.dex",
+      "size_bytes": 17144,
+      "sha256": "8cd0b8865329ed2c597a14bd4f1df30328002f4d3dbca41be90545257fb89ee7",
+      "class_count": 14
+    },
+    {
+      "name": "classes6.dex",
+      "size_bytes": 8184,
+      "sha256": "807bb0941c39f2083122c425a923aba606ca646d96c4bc9ad84f4123ac024077",
+      "class_count": 5
+    },
+    {
+      "name": "classes7.dex",
+      "size_bytes": 4551752,
+      "sha256": "8245fdae050e73be739b149c2e904decec9f7e0f3cc847c045a14b588e568bbf",
+      "class_count": 3023
+    }
+  ],
+  "total_dex_files": 7,
+  "total_classes": 10991
+}

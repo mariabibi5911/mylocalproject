@@ -12,6 +12,8 @@ SHA-256: 7745e4ee4b41e6025a88649f3d409d06087b8f5a11f967f09012f760f8540d73
 
 The ZIP is retained as the complete artifact from `main`; it also preserves the original extracted DEX files and native libraries that are intentionally not duplicated in the readable source tree.
 
+The latest `main` branch also contains `retoolkit.zip`. It is a separate PC-side Python companion that extracts APK metadata, permissions, all DEX files, every ABI's native libraries, symbols, strings, imports/exports, call graphs, and vtable candidates. Its expanded source and the generated NGI PRO fixture are under `retoolkit/` at the repository root. The fixture confirms seven DEX files with 10,991 total classes and 25 native-library entries across four ABIs; the zero-byte `libNeoLibDumper.so` is reported as invalid ELF.
+
 ## Application identity
 
 | Item | Value |

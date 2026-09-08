@@ -11,6 +11,8 @@ This repository contains the `NGI PRO 2.0` Android APK and a source-oriented dec
 - `decompiled/dependencies/src/main/java/` — decompiled third-party bundled/library classes kept separately from the app code.
 - `NGI_PRO_2.0_decompiled_full.zip` — the complete decompilation artifact already present on `main`, including source, resources, DEX files, and native libraries.
 - `NGI_PRO_app_code_only.zip` — the smaller app-only source artifact from `main`.
+- `retoolkit.zip` — the PC-side APK/native analysis companion added to the latest `main` branch.
+- `retoolkit/` — the expanded Python toolkit and its generated NGI PRO analysis fixture.
 - `decompiled/README.md` — the detailed inventory, behavior notes, native boundary, and security findings.
 
 The application classes are Java decompilation output. The APK contains Kotlin runtime/coroutine dependencies, but no original Kotlin source can be recovered byte-for-byte from DEX; the decompiler emits Java for those classes.
