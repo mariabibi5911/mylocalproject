@@ -77,8 +77,9 @@ dependencies {
     embeddedLibraries 'androidx.drawerlayout:drawerlayout:1.1.1'
     embeddedLibraries 'androidx.recyclerview:recyclerview:1.3.1'
     embeddedLibraries 'com.google.android.material:material:1.9.0'
-    embeddedLibraries 'com.github.bumptech.glide:glide:4.16.0'
 
+    implementation 'androidx.annotation:annotation:1.7.1'
+    implementation 'com.github.bumptech.glide:glide:4.16.0'
     implementation 'com.google.guava:guava:32.1.3-android'
     implementation 'org.smali:dexlib2:2.5.2'
     implementation fileTree(dir: embeddedLibraryDir.get().asFile, include: ['*.jar'])
@@ -102,12 +103,6 @@ tasks.register('extractEmbeddedLibraries') {
                     into outputDir
                     rename { "${baseName}.jar" }
                 }
-            } else if (artifact.name.endsWith('.jar')) {
-                copy {
-                    from artifact
-                    into outputDir
-                }
-            }
         }
     }
 }
