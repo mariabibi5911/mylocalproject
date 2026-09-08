@@ -33,8 +33,9 @@ This file records what was actually executed. It intentionally does not mark an 
 | Fresh `python -m retoolkit.pipeline NGI PRO_2.0.apk <temporary-project> arm64-v8a` | Passed | Completed all six stages; temporary output was outside the repository |
 | Analyst-supplied command scan with patterns `function` and `analysis` | Passed | 10 candidate records; every worksheet retains unresolved handler/state/vtable fields and manual-verification status |
 | Vtable scan in the fresh pipeline | Passed | 205 libc++ candidates, 1 `libngi_pro_engine.so` candidate, 1 `libsdkgen.so` candidate; other libraries produced 0 candidates |
-| `./gradlew --version` | **Blocked** | Exact failure: `ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH.` |
-| `./gradlew clean` / `assembleDebug` / `assembleRelease` | **Not run** | The wrapper cannot start without Java |
+| `./gradlew --version` with the checkout environment | **Blocked** | Exact failure: `ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH.` |
+| `./gradlew --version` with a temporary Python-provided Java 17 runtime | **Blocked** | The wrapper reached distribution download, then failed with `javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake` for `https://services.gradle.org/distributions/gradle-8.0.2-bin.zip`. No build was started. |
+| `./gradlew clean` / `assembleDebug` / `assembleRelease` | **Not run** | Java/Gradle distribution and Android SDK platform 33 are unavailable |
 | `adb devices` / install / Logcat | **Blocked** | `adb` is not installed and no authorized device/emulator is present |
 | `apksigner`, `zipalign`, Android SDK `aapt` | **Blocked** | These executables are not installed |
 
