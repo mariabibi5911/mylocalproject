@@ -5,10 +5,10 @@ This repository contains the `NGI PRO 2.0` Android APK and a source-oriented dec
 ## What is included
 
 - `NGI PRO_2.0.apk` — the original APK supplied in the repository.
-- `decompiled/app/src/main/java/nika/ngipro/` — the app's 42 decompiled Java classes, including activities, adapters, managers, generated view-binding classes, and the `R` class.
+- `decompiled/app/src/main/java/` — the app's 44 decompiled Java classes, including the `nika.ngipro` activities/adapters/managers, generated view-binding classes, the `R` class, and the two project-owned native wrappers (`com.neomods` and `com.ngi_pro`).
 - `decompiled/app/src/main/res/` — decoded resources extracted from the APK.
 - `decompiled/app/src/main/AndroidManifest.xml` — the decoded manifest.
-- `decompiled/dependencies/src/main/java/` — decompiled bundled/library classes kept separately from the app code.
+- `decompiled/dependencies/src/main/java/` — decompiled third-party bundled/library classes kept separately from the app code.
 - `NGI_PRO_2.0_decompiled_full.zip` — the complete decompilation artifact already present on `main`, including source, resources, DEX files, and native libraries.
 - `NGI_PRO_app_code_only.zip` — the smaller app-only source artifact from `main`.
 - `decompiled/README.md` — the detailed inventory, behavior notes, native boundary, and security findings.

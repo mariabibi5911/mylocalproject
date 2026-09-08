@@ -8,7 +8,7 @@ The APK and the two ZIP artifacts were compared against the `main` branch. The A
 SHA-256: 7745e4ee4b41e6025a88649f3d409d06087b8f5a11f967f09012f760f8540d73
 ```
 
-`NGI_PRO_2.0_decompiled_full.zip` was expanded into an edit-friendly layout. The expanded tree contains 5,042 Java source files: 42 app classes under `app/src/main/java/nika/ngipro` and 5,000 bundled/dependency classes under `dependencies/src/main/java`. It also contains 1,058 decoded resource files, the decoded manifest, and the APK asset `LIB-DUMP.sh`.
+`NGI_PRO_2.0_decompiled_full.zip` was expanded into an edit-friendly layout. The expanded tree contains 5,042 Java source files: 44 app/project classes under `app/src/main/java` (42 `nika.ngipro` classes plus the `com.neomods` and `com.ngi_pro` native wrappers) and 4,998 bundled/dependency classes under `dependencies/src/main/java`. It also contains 1,058 decoded resource files, the decoded manifest, and the APK asset `LIB-DUMP.sh`.
 
 The ZIP is retained as the complete artifact from `main`; it also preserves the original extracted DEX files and native libraries that are intentionally not duplicated in the readable source tree.
 
@@ -50,7 +50,7 @@ The ZIP is retained as the complete artifact from `main`; it also preserves the 
 10. Import resolution
 11. Control-flow graph generation
 12. SDK generation
-13. Library dumper
+13. Library dumper (the shipped APK reports `libNeoLibDumper.so` missing because its arm64 entry is zero bytes)
 14. Hex editor
 15. IDA-style function view
 16. Cross-references/callers
@@ -70,9 +70,11 @@ The Java layer loads these libraries:
 - `libNGI.so` — configuration lookup used by the login flow.
 - `libcrash.so` — protected execution/crash guard.
 - `libextractor.so` — APK path and manifest helpers.
-- `libNeoLibDumper.so` — present as an empty arm64 entry in the APK; the Java UI also references the bundled lib-dumper wrapper.
+- `libNeoLibDumper.so` — present as a zero-byte arm64 entry in the APK; the Java UI references the bundled `com.neomods.libdumper.jni.NativeLibWrapper`, but its loader reports the library as unavailable and the UI tells the user to build/place it under `app/src/main/jniLibs/<abi>/`.
 
-The readable Java sources retain the JNI method declarations and call sites. The C/C++ implementations cannot be converted into Java/Kotlin source by a DEX decompiler; their original binary payloads remain available in the APK and complete ZIP artifact.
+The archive also contains `com.ngi_pro.core.NativeEngine`, which loads `libUENGINE.so`. No `libUENGINE.so` is packaged and the class has no app call site in the recovered Java, so it appears to be an unused/orphaned engine hook.
+
+The readable Java sources retain the JNI method declarations and call sites. The C/C++/Rust implementations cannot be converted into Java/Kotlin source by a DEX decompiler; their original binary payloads remain available in the APK and complete ZIP artifact.
 
 ## Manifest and security observations
 
