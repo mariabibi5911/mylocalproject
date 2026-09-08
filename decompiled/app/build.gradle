@@ -1,0 +1,67 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'nika.ngipro'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId 'nika.ngipro'
+        minSdk 21
+        targetSdk 33
+        versionCode 2
+        versionName '2.0'
+    }
+
+    // The recovered source tree contains the merged Java output of the APK's
+    // bundled libraries. Keeping it as a source input avoids inventing Maven
+    // coordinates for dependencies whose original Gradle metadata was lost.
+    sourceSets {
+        main {
+            java {
+                srcDirs = ['src/main/java', '../dependencies/src/main/java']
+                // AAPT2 generates the application R class from the recovered
+                // resource tree. The decompiler's old R.java would duplicate it.
+                exclude 'nika/ngipro/R.java'
+            }
+            jniLibs.srcDirs = ['src/main/jniLibs']
+        }
+    }
+
+    buildFeatures {
+        // View-binding classes were recovered with the app sources. Generating
+        // a second set would create duplicate nika.ngipro.databinding classes.
+        viewBinding false
+        buildConfig true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    packaging {
+        jniLibs {
+            // Preserve the APK's extracted native payload, including the
+            // zero-byte libNeoLibDumper placeholder recorded in the source APK.
+            useLegacyPackaging true
+        }
+    }
+
+    lint {
+        abortOnError false
+    }
+
+    buildTypes {
+        debug {
+            debuggable true
+        }
+        release {
+            // No release keystore is present in the repository. Release output
+            // is intentionally unsigned until an authorized keystore is supplied.
+            minifyEnabled false
+            shrinkResources false
+        }
+    }
+}

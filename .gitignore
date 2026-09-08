@@ -1,10 +1,16 @@
-```
+# Gradle / Android build output
+.gradle/
+**/build/
+local.properties
+*.apk
+*.aab
+
 # Python
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
 *.pyd
 
-# Database
+# Databases and local analysis scratch
 *.db
-```
+*.sqlite
+*.sqlite3
