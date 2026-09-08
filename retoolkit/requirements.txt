@@ -1,3 +1,0 @@
-androguard>=4.1.0
-pyelftools>=0.31
-capstone>=5.0.0

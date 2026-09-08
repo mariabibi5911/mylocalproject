@@ -22,8 +22,7 @@ android {
             java {
                 srcDirs = ['src/main/java', '../dependencies/src/main/java']
                 // AAPT2 generates the application R class from the recovered
-                // resource tree. The decompiler's old R.java would duplicate it.
-                exclude 'nika/ngipro/R.java'
+                // resource tree; no decompiler-generated application R source is included.
             }
             jniLibs.srcDirs = ['src/main/jniLibs']
         }
