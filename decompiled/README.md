@@ -97,4 +97,4 @@ These notes preserve the shipped behavior; they are not silently changed because
 4. Reconstruct a Gradle/Android Studio build and run on a test device before producing a replacement APK.
 5. For security-sensitive work, replace the embedded OAuth-secret/token flow and narrow the manifest permissions as a deliberate behavior change.
 
-Decompilation output is readable and useful for analysis, but it is not guaranteed to compile without manual cleanup of synthetic lambda names, generated binding details, and missing original build configuration.
+Decompilation output is readable and useful for analysis, but it is not guaranteed to compile without manual cleanup of synthetic lambda names and generated binding details. A root Gradle/Android project has now been reconstructed from the APK metadata and recovered merged sources; it remains unverified until Java, the Android SDK/build-tools, and a runtime test target are available.
