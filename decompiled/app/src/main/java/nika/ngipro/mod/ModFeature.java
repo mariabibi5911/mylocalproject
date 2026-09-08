@@ -32,6 +32,7 @@ public final class ModFeature {
         this.compatibility = CompatibilityStatus.UNKNOWN;
         this.status = FeatureStatus.DISABLED;
         nativeMetadata.put("nativeHandler", "unknown");
+        nativeMetadata.put("functionPointer", "unknown");
         nativeMetadata.put("nativeGlobal", "unknown");
         nativeMetadata.put("nativeVtable", "unknown");
         nativeMetadata.put("stateInteraction", "unknown");
