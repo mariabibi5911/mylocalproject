@@ -16,6 +16,10 @@
     <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
     <permission
         android:name="nika.ngipro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature"/>
@@ -78,6 +82,12 @@
             android:exported="false"/>
         <activity
             android:name="nika.ngipro.mod.DiagnosticsActivity"
+            android:exported="false"/>
+        <activity
+            android:name="nika.ngipro.BatchProcessorActivity"
+            android:exported="false"/>
+        <activity
+            android:name="nika.ngipro.SecretScannerActivity"
             android:exported="false"/>
         <provider
             android:name="androidx.startup.InitializationProvider"
