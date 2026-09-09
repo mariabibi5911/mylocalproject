@@ -80,24 +80,24 @@ public final class ModProfile {
         ModProfile profile = new ModProfile(object.optString("id"), object.optString("name", "Profile"));
         JSONObject enabled = object.optJSONObject("modEnabled");
         if (enabled != null) {
-            for (String key : JSONObject.getNames(enabled) == null ? new String[0] : JSONObject.getNames(enabled)) {
+            for (String key : ModJson.names(enabled) == null ? new String[0] : ModJson.names(enabled)) {
                 profile.setModEnabled(key, enabled.optBoolean(key));
             }
         }
         JSONObject features = object.optJSONObject("featureEnabled");
         if (features != null) {
-            String[] names = JSONObject.getNames(features);
+            String[] names = ModJson.names(features);
             if (names != null) for (String key : names) profile.setFeatureEnabled(key, features.optBoolean(key));
         }
         JSONObject configs = object.optJSONObject("modConfiguration");
         if (configs != null) {
-            String[] names = JSONObject.getNames(configs);
+            String[] names = ModJson.names(configs);
             if (names != null) {
                 for (String modId : names) {
                     JSONObject config = configs.optJSONObject(modId);
                     Map<String, String> values = new LinkedHashMap<>();
                     if (config != null) {
-                        String[] keys = JSONObject.getNames(config);
+                        String[] keys = ModJson.names(config);
                         if (keys != null) {
                             for (String key : keys) values.put(key, config.optString(key));
                         }

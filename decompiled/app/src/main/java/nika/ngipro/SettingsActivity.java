@@ -82,7 +82,7 @@ public class SettingsActivity extends AppCompatActivity {
     public /* synthetic */ void m1817lambda$onCreate$3$nikangiproSettingsActivity(TextView status, final UpdateChecker.UpdateInfo info) {
         if (info != null) {
             status.setText("v" + info.latestVersion + " available");
-            new AlertDialog.Builder(this, android.R.style.Theme.DeviceDefault.Dialog.Alert).setTitle("⚡ Update available").setMessage("Version " + info.latestVersion + " is available.\n\n" + ((info.changelog == null || info.changelog.isEmpty()) ? "See the update page for details." : info.changelog)).setPositiveButton("Update Now", new DialogInterface.OnClickListener() { // from class: nika.ngipro.SettingsActivity$$ExternalSyntheticLambda0
+            new AlertDialog.Builder(this, android.R.style.Theme_DeviceDefault_Dialog_Alert).setTitle("⚡ Update available").setMessage("Version " + info.latestVersion + " is available.\n\n" + ((info.changelog == null || info.changelog.isEmpty()) ? "See the update page for details." : info.changelog)).setPositiveButton("Update Now", new DialogInterface.OnClickListener() { // from class: nika.ngipro.SettingsActivity$$ExternalSyntheticLambda0
                 @Override // android.content.DialogInterface.OnClickListener
                 public final void onClick(DialogInterface dialogInterface, int i) {
                     SettingsActivity.this.m1816lambda$onCreate$2$nikangiproSettingsActivity(info, dialogInterface, i);
@@ -135,7 +135,7 @@ public class SettingsActivity extends AppCompatActivity {
     private void showLanguageDialog() {
         String[] labels = {getString(R.string.lang_english), getString(R.string.lang_chinese)};
         final String[] codes = {LocaleHelper.LANG_ENGLISH, LocaleHelper.LANG_CHINESE};
-        new AlertDialog.Builder(this, android.R.style.Theme.DeviceDefault.Dialog.Alert).setTitle(getString(R.string.dlg_language_title)).setItems(labels, new DialogInterface.OnClickListener() { // from class: nika.ngipro.SettingsActivity$$ExternalSyntheticLambda2
+        new AlertDialog.Builder(this, android.R.style.Theme_DeviceDefault_Dialog_Alert).setTitle(getString(R.string.dlg_language_title)).setItems(labels, new DialogInterface.OnClickListener() { // from class: nika.ngipro.SettingsActivity$$ExternalSyntheticLambda2
             @Override // android.content.DialogInterface.OnClickListener
             public final void onClick(DialogInterface dialogInterface, int i) {
                 SettingsActivity.this.m1819lambda$showLanguageDialog$6$nikangiproSettingsActivity(codes, dialogInterface, i);

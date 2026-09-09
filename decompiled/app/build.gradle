@@ -94,6 +94,9 @@ tasks.register('extractEmbeddedLibraries') {
         outputDir.mkdirs()
 
         configurations.embeddedLibraries.files.each { artifact ->
+            if (artifact.name.startsWith("listenablefuture-") || artifact.name.startsWith("error_prone_annotations-")) {
+                return
+            }
             if (artifact.name.endsWith('.aar')) {
                 def baseName = artifact.name.substring(0, artifact.name.length() - 4)
                 copy {

@@ -109,7 +109,7 @@ public class BookmarksActivity extends AppCompatActivity {
         l.addView(addr);
         l.addView(label);
         l.addView(note);
-        new AlertDialog.Builder(this, android.R.style.Theme.DeviceDefault.Dialog.Alert).setTitle("➕ New Bookmark").setView(l).setPositiveButton("Save", new DialogInterface.OnClickListener() { // from class: nika.ngipro.BookmarksActivity$$ExternalSyntheticLambda0
+        new AlertDialog.Builder(this, android.R.style.Theme_DeviceDefault_Dialog_Alert).setTitle("➕ New Bookmark").setView(l).setPositiveButton("Save", new DialogInterface.OnClickListener() { // from class: nika.ngipro.BookmarksActivity$$ExternalSyntheticLambda0
             @Override // android.content.DialogInterface.OnClickListener
             public final void onClick(DialogInterface dialogInterface, int i) {
                 BookmarksActivity.this.m1726lambda$showAddDialog$2$nikangiproBookmarksActivity(addr, label, note, dialogInterface, i);

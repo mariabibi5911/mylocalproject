@@ -231,7 +231,7 @@ public class HexEditorActivity extends AppCompatActivity {
         for (int i = start; i < end; i++) {
             current.append(String.format("%02X ", Integer.valueOf(this.fileData[i] & 255)));
         }
-        AlertDialog.Builder builder = new AlertDialog.Builder(this, android.R.style.Theme.DeviceDefault.Dialog.Alert);
+        AlertDialog.Builder builder = new AlertDialog.Builder(this, android.R.style.Theme_DeviceDefault_Dialog_Alert);
         builder.setTitle(String.format(Locale.US, "Edit offset 0x%08X", Integer.valueOf(start)));
         LinearLayout l = new LinearLayout(this);
         l.setOrientation(1);
@@ -361,7 +361,7 @@ public class HexEditorActivity extends AppCompatActivity {
     }
 
     private void showGotoDialog() {
-        AlertDialog.Builder b = new AlertDialog.Builder(this, android.R.style.Theme.DeviceDefault.Dialog.Alert);
+        AlertDialog.Builder b = new AlertDialog.Builder(this, android.R.style.Theme_DeviceDefault_Dialog_Alert);
         b.setTitle("Goto Offset");
         final EditText input = new EditText(this);
         input.setHint("Hex offset (e.g. 1A0)");
@@ -393,7 +393,7 @@ public class HexEditorActivity extends AppCompatActivity {
     }
 
     private void showSearchDialog() {
-        AlertDialog.Builder b = new AlertDialog.Builder(this, android.R.style.Theme.DeviceDefault.Dialog.Alert);
+        AlertDialog.Builder b = new AlertDialog.Builder(this, android.R.style.Theme_DeviceDefault_Dialog_Alert);
         b.setTitle("Search (hex bytes or text)");
         final EditText input = new EditText(this);
         input.setHint("e.g. 'AA BB CC' or 'hello'");
@@ -526,7 +526,7 @@ public class HexEditorActivity extends AppCompatActivity {
 
     private void confirmExitIfDirty() {
         if (this.dirty) {
-            new AlertDialog.Builder(this, android.R.style.Theme.DeviceDefault.Dialog.Alert).setTitle("Unsaved changes").setMessage("Discard changes and exit?").setPositiveButton("Discard", new DialogInterface.OnClickListener() { // from class: nika.ngipro.HexEditorActivity$$ExternalSyntheticLambda8
+            new AlertDialog.Builder(this, android.R.style.Theme_DeviceDefault_Dialog_Alert).setTitle("Unsaved changes").setMessage("Discard changes and exit?").setPositiveButton("Discard", new DialogInterface.OnClickListener() { // from class: nika.ngipro.HexEditorActivity$$ExternalSyntheticLambda8
                 @Override // android.content.DialogInterface.OnClickListener
                 public final void onClick(DialogInterface dialogInterface, int i) {
                     HexEditorActivity.this.m1736lambda$confirmExitIfDirty$15$nikangiproHexEditorActivity(dialogInterface, i);

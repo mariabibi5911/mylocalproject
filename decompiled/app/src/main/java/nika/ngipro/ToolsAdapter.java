@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
 /* loaded from: classes4.dex */
-public class ToolsAdapter extends RecyclerView.Adapter<ToolViewHolder> {
+public class ToolsAdapter extends RecyclerView.Adapter<ToolsAdapter.ToolViewHolder> {
     private final List<ToolItem> items;
     private final OnToolClick listener;
 

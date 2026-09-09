@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Locale;
 
 /* loaded from: classes4.dex */
-public class FunctionAdapter extends RecyclerView.Adapter<FuncHolder> {
+public class FunctionAdapter extends RecyclerView.Adapter<FunctionAdapter.FuncHolder> {
     private final List<FunctionEntry> items;
     private final OnFunctionClick listener;
 

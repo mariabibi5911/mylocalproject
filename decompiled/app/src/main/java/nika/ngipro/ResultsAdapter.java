@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /* loaded from: classes4.dex */
-public class ResultsAdapter extends RecyclerView.Adapter<ResultViewHolder> {
+public class ResultsAdapter extends RecyclerView.Adapter<ResultsAdapter.ResultViewHolder> {
     private final List<String> lines = new ArrayList();
 
     public void submit(String rawText) {

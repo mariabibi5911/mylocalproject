@@ -12,6 +12,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.cardview.widget.CardView;
 import androidx.fragment.app.FragmentActivity;
 import com.bumptech.glide.Glide;
+import nika.ngipro.auth.SessionStore;
 
 /* loaded from: classes4.dex */
 public class ProfileActivity extends AppCompatActivity {

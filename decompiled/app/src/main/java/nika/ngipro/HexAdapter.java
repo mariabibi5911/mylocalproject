@@ -8,7 +8,7 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 
 /* loaded from: classes4.dex */
-public class HexAdapter extends RecyclerView.Adapter<RowHolder> {
+public class HexAdapter extends RecyclerView.Adapter<HexAdapter.RowHolder> {
     public static final int BYTES_PER_ROW = 16;
     private final byte[] data;
     private int highlightedRow = -1;

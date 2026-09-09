@@ -144,7 +144,7 @@ public final class ModFeature {
         }
         JSONObject nativeMetadata = object.optJSONObject("nativeMetadata");
         if (nativeMetadata != null) {
-            String[] names = JSONObject.getNames(nativeMetadata);
+            String[] names = ModJson.names(nativeMetadata);
             if (names != null) for (String key : names) feature.setNativeMetadata(key, nativeMetadata.optString(key));
         }
         feature.setEnabled(object.optBoolean("enabled", false));

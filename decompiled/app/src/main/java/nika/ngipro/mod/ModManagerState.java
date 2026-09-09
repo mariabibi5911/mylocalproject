@@ -51,7 +51,7 @@ public final class ModManagerState {
         }
         JSONObject prefs = object.optJSONObject("uiPreferences");
         if (prefs != null) {
-            String[] names = JSONObject.getNames(prefs);
+            String[] names = ModJson.names(prefs);
             if (names != null) for (String key : names) state.uiPreferences.put(key, prefs.optString(key));
         }
         migrate(state);

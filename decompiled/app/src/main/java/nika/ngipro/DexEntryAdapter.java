@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
 /* loaded from: classes4.dex */
-public class DexEntryAdapter extends RecyclerView.Adapter<VH> {
+public class DexEntryAdapter extends RecyclerView.Adapter<DexEntryAdapter.VH> {
     private final List<DexEntry> items;
     private final OnEntryClick listener;
 

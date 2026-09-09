@@ -121,7 +121,7 @@ public final class UpdateChecker {
         mainHandler.post(new Runnable() { // from class: nika.ngipro.UpdateChecker$$ExternalSyntheticLambda0
             @Override // java.lang.Runnable
             public final void run() {
-                UpdateChecker.Callback.this.onResult(finalResult);
+                callback.onResult(finalResult);
             }
         });
     }

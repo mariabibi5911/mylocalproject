@@ -178,7 +178,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     private void showUpdateDialog(final UpdateChecker.UpdateInfo info) {
         String message = "Version " + info.latestVersion + " is available.\n\n" + ((info.changelog == null || info.changelog.isEmpty()) ? "See the update page for details." : info.changelog);
-        new AlertDialog.Builder(this, android.R.style.Theme.DeviceDefault.Dialog.Alert).setTitle("⚡ Update available").setMessage(message).setPositiveButton("Update Now", new DialogInterface.OnClickListener() { // from class: nika.ngipro.MainActivity$$ExternalSyntheticLambda10
+        new AlertDialog.Builder(this, android.R.style.Theme_DeviceDefault_Dialog_Alert).setTitle("⚡ Update available").setMessage(message).setPositiveButton("Update Now", new DialogInterface.OnClickListener() { // from class: nika.ngipro.MainActivity$$ExternalSyntheticLambda10
             @Override // android.content.DialogInterface.OnClickListener
             public final void onClick(DialogInterface dialogInterface, int i) {
                 MainActivity.this.m1803lambda$showUpdateDialog$4$nikangiproMainActivity(info, dialogInterface, i);
@@ -616,7 +616,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
 
     private void showXrefsDialog() {
-        AlertDialog.Builder b = new AlertDialog.Builder(this, android.R.style.Theme.DeviceDefault.Dialog.Alert);
+        AlertDialog.Builder b = new AlertDialog.Builder(this, android.R.style.Theme_DeviceDefault_Dialog_Alert);
         b.setTitle("🔗 CROSS REFERENCES / CALL GRAPH");
         final EditText input = new EditText(this);
         input.setHint(getString(R.string.dlg_hex_offset_hint));
@@ -665,7 +665,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         runOnUiThread(new Runnable() { // from class: nika.ngipro.MainActivity$$ExternalSyntheticLambda30
             @Override // java.lang.Runnable
             public final void run() {
-                MainActivity.this.m1804lambda$showXrefsDialog$15$nikangiproMainActivity(finalResult);
+                MainActivity.this.m1807lambda$showXrefsDialog$18$nikangiproMainActivity(finalResult);
             }
         });
     }
@@ -705,7 +705,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
 
     private void showPatchDialog() {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this, android.R.style.Theme.DeviceDefault.Dialog.Alert);
+        AlertDialog.Builder builder = new AlertDialog.Builder(this, android.R.style.Theme_DeviceDefault_Dialog_Alert);
         builder.setTitle(getString(R.string.dlg_hex_patcher_title));
         LinearLayout l = new LinearLayout(this);
         l.setOrientation(1);
@@ -740,7 +740,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
 
     private void showSearchDialog() {
-        AlertDialog.Builder b = new AlertDialog.Builder(this, android.R.style.Theme.DeviceDefault.Dialog.Alert);
+        AlertDialog.Builder b = new AlertDialog.Builder(this, android.R.style.Theme_DeviceDefault_Dialog_Alert);
         b.setTitle(getString(R.string.dlg_search_title));
         final EditText input = new EditText(this);
         input.setHint(getString(R.string.dlg_search_hint));
@@ -762,7 +762,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
 
     private void startDisassemblyDialog() {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this, android.R.style.Theme.DeviceDefault.Dialog.Alert);
+        AlertDialog.Builder builder = new AlertDialog.Builder(this, android.R.style.Theme_DeviceDefault_Dialog_Alert);
         builder.setTitle(getString(R.string.dlg_disasm_title));
         LinearLayout l = new LinearLayout(this);
         l.setOrientation(1);
@@ -806,7 +806,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
 
     private void runDecompilerTool() {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this, android.R.style.Theme.DeviceDefault.Dialog.Alert);
+        AlertDialog.Builder builder = new AlertDialog.Builder(this, android.R.style.Theme_DeviceDefault_Dialog_Alert);
         builder.setTitle("🧠 " + getString(R.string.nav_decompiler));
         LinearLayout l = new LinearLayout(this);
         l.setOrientation(1);
@@ -850,7 +850,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         runOnUiThread(new Runnable() { // from class: nika.ngipro.MainActivity$$ExternalSyntheticLambda2
             @Override // java.lang.Runnable
             public final void run() {
-                MainActivity.this.m1785lambda$runDecompilerTool$24$nikangiproMainActivity(pseudo);
+                MainActivity.this.m1807lambda$showXrefsDialog$18$nikangiproMainActivity(pseudo);
             }
         });
     }
@@ -873,7 +873,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public /* synthetic */ void m1793lambda$runFunctionExplorer$32$nikangiproMainActivity() {
         int i;
         String[] strArr;
-        long addr;
+        long addr = 0L;
         try {
             Map<Long, String> namesByAddr = new LinkedHashMap<>();
             Map<Long, Integer> sizesByAddr = new LinkedHashMap<>();
@@ -966,7 +966,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             runOnUiThread(new Runnable() { // from class: nika.ngipro.MainActivity$$ExternalSyntheticLambda13
                 @Override // java.lang.Runnable
                 public final void run() {
-                    MainActivity.this.m1792lambda$runFunctionExplorer$31$nikangiproMainActivity(errMsg);
+                    MainActivity.this.m1807lambda$showXrefsDialog$18$nikangiproMainActivity(errMsg);
                 }
             });
         }
@@ -978,7 +978,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         if (names.isEmpty()) {
             Toast.makeText(this, "No functions found (symbols or code pattern)", 1).show();
         } else {
-            new AlertDialog.Builder(this, android.R.style.Theme.DeviceDefault.Dialog.Alert).setTitle(getString(R.string.nav_func_explorer) + " (" + names.size() + " — " + symbolCount + " sym, " + codeOnlyCount + " code)").setItems((CharSequence[]) names.toArray(new String[0]), new DialogInterface.OnClickListener() { // from class: nika.ngipro.MainActivity$$ExternalSyntheticLambda25
+            new AlertDialog.Builder(this, android.R.style.Theme_DeviceDefault_Dialog_Alert).setTitle(getString(R.string.nav_func_explorer) + " (" + names.size() + " — " + symbolCount + " sym, " + codeOnlyCount + " code)").setItems((CharSequence[]) names.toArray(new String[0]), new DialogInterface.OnClickListener() { // from class: nika.ngipro.MainActivity$$ExternalSyntheticLambda25
                 @Override // android.content.DialogInterface.OnClickListener
                 public final void onClick(DialogInterface dialogInterface, int i) {
                     MainActivity.this.m1790lambda$runFunctionExplorer$29$nikangiproMainActivity(addresses, sizes, dialogInterface, i);
@@ -1013,7 +1013,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         runOnUiThread(new Runnable() { // from class: nika.ngipro.MainActivity$$ExternalSyntheticLambda7
             @Override // java.lang.Runnable
             public final void run() {
-                MainActivity.this.m1788lambda$runFunctionExplorer$27$nikangiproMainActivity(finalPseudo);
+                MainActivity.this.m1807lambda$showXrefsDialog$18$nikangiproMainActivity(finalPseudo);
             }
         });
     }
@@ -1021,7 +1021,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private void showLanguageDialog() {
         String[] labels = {getString(R.string.lang_english), getString(R.string.lang_chinese)};
         final String[] codes = {LocaleHelper.LANG_ENGLISH, LocaleHelper.LANG_CHINESE};
-        new AlertDialog.Builder(this, android.R.style.Theme.DeviceDefault.Dialog.Alert).setTitle(getString(R.string.dlg_language_title)).setItems(labels, new DialogInterface.OnClickListener() { // from class: nika.ngipro.MainActivity$$ExternalSyntheticLambda14
+        new AlertDialog.Builder(this, android.R.style.Theme_DeviceDefault_Dialog_Alert).setTitle(getString(R.string.dlg_language_title)).setItems(labels, new DialogInterface.OnClickListener() { // from class: nika.ngipro.MainActivity$$ExternalSyntheticLambda14
             @Override // android.content.DialogInterface.OnClickListener
             public final void onClick(DialogInterface dialogInterface, int i) {
                 MainActivity.this.m1800lambda$showLanguageDialog$33$nikangiproMainActivity(codes, dialogInterface, i);

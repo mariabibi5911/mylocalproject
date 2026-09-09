@@ -11,7 +11,7 @@ import java.util.Locale;
 import nika.ngipro.BookmarkManager;
 
 /* loaded from: classes4.dex */
-public class BookmarkAdapter extends RecyclerView.Adapter<VH> {
+public class BookmarkAdapter extends RecyclerView.Adapter<BookmarkAdapter.VH> {
     private final List<BookmarkManager.Bookmark> items;
     private final OnClick listener;
 

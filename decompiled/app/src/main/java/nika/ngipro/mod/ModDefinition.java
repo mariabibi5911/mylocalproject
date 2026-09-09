@@ -88,7 +88,7 @@ public final class ModDefinition {
         if (conflicts != null) for (int i = 0; i < conflicts.length(); i++) mod.addConflict(conflicts.optString(i));
         JSONObject config = object.optJSONObject("configuration");
         if (config != null) {
-            String[] names = JSONObject.getNames(config);
+            String[] names = ModJson.names(config);
             if (names != null) for (String key : names) mod.setConfiguration(key, config.optString(key));
         }
         JSONArray featureArray = object.optJSONArray("features");

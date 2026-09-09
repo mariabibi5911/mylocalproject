@@ -196,9 +196,8 @@ public class IDAViewActivity extends AppCompatActivity {
                         codeOnlyCount = codeOnlyCount2;
                     }
                 } catch (Throwable th) {
-                    t = th;
                     iDAViewActivity = this;
-                    final String errorMsg = "Error scanning functions: " + t.getClass().getSimpleName();
+                    final String errorMsg = "Error scanning functions: " + th.getClass().getSimpleName();
                     iDAViewActivity.runOnUiThread(new Runnable() { // from class: nika.ngipro.IDAViewActivity$$ExternalSyntheticLambda8
                         @Override // java.lang.Runnable
                         public final void run() {
@@ -227,8 +226,7 @@ public class IDAViewActivity extends AppCompatActivity {
                     }
                 });
             } catch (Throwable th2) {
-                t = th2;
-                final String errorMsg2 = "Error scanning functions: " + t.getClass().getSimpleName();
+                final String errorMsg2 = "Error scanning functions: " + th2.getClass().getSimpleName();
                 iDAViewActivity.runOnUiThread(new Runnable() { // from class: nika.ngipro.IDAViewActivity$$ExternalSyntheticLambda8
                     @Override // java.lang.Runnable
                     public final void run() {
@@ -237,7 +235,6 @@ public class IDAViewActivity extends AppCompatActivity {
                 });
             }
         } catch (Throwable th3) {
-            t = th3;
             iDAViewActivity = this;
         }
     }
