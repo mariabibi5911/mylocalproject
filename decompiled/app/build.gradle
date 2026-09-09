@@ -82,7 +82,35 @@ dependencies {
     implementation 'com.github.bumptech.glide:glide:4.16.0'
     implementation 'com.google.guava:guava:32.1.3-android'
     implementation 'org.smali:dexlib2:2.5.2'
-    implementation fileTree(dir: embeddedLibraryDir.get().asFile, include: ['*.jar'])
+    // The extracted AAR jars duplicate androidx classes that are also resolved
+    // as Maven/AAR dependencies (e.g. the Glide dependency tree). All extracted
+    // jars stay on the compile classpath but the reported duplicate jars are
+    // excluded from the runtime/implementation classpath; the files remain on
+    // disk. Exact basenames are used (not wildcards) so non-duplicated jars
+    // such as lifecycle-process, core-ktx and viewpager2 keep their classes.
+    compileOnly fileTree(dir: embeddedLibraryDir.get().asFile, include: ['*.jar'])
+    implementation fileTree(dir: embeddedLibraryDir.get().asFile, include: ['*.jar'], exclude: [
+            'activity-1.6.0.jar',
+            'annotation-experimental-1.3.0.jar',
+            'core-1.9.0.jar',
+            'core-runtime-2.1.0.jar',
+            'customview-1.1.0.jar',
+            'fragment-1.3.6.jar',
+            'interpolator-1.0.0.jar',
+            'lifecycle-livedata-2.0.0.jar',
+            'lifecycle-livedata-core-2.5.1.jar',
+            'lifecycle-runtime-2.5.1.jar',
+            'lifecycle-viewmodel-2.5.1.jar',
+            'lifecycle-viewmodel-savedstate-2.5.1.jar',
+            'loader-1.0.0.jar',
+            'savedstate-1.2.0.jar',
+            'tracing-1.0.0.jar',
+            'vectordrawable-1.1.0.jar',
+            'vectordrawable-animated-1.1.0.jar',
+            'versionedparcelable-1.1.1.jar',
+            'viewpager-1.0.0.jar',
+    ])
+    implementation 'androidx.constraintlayout:constraintlayout-core:1.0.4'
 }
 
 tasks.register('extractEmbeddedLibraries') {
@@ -104,8 +132,9 @@ tasks.register('extractEmbeddedLibraries') {
                     from zipTree(artifact)
                     include 'classes.jar'
                     into outputDir
-                    rename { "${baseName}.jar" }
+                                    rename { "${baseName}.jar" }
                 }
+            }
         }
     }
 }
