@@ -2,24 +2,38 @@
 # Build artifacts
 build/
 dist/
-*.apk
-*.aar
+
+# Decompiled sources directory
+decompiled/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# IDE files
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Java build artifacts
+*.class
 *.jar
+*.war
+*.ear
 
 # Gradle
 .gradle/
-!gradle.properties
-
-# IDE
-.idea/
-*.iml
-*.ipr
-*.iws
-
-# Temp files
-*.tmp
-*.temp
-*.log
+build/
 
 # Local configuration
 local.properties
