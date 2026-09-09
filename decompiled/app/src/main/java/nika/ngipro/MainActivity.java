@@ -273,6 +273,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         tools.add(new ToolsAdapter.ToolItem(17, android.R.drawable.ic_menu_recent_history, getString(R.string.nav_func_explorer)));
         tools.add(new ToolsAdapter.ToolItem(18, android.R.drawable.ic_menu_agenda, getString(R.string.nav_bookmarks)));
         tools.add(new ToolsAdapter.ToolItem(19, android.R.drawable.ic_menu_manage, getString(R.string.nav_mod_manager)));
+        tools.add(new ToolsAdapter.ToolItem(20, android.R.drawable.ic_menu_sort_by_size, getString(R.string.nav_batch_processor)));
+        tools.add(new ToolsAdapter.ToolItem(21, android.R.drawable.ic_menu_search, getString(R.string.nav_secret_scanner)));
         this.binding.toolsGrid.setLayoutManager(new GridLayoutManager(this, 3));
         ToolsAdapter toolsAdapter = new ToolsAdapter(tools, new ToolsAdapter.OnToolClick() { // from class: nika.ngipro.MainActivity$$ExternalSyntheticLambda26
             @Override // nika.ngipro.ToolsAdapter.OnToolClick
@@ -364,6 +366,16 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 Intent intent3 = new Intent(this, (Class<?>) BookmarksActivity.class);
                 intent3.putExtra("file_path", this.currentFilePath);
                 openScreen(intent3);
+            } else if (toolId == 19) {
+                Intent intent4 = new Intent(this, (Class<?>) nika.ngipro.mod.ModManagerActivity.class);
+                intent4.putExtra("file_path", this.currentFilePath);
+                openScreen(intent4);
+            } else if (toolId == 20) {
+                Intent intent5 = new Intent(this, (Class<?>) BatchProcessorActivity.class);
+                openScreen(intent5);
+            } else if (toolId == 21) {
+                Intent intent6 = new Intent(this, (Class<?>) SecretScannerActivity.class);
+                openScreen(intent6);
             } else {
                 showLoading("Running…");
                 new Thread(new Runnable() { // from class: nika.ngipro.MainActivity$$ExternalSyntheticLambda3

@@ -202,6 +202,8 @@
     <string name="nav_libdumper">LibDumper (Rust)</string>
     <string name="nav_logout">Logout</string>
     <string name="nav_mod_manager">Mod Manager</string>
+    <string name="nav_batch_processor">Batch Processor</string>
+    <string name="nav_secret_scanner">Secret Scanner</string>
     <string name="nav_profile">Profile</string>
     <string name="nav_sdk_gen">SDK Generator</string>
     <string name="nav_search">Binary Search</string>
