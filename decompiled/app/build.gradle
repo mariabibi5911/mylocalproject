@@ -21,7 +21,8 @@ android {
             // decompiler output and must not be compiled as application code.
             java {
                 srcDirs = ['src/main/java', '../dependencies/src/main/java']
-                include 'com/**/*.java'
+                include 'com/neomods/**/*.java'
+                include 'com/ngi_pro/**/*.java'
                 include 'nika/**/*.java'
                 include 'androidx/startup/**/*.java'
                 include 'androidx/viewbinding/**/*.java'
