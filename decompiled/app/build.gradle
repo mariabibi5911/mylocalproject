@@ -166,9 +166,18 @@ tasks.register('extractEmbeddedLibraries') {
 
 tasks.register('prepareRecoveredResourceSources') {
     inputs.files(recoveredResourceFiles)
+    inputs.file('src/main/res/values/public.xml')
     outputs.dir(recoveredResourceSourceDir)
 
     doLast {
+        def publicAttrIds = [:]
+        file('src/main/res/values/public.xml').eachLine { line ->
+            def match = line =~ /<public\s+type="attr"\s+name="([^"]+)"\s+id="(0x[0-9a-fA-F]+)"/
+            if (match.find()) {
+                publicAttrIds[match.group(1)] = match.group(2)
+            }
+        }
+
         delete recoveredResourceSourceDir
         recoveredResourceFiles.each { sourceFile ->
             def relativePath = recoveredDependencySourceDir.toPath()
@@ -176,7 +185,18 @@ tasks.register('prepareRecoveredResourceSources') {
                     .toString()
             def destination = file(new File(recoveredResourceSourceDir, relativePath))
             destination.parentFile.mkdirs()
-            destination.bytes = sourceFile.bytes
+
+            // Decompiled library R.java styleable arrays refer to the merged
+            // app R.attr fields. Keep the recovered APK IDs but replace those
+            // references with their literal IDs so no synthetic app attrs need
+            // to be re-declared in resources.
+            def sourceText = sourceFile.getText('UTF-8')
+            sourceText = sourceText.replaceAll(
+                    /nika\.ngipro\.R\.attr\.([A-Za-z_][A-Za-z0-9_]*)/
+            ) { fullMatch, name ->
+                publicAttrIds.containsKey(name) ? publicAttrIds[name] : fullMatch
+            }
+            destination.setText(sourceText, 'UTF-8')
         }
     }
 }
