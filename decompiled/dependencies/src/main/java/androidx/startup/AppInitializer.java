@@ -116,7 +116,7 @@ public final class AppInitializer {
 
     /* JADX WARN: Multi-variable type inference failed */
     void discoverAndInitialize(Bundle metadata) {
-        String startup = this.mContext.getString(R.string.androidx_startup);
+        String startup = this.mContext.getString(nika.ngipro.R.string.androidx_startup);
         if (metadata != null) {
             try {
                 Set<Class<?>> initializing = new HashSet<>();

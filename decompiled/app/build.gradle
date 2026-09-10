@@ -16,11 +16,15 @@ android {
 
     sourceSets {
         main {
-            // Compile only the app sources and the small, valid local ViewBinding
-            // compatibility sources. The recovered dependency tree is malformed
+            // Compile only the app sources and the small, targeted recovered AndroidX
+            // compatibility sources. The remaining dependency tree is malformed
             // decompiler output and must not be compiled as application code.
             java {
-                srcDirs = ['src/main/java', '../dependencies/src/main/java/androidx/viewbinding']
+                srcDirs = [
+                        'src/main/java',
+                        '../dependencies/src/main/java/androidx/viewbinding',
+                        '../dependencies/src/main/java/androidx/startup'
+                ]
             }
             jniLibs.srcDirs = ['src/main/jniLibs']
         }
@@ -123,6 +127,11 @@ tasks.register('extractEmbeddedLibraries') {
 
         configurations.embeddedLibraries.files.each { artifact ->
             if (artifact.name.startsWith("listenablefuture-") || artifact.name.startsWith("error_prone_annotations-")) {
+                return
+            }
+            // Compile the recovered local Startup implementation below rather
+            // than packaging a second startup-runtime implementation.
+            if (artifact.name.startsWith('startup-runtime-')) {
                 return
             }
             if (artifact.name.endsWith('.aar')) {
