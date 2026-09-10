@@ -2,6 +2,17 @@ plugins {
     id 'com.android.application'
 }
 
+// Keep the malformed recovered dependency tree out of the Java source set.
+// Resource IDs are recovered into a generated source directory below, while
+// Startup and ViewBinding retain their explicitly selected source directories.
+def recoveredDependencySourceDir = file('../dependencies/src/main/java')
+def recoveredResourceSourceDir = file("$buildDir/generated/recovered-resource-sources")
+
+def recoveredResourceFiles = fileTree(recoveredDependencySourceDir) {
+    include '**/R.java'
+    exclude 'androidx/startup/R.java', 'androidx/viewbinding/R.java'
+}
+
 android {
     namespace 'nika.ngipro'
     compileSdk 33
@@ -16,18 +27,16 @@ android {
 
     sourceSets {
         main {
-            // Compile the app sources plus only recovered AndroidX R/startup
-            // compatibility sources. The remaining dependency tree is malformed
+            // Compile the app sources plus explicitly selected recovered
+            // AndroidX sources. The remaining dependency tree is malformed
             // decompiler output and must not be compiled as application code.
             java {
-                srcDirs = ['src/main/java', '../dependencies/src/main/java']
-                include 'com/neomods/**/*.java'
-                include 'com/ngi_pro/**/*.java'
-                include 'nika/**/*.java'
-                include 'androidx/startup/**/*.java'
-                include 'androidx/viewbinding/**/*.java'
-                include 'androidx/core/content/res/ResourcesCompat$ThemeCompat.java'
-                include '**/R.java'
+                srcDirs = [
+                        'src/main/java',
+                        '../dependencies/src/main/java/androidx/viewbinding',
+                        '../dependencies/src/main/java/androidx/startup',
+                        recoveredResourceSourceDir
+                ]
             }
             jniLibs.srcDirs = ['src/main/jniLibs']
         }
@@ -155,6 +164,23 @@ tasks.register('extractEmbeddedLibraries') {
     }
 }
 
+tasks.register('prepareRecoveredResourceSources') {
+    inputs.files(recoveredResourceFiles)
+    outputs.dir(recoveredResourceSourceDir)
+
+    doLast {
+        delete recoveredResourceSourceDir
+        recoveredResourceFiles.each { sourceFile ->
+            def relativePath = recoveredDependencySourceDir.toPath()
+                    .relativize(sourceFile.toPath())
+                    .toString()
+            def destination = file(new File(recoveredResourceSourceDir, relativePath))
+            destination.parentFile.mkdirs()
+            destination.bytes = sourceFile.bytes
+        }
+    }
+}
+
 // The APK's recovered source contains the implementation of the missing
 // ResourcesCompat.ThemeCompat nested class. It is rebuilt as the binary class
 // name ResourcesCompat$ThemeCompat, so no external Core JAR is required.
@@ -198,6 +224,7 @@ tasks.register('packageCoreResourcesCompat', Jar) {
 
 tasks.named('preBuild').configure {
     dependsOn tasks.named('extractEmbeddedLibraries')
+    dependsOn tasks.named('prepareRecoveredResourceSources')
 }
 
 tasks.configureEach { task ->
