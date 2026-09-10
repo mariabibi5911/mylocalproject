@@ -172,6 +172,8 @@ tasks.named('preBuild').configure {
     dependsOn tasks.named('extractEmbeddedLibraries')
 }
 
-tasks.named('assembleDebug').configure {
-    finalizedBy tasks.named('packageCoreResourcesCompat')
+tasks.configureEach { task ->
+    if (task.name == 'assembleDebug') {
+        task.finalizedBy tasks.named('packageCoreResourcesCompat')
+    }
 }
