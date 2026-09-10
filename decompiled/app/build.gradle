@@ -142,21 +142,21 @@ tasks.register('extractEmbeddedLibraries') {
 // ResourcesCompat.ThemeCompat nested class. It is rebuilt as the binary class
 // name ResourcesCompat$ThemeCompat, so no external Core JAR is required.
 // The complete Core JAR remains compile-only and excluded from runtime.
-def debugJavaCompile = tasks.named('compileDebugJavaWithJavac')
+def debugJavaClassesDir = layout.buildDirectory.dir(
+        'intermediates/javac/debug/compileDebugJavaWithJavac/classes'
+)
 
 tasks.register('packageCoreResourcesCompat', Jar) {
     archiveFileName.set('core-resources-compat.jar')
     destinationDirectory.set(layout.buildDirectory.dir('generated/core-resources-compat'))
-    dependsOn debugJavaCompile
+    dependsOn 'compileDebugJavaWithJavac'
 
-    from {
-        debugJavaCompile.get().destinationDirectory.get().asFile
-    }
+    from(debugJavaClassesDir)
     include 'androidx/core/content/res/ResourcesCompat$ThemeCompat.class'
     include 'androidx/core/content/res/ResourcesCompat$ThemeCompat$*.class'
 
     doFirst {
-        def classes = fileTree(debugJavaCompile.get().destinationDirectory.get().asFile).matching {
+        def classes = fileTree(debugJavaClassesDir.get().asFile).matching {
             include 'androidx/core/content/res/ResourcesCompat$ThemeCompat.class'
             include 'androidx/core/content/res/ResourcesCompat$ThemeCompat$*.class'
         }.files
