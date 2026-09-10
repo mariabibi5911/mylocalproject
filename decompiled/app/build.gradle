@@ -238,6 +238,49 @@ tasks.register('prepareRecoveredResourceSources') {
     }
 }
 
+// Keep the historical compatibility-JAR validation artifact available.
+// The APK runtime now uses the complete recovered Core class set above; this
+// filtered JAR is not placed on the runtime classpath.
+def recoveredCoreRuntimeJars = {
+    fileTree(embeddedLibraryDir.get().asFile).matching {
+        include 'core-1.9.0.jar'
+    }.files
+}
+
+tasks.register('packageCoreResourcesCompat', Jar) {
+    archiveFileName.set('core-resources-compat.jar')
+    destinationDirectory.set(layout.buildDirectory.dir('generated/core-resources-compat'))
+    dependsOn tasks.named('extractEmbeddedLibraries')
+    from {
+        def candidates = recoveredCoreRuntimeJars()
+        if (candidates.isEmpty()) {
+            throw new GradleException('Recovered core-1.9.0 runtime jar was not extracted.')
+        }
+        zipTree(candidates.first()).matching {
+            include 'androidx/core/content/res/ResourcesCompat$ThemeCompat.class'
+            include 'androidx/core/content/res/ResourcesCompat$ThemeCompat$*.class'
+        }
+    }
+    doFirst {
+        def candidates = recoveredCoreRuntimeJars()
+        if (candidates.isEmpty()) {
+            throw new GradleException('Recovered core-1.9.0 runtime jar was not extracted.')
+        }
+        def entries = zipTree(candidates.first()).matching {
+            include 'androidx/core/content/res/ResourcesCompat$ThemeCompat.class'
+        }.files
+        if (entries.isEmpty()) {
+            throw new GradleException(
+                    'Recovered Core runtime does not contain ResourcesCompat$ThemeCompat.'
+            )
+        }
+    }
+}
+
+tasks.named('assembleDebug').configure {
+    finalizedBy tasks.named('packageCoreResourcesCompat')
+}
+
 tasks.named('preBuild').configure {
     dependsOn tasks.named('extractEmbeddedLibraries')
     dependsOn tasks.named('prepareRecoveredResourceSources')
