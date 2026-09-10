@@ -336,9 +336,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
         if (toolId == 13) {
             runLibDumperTool();
-        }
-        if (toolId == 13) {
-            runLibDumperTool();
             return;
         }
         if (toolId == 14) {
