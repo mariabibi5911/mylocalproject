@@ -126,7 +126,7 @@ public final class AppInitializer {
                     if (startup.equals(value)) {
                         Class<?> clazz = Class.forName(key);
                         if (Initializer.class.isAssignableFrom(clazz)) {
-                            this.mDiscovered.add(clazz);
+                            this.mDiscovered.add((Class<? extends Initializer<?>>) clazz);
                         }
                     }
                 }
