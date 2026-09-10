@@ -39,6 +39,8 @@ android {
                         '../dependencies/src/main/java/androidx/startup',
                         recoveredResourceSourceDir
                 ]
+                // Full recovered Core runtime supplies this nested class.
+                exclude 'androidx/core/content/res/ResourcesCompat$ThemeCompat.java'
             }
             jniLibs.srcDirs = ['src/main/jniLibs']
         }
@@ -95,44 +97,23 @@ dependencies {
     embeddedLibraries 'androidx.drawerlayout:drawerlayout:1.1.1'
     embeddedLibraries 'androidx.recyclerview:recyclerview:1.3.1'
     embeddedLibraries 'com.google.android.material:material:1.9.0'
+    // Keep the complete recovered AndroidX runtime closure on one extracted
+    // classpath. These versions match the existing recovered artifact names.
+    embeddedLibraries 'androidx.core:core:1.9.0'
+    embeddedLibraries 'androidx.activity:activity:1.6.0'
+    embeddedLibraries 'androidx.fragment:fragment:1.3.6'
+    embeddedLibraries 'androidx.emoji2:emoji2:1.2.0'
+    embeddedLibraries 'androidx.lifecycle:lifecycle-process:2.5.1'
 
-    implementation 'androidx.annotation:annotation:1.7.1'
-    // The recovered Startup initializer reaches ProcessLifecycleInitializer.
-    // Supply its common/runtime lifecycle classes directly; the extracted
-    // copies stay excluded below so these do not create duplicate classes.
-    implementation 'androidx.lifecycle:lifecycle-runtime:2.5.1'
-    implementation 'androidx.lifecycle:lifecycle-common:2.5.1'
     implementation 'com.github.bumptech.glide:glide:4.16.0'
     implementation 'com.google.guava:guava:32.1.3-android'
     implementation 'org.smali:dexlib2:2.5.2'
 
-    // Keep the complete AndroidX Core jar out of the APK. The runtime only
-    // needs ResourcesCompat.ThemeCompat, which is added below as a narrowly
-    // filtered compatibility jar. All extracted jars remain on the compile
-    // classpath so the recovered source can resolve their classes.
+    // Compile and package the same extracted runtime class set. This keeps
+    // Core, Activity, Fragment, Lifecycle, Emoji2 and their transitive
+    // AndroidX classes available at runtime rather than compile-only.
     compileOnly fileTree(dir: embeddedLibraryDir.get().asFile, include: ['*.jar'])
-    implementation fileTree(dir: embeddedLibraryDir.get().asFile, include: ['*.jar'], exclude: [
-            'activity-1.6.0.jar',
-            'annotation-experimental-1.3.0.jar',
-            'core-1.9.0.jar',
-            'core-runtime-2.1.0.jar',
-            'customview-1.1.0.jar',
-            'fragment-1.3.6.jar',
-            'interpolator-1.0.0.jar',
-            'lifecycle-livedata-2.0.0.jar',
-            'lifecycle-livedata-core-2.5.1.jar',
-            'lifecycle-runtime-2.5.1.jar',
-            'lifecycle-viewmodel-2.5.1.jar',
-            'lifecycle-viewmodel-savedstate-2.5.1.jar',
-            'loader-1.0.0.jar',
-            'savedstate-1.2.0.jar',
-            'tracing-1.0.0.jar',
-            'vectordrawable-1.1.0.jar',
-            'vectordrawable-animated-1.1.0.jar',
-            'versionedparcelable-1.1.1.jar',
-            'viewpager-1.0.0.jar',
-    ])
-    implementation 'androidx.constraintlayout:constraintlayout-core:1.0.4'
+    implementation fileTree(dir: embeddedLibraryDir.get().asFile, include: ['*.jar'])
 }
 
 tasks.register('extractEmbeddedLibraries') {
@@ -159,7 +140,12 @@ tasks.register('extractEmbeddedLibraries') {
                     from zipTree(artifact)
                     include 'classes.jar'
                     into outputDir
-                                    rename { "${baseName}.jar" }
+                    rename { "${baseName}.jar" }
+                }
+            } else if (artifact.name.endsWith('.jar')) {
+                copy {
+                    from artifact
+                    into outputDir
                 }
             }
         }
@@ -203,54 +189,7 @@ tasks.register('prepareRecoveredResourceSources') {
     }
 }
 
-// The APK's recovered source contains the implementation of the missing
-// ResourcesCompat.ThemeCompat nested class. It is rebuilt as the binary class
-// name ResourcesCompat$ThemeCompat, so no external Core JAR is required.
-// The complete Core JAR remains compile-only and excluded from runtime.
-def compatibilityClassPattern = {
-    fileTree(layout.buildDirectory.get().asFile).matching {
-        include '**/androidx/core/content/res/ResourcesCompat$ThemeCompat.class'
-        include '**/androidx/core/content/res/ResourcesCompat$ThemeCompat$*.class'
-    }
-}
-
-tasks.register('packageCoreResourcesCompat', Jar) {
-    archiveFileName.set('core-resources-compat.jar')
-    destinationDirectory.set(layout.buildDirectory.dir('generated/core-resources-compat'))
-    dependsOn 'compileDebugJavaWithJavac'
-
-    // Search the compiled build tree because AGP can change the JavaCompile
-    // output directory between versions. Rewrite the path so the generated
-    // JAR contains only the AndroidX package path.
-    from(layout.buildDirectory) {
-        include '**/androidx/core/content/res/ResourcesCompat$ThemeCompat.class'
-        include '**/androidx/core/content/res/ResourcesCompat$ThemeCompat$*.class'
-        eachFile { details ->
-            def marker = 'androidx/core/content/res/'
-            def markerIndex = details.path.indexOf(marker)
-            if (markerIndex >= 0) {
-                details.path = details.path.substring(markerIndex)
-            }
-        }
-    }
-
-    doFirst {
-        def classes = compatibilityClassPattern().files
-        if (!classes.any { it.name == 'ResourcesCompat$ThemeCompat.class' }) {
-            throw new GradleException(
-                    'The APK-only ThemeCompat compatibility source did not compile.'
-            )
-        }
-    }
-}
-
 tasks.named('preBuild').configure {
     dependsOn tasks.named('extractEmbeddedLibraries')
     dependsOn tasks.named('prepareRecoveredResourceSources')
-}
-
-tasks.configureEach { task ->
-    if (task.name == 'assembleDebug') {
-        task.finalizedBy tasks.named('packageCoreResourcesCompat')
-    }
 }
