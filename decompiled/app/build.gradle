@@ -65,7 +65,6 @@ android {
 // libraries for their classes, but extract only classes.jar from AARs so their
 // duplicate resource trees are not merged a second time.
 def embeddedLibraryDir = layout.buildDirectory.dir('generated/embedded-libraries')
-def coreResourcesCompatJar = layout.buildDirectory.file('generated/core-resources-compat/core-resources-compat.jar')
 
 configurations {
     embeddedLibraries
@@ -110,7 +109,6 @@ dependencies {
             'versionedparcelable-1.1.1.jar',
             'viewpager-1.0.0.jar',
     ])
-    implementation files(coreResourcesCompatJar.get().asFile)
     implementation 'androidx.constraintlayout:constraintlayout-core:1.0.4'
 }
 
@@ -140,43 +138,31 @@ tasks.register('extractEmbeddedLibraries') {
     }
 }
 
-// The AndroidX Core AAR is intentionally excluded above because the recovered
-// APK already carries most of its Core classes through other dependency jars.
-// A decompiler/runtime inspection confirmed that only this nested class is
-// missing. Take it from the verified local recovered core-1.9.0.jar, never
-// from a Maven cache, and package only that class plus exact inner companions.
-def recoveredCoreJarCandidates = fileTree(rootDir) {
-    include '**/core-1.9.0.jar'
-    exclude '**/.gradle/**', '**/.gradle-user-home/**', '**/build/**', '**/generated/**'
-}.files.sort { left, right -> left.absolutePath <=> right.absolutePath }
-def recoveredCoreJar = recoveredCoreJarCandidates ? recoveredCoreJarCandidates.first() : file('libs/core-1.9.0.jar')
+// The APK's recovered source contains the implementation of the missing
+// ResourcesCompat.ThemeCompat nested class. It is rebuilt as the binary class
+// name ResourcesCompat$ThemeCompat, so no external Core JAR is required.
+// The complete Core JAR remains compile-only and excluded from runtime.
+def debugJavaCompile = tasks.named('compileDebugJavaWithJavac')
 
-tasks.register('extractCoreResourcesCompat', Jar) {
+tasks.register('packageCoreResourcesCompat', Jar) {
     archiveFileName.set('core-resources-compat.jar')
     destinationDirectory.set(layout.buildDirectory.dir('generated/core-resources-compat'))
-    inputs.file(recoveredCoreJar)
+    dependsOn debugJavaCompile
 
     from {
-        if (!recoveredCoreJar.isFile()) {
-            throw new GradleException(
-                    "Verified local core-1.9.0.jar was not found. Place the recovered jar under the app dependency/lib area; " +
-                            "the compatibility task will not use a Maven cache artifact. Searched project: ${rootDir}"
-            )
-        }
-        zipTree(recoveredCoreJar).matching {
-            include 'androidx/core/content/res/ResourcesCompat$ThemeCompat.class'
-            include 'androidx/core/content/res/ResourcesCompat$ThemeCompat$*.class'
-        }
+        debugJavaCompile.get().destinationDirectory.get().asFile
     }
+    include 'androidx/core/content/res/ResourcesCompat$ThemeCompat.class'
+    include 'androidx/core/content/res/ResourcesCompat$ThemeCompat$*.class'
 
     doFirst {
-        def entries = zipTree(recoveredCoreJar).matching {
+        def classes = fileTree(debugJavaCompile.get().destinationDirectory.get().asFile).matching {
             include 'androidx/core/content/res/ResourcesCompat$ThemeCompat.class'
             include 'androidx/core/content/res/ResourcesCompat$ThemeCompat$*.class'
         }.files
-        if (!entries.any { it.name == 'ResourcesCompat$ThemeCompat.class' }) {
+        if (!classes.any { it.name == 'ResourcesCompat$ThemeCompat.class' }) {
             throw new GradleException(
-                    "${recoveredCoreJar} does not contain androidx/core/content/res/ResourcesCompat\$ThemeCompat.class"
+                    'The APK-only ThemeCompat compatibility source did not compile.'
             )
         }
     }
@@ -184,5 +170,8 @@ tasks.register('extractCoreResourcesCompat', Jar) {
 
 tasks.named('preBuild').configure {
     dependsOn tasks.named('extractEmbeddedLibraries')
-    dependsOn tasks.named('extractCoreResourcesCompat')
+}
+
+tasks.named('assembleDebug').configure {
+    finalizedBy tasks.named('packageCoreResourcesCompat')
 }
