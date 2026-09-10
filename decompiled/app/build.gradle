@@ -16,15 +16,17 @@ android {
 
     sourceSets {
         main {
-            // Compile only the app sources and the small, targeted recovered AndroidX
+            // Compile the app sources plus only recovered AndroidX R/startup
             // compatibility sources. The remaining dependency tree is malformed
             // decompiler output and must not be compiled as application code.
             java {
-                srcDirs = [
-                        'src/main/java',
-                        '../dependencies/src/main/java/androidx/viewbinding',
-                        '../dependencies/src/main/java/androidx/startup'
-                ]
+                srcDirs = ['src/main/java', '../dependencies/src/main/java']
+                include 'com/**/*.java'
+                include 'nika/**/*.java'
+                include 'androidx/startup/**/*.java'
+                include 'androidx/viewbinding/**/*.java'
+                include 'androidx/core/content/res/ResourcesCompat$ThemeCompat.java'
+                include '**/R.java'
             }
             jniLibs.srcDirs = ['src/main/jniLibs']
         }
