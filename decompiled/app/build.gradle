@@ -23,6 +23,8 @@ android {
         targetSdk 33
         versionCode 3
         versionName '2.1'
+        // Keep AppCompat's vector drawable compatibility path enabled.
+        vectorDrawables.useSupportLibrary = true
     }
 
     sourceSets {
