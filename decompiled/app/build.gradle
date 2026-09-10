@@ -152,6 +152,54 @@ tasks.register('extractEmbeddedLibraries') {
     }
 }
 
+tasks.register('verifyRecoveredRuntimeClosure') {
+    dependsOn tasks.named('extractEmbeddedLibraries')
+
+    doLast {
+        def runtimeJars = fileTree(embeddedLibraryDir.get().asFile) {
+            include '*.jar'
+        }.files
+        def requiredClasses = [
+                'androidx/core/app/CoreComponentFactory.class',
+                'androidx/core/app/ComponentActivity.class',
+                'androidx/activity/ComponentActivity.class',
+                'androidx/fragment/app/FragmentActivity.class',
+                'androidx/appcompat/app/AppCompatActivity.class',
+                'androidx/lifecycle/DefaultLifecycleObserver.class',
+                'androidx/lifecycle/Lifecycle.class',
+                'androidx/lifecycle/ProcessLifecycleInitializer.class',
+                'androidx/emoji2/text/EmojiCompatInitializer.class',
+                'androidx/emoji2/text/EmojiCompat.class'
+        ]
+        def missing = requiredClasses.findAll { classPath ->
+            !runtimeJars.any { jar ->
+                zipTree(jar).matching { include classPath }.files
+            }
+        }
+        if (!missing.isEmpty()) {
+            throw new GradleException(
+                    'Recovered AndroidX runtime closure is missing: ' + missing.join(', ')
+            )
+        }
+
+        def owners = [:].withDefault { [] }
+        runtimeJars.each { jar ->
+            zipTree(jar).matching { include '**/*.class' }.files.each { classFile ->
+                def relative = jar.toPath().relativize(classFile.toPath()).toString()
+                owners[relative] << jar.name
+            }
+        }
+        def duplicateClasses = owners.findAll { entry, jars -> jars.size() > 1 }
+        if (!duplicateClasses.isEmpty()) {
+            def sample = duplicateClasses.collect { name, jars -> name + ' [' + jars.join(', ') + ']' }
+                    .take(20)
+            throw new GradleException(
+                    'Duplicate extracted runtime classes: ' + sample.join('; ')
+            )
+        }
+    }
+}
+
 tasks.register('prepareRecoveredResourceSources') {
     inputs.files(recoveredResourceFiles)
     inputs.file('src/main/res/values/public.xml')
@@ -192,4 +240,5 @@ tasks.register('prepareRecoveredResourceSources') {
 tasks.named('preBuild').configure {
     dependsOn tasks.named('extractEmbeddedLibraries')
     dependsOn tasks.named('prepareRecoveredResourceSources')
+    dependsOn tasks.named('verifyRecoveredRuntimeClosure')
 }
