@@ -65,6 +65,7 @@ android {
 // libraries for their classes, but extract only classes.jar from AARs so their
 // duplicate resource trees are not merged a second time.
 def embeddedLibraryDir = layout.buildDirectory.dir('generated/embedded-libraries')
+def coreResourcesCompatJar = layout.buildDirectory.file('generated/core-resources-compat/core-resources-compat.jar')
 
 configurations {
     embeddedLibraries
@@ -82,12 +83,11 @@ dependencies {
     implementation 'com.github.bumptech.glide:glide:4.16.0'
     implementation 'com.google.guava:guava:32.1.3-android'
     implementation 'org.smali:dexlib2:2.5.2'
-    // The extracted AAR jars duplicate androidx classes that are also resolved
-    // as Maven/AAR dependencies (e.g. the Glide dependency tree). All extracted
-    // jars stay on the compile classpath but the reported duplicate jars are
-    // excluded from the runtime/implementation classpath; the files remain on
-    // disk. Exact basenames are used (not wildcards) so non-duplicated jars
-    // such as lifecycle-process, core-ktx and viewpager2 keep their classes.
+
+    // Keep the complete AndroidX Core jar out of the APK. The runtime only
+    // needs ResourcesCompat.ThemeCompat, which is added below as a narrowly
+    // filtered compatibility jar. All extracted jars remain on the compile
+    // classpath so the recovered source can resolve their classes.
     compileOnly fileTree(dir: embeddedLibraryDir.get().asFile, include: ['*.jar'])
     implementation fileTree(dir: embeddedLibraryDir.get().asFile, include: ['*.jar'], exclude: [
             'activity-1.6.0.jar',
@@ -110,6 +110,7 @@ dependencies {
             'versionedparcelable-1.1.1.jar',
             'viewpager-1.0.0.jar',
     ])
+    implementation files(coreResourcesCompatJar.get().asFile)
     implementation 'androidx.constraintlayout:constraintlayout-core:1.0.4'
 }
 
@@ -139,6 +140,49 @@ tasks.register('extractEmbeddedLibraries') {
     }
 }
 
+// The AndroidX Core AAR is intentionally excluded above because the recovered
+// APK already carries most of its Core classes through other dependency jars.
+// A decompiler/runtime inspection confirmed that only this nested class is
+// missing. Take it from the verified local recovered core-1.9.0.jar, never
+// from a Maven cache, and package only that class plus exact inner companions.
+def recoveredCoreJarCandidates = fileTree(rootDir) {
+    include '**/core-1.9.0.jar'
+    exclude '**/.gradle/**', '**/.gradle-user-home/**', '**/build/**', '**/generated/**'
+}.files.sort { left, right -> left.absolutePath <=> right.absolutePath }
+def recoveredCoreJar = recoveredCoreJarCandidates ? recoveredCoreJarCandidates.first() : file('libs/core-1.9.0.jar')
+
+tasks.register('extractCoreResourcesCompat', Jar) {
+    archiveFileName.set('core-resources-compat.jar')
+    destinationDirectory.set(layout.buildDirectory.dir('generated/core-resources-compat'))
+    inputs.file(recoveredCoreJar)
+
+    from {
+        if (!recoveredCoreJar.isFile()) {
+            throw new GradleException(
+                    "Verified local core-1.9.0.jar was not found. Place the recovered jar under the app dependency/lib area; " +
+                            "the compatibility task will not use a Maven cache artifact. Searched project: ${rootDir}"
+            )
+        }
+        zipTree(recoveredCoreJar).matching {
+            include 'androidx/core/content/res/ResourcesCompat$ThemeCompat.class'
+            include 'androidx/core/content/res/ResourcesCompat$ThemeCompat$*.class'
+        }
+    }
+
+    doFirst {
+        def entries = zipTree(recoveredCoreJar).matching {
+            include 'androidx/core/content/res/ResourcesCompat$ThemeCompat.class'
+            include 'androidx/core/content/res/ResourcesCompat$ThemeCompat$*.class'
+        }.files
+        if (!entries.any { it.name == 'ResourcesCompat$ThemeCompat.class' }) {
+            throw new GradleException(
+                    "${recoveredCoreJar} does not contain androidx/core/content/res/ResourcesCompat\$ThemeCompat.class"
+            )
+        }
+    }
+}
+
 tasks.named('preBuild').configure {
     dependsOn tasks.named('extractEmbeddedLibraries')
+    dependsOn tasks.named('extractCoreResourcesCompat')
 }
