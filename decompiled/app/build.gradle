@@ -184,9 +184,10 @@ tasks.register('verifyRecoveredRuntimeClosure') {
 
         def owners = [:].withDefault { [] }
         runtimeJars.each { jar ->
-            zipTree(jar).matching { include '**/*.class' }.files.each { classFile ->
-                def relative = jar.toPath().relativize(classFile.toPath()).toString()
-                owners[relative] << jar.name
+            zipTree(jar).visit { details ->
+                if (!details.directory && details.path.endsWith('.class')) {
+                    owners[details.path] << jar.name
+                }
             }
         }
         def duplicateClasses = owners.findAll { entry, jars -> jars.size() > 1 }
