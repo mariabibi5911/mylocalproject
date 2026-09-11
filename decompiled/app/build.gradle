@@ -277,8 +277,12 @@ tasks.register('packageCoreResourcesCompat', Jar) {
     }
 }
 
-tasks.named('assembleDebug').configure {
-    finalizedBy tasks.named('packageCoreResourcesCompat')
+// AGP registers variant assemble tasks after project evaluation; configure
+// the finalizer lazily so Gradle 8.5 can create assembleDebug first.
+tasks.configureEach { task ->
+    if (task.name == 'assembleDebug') {
+        task.finalizedBy tasks.named('packageCoreResourcesCompat')
+    }
 }
 
 tasks.named('preBuild').configure {
