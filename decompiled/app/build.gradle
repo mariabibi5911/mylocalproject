@@ -185,7 +185,8 @@ tasks.register('verifyRecoveredRuntimeClosure') {
         def owners = [:].withDefault { [] }
         runtimeJars.each { jar ->
             zipTree(jar).visit { details ->
-                if (!details.directory && details.path.endsWith('.class')) {
+                if (!details.directory && details.path.endsWith('.class')
+                        && !details.path.startsWith('META-INF/')) {
                     owners[details.path] << jar.name
                 }
             }
