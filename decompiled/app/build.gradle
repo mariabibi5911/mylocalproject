@@ -91,12 +91,44 @@ configurations {
 }
 
 // Keep AndroidX runtime classes authoritative in the embedded extracted set.
-// Non-AndroidX implementation dependencies may bring older AndroidX transitives;
-// exclude both native AndroidX modules and legacy support modules that Jetifier
-// would otherwise transform into AndroidX artifacts.
-configurations.named('implementation') {
-    exclude group: 'androidx'
-    exclude group: 'com.android.support'
+// Gradle group IDs are androidx.<module>, not a single "androidx" group, so
+// list the recovered module groups explicitly. Also exclude legacy support
+// modules before Jetifier can transform them into a second AndroidX closure.
+def recoveredAndroidXGroups = [
+        'androidx.activity',
+        'androidx.annotation',
+        'androidx.appcompat',
+        'androidx.arch.core',
+        'androidx.cardview',
+        'androidx.collection',
+        'androidx.constraintlayout',
+        'androidx.core',
+        'androidx.customview',
+        'androidx.drawerlayout',
+        'androidx.emoji2',
+        'androidx.fragment',
+        'androidx.interpolator',
+        'androidx.lifecycle',
+        'androidx.loader',
+        'androidx.recyclerview',
+        'androidx.savedstate',
+        'androidx.startup',
+        'androidx.tracing',
+        'androidx.vectordrawable',
+        'androidx.versionedparcelable',
+        'androidx.viewpager',
+        'androidx.viewbinding'
+]
+
+configurations.configureEach { configuration ->
+    // embeddedLibraries is intentionally the source of the recovered AndroidX
+    // artifacts and must not be filtered before extraction.
+    if (configuration.name != 'embeddedLibraries') {
+        recoveredAndroidXGroups.each { groupName ->
+            configuration.exclude group: groupName
+        }
+        configuration.exclude group: 'com.android.support'
+    }
 }
 
 dependencies {
