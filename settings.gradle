@@ -4,6 +4,19 @@ pluginManagement {
         mavenCentral()
         gradlePluginPortal()
     }
+
+    // AGP 8.0.0 embeds R8 8.0.35, which crashes in D8 with the recovered
+    // AndroidX/Kotlin class metadata. Use the compatible fixed R8 tool without
+    // changing the recovered application sources or runtime dependencies.
+    buildscript {
+        repositories {
+            google()
+            mavenCentral()
+        }
+        dependencies {
+            classpath 'com.android.tools:r8:8.3.37'
+        }
+    }
 }
 
 dependencyResolutionManagement {
