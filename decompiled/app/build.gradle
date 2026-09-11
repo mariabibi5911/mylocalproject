@@ -92,9 +92,11 @@ configurations {
 
 // Keep AndroidX runtime classes authoritative in the embedded extracted set.
 // Non-AndroidX implementation dependencies may bring older AndroidX transitives;
-// exclude those module artifacts so they cannot duplicate the recovered closure.
+// exclude both native AndroidX modules and legacy support modules that Jetifier
+// would otherwise transform into AndroidX artifacts.
 configurations.named('implementation') {
     exclude group: 'androidx'
+    exclude group: 'com.android.support'
 }
 
 dependencies {
