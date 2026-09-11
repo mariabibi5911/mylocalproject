@@ -90,6 +90,13 @@ configurations {
     embeddedLibraries
 }
 
+// Keep AndroidX runtime classes authoritative in the embedded extracted set.
+// Non-AndroidX implementation dependencies may bring older AndroidX transitives;
+// exclude those module artifacts so they cannot duplicate the recovered closure.
+configurations.named('implementation') {
+    exclude group: 'androidx'
+}
+
 dependencies {
     embeddedLibraries 'androidx.appcompat:appcompat:1.6.1'
     embeddedLibraries 'androidx.cardview:cardview:1.0.0'
@@ -126,7 +133,13 @@ tasks.register('extractEmbeddedLibraries') {
         outputDir.mkdirs()
 
         configurations.embeddedLibraries.files.each { artifact ->
-            if (artifact.name.startsWith("listenablefuture-") || artifact.name.startsWith("error_prone_annotations-")) {
+            if (artifact.name.startsWith("listenablefuture-")
+                    || artifact.name.startsWith("error_prone_annotations-")
+                    || artifact.name.startsWith('kotlin-stdlib-')
+                    || artifact.name == 'annotations-13.0.jar') {
+                // Kotlin and JetBrains annotation runtime jars are supplied by
+                // the normal non-AndroidX dependency graph; do not duplicate
+                // them from embedded AndroidX transitives.
                 return
             }
             // Compile the recovered local Startup implementation below rather
