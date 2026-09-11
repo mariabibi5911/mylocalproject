@@ -169,11 +169,11 @@ tasks.register('extractEmbeddedLibraries') {
         configurations.embeddedLibraries.files.each { artifact ->
             if (artifact.name.startsWith("listenablefuture-")
                     || artifact.name.startsWith("error_prone_annotations-")
-                    || artifact.name.startsWith('kotlin-stdlib-')
                     || artifact.name == 'annotations-13.0.jar') {
-                // Kotlin and JetBrains annotation runtime jars are supplied by
-                // the normal non-AndroidX dependency graph; do not duplicate
-                // them from embedded AndroidX transitives.
+                // Keep the normal dependency graph's Guava and JetBrains
+                // annotation artifacts authoritative. Kotlin stdlib is kept
+                // from the recovered closure because the normal AndroidX
+                // modules are excluded from the app classpath below.
                 return
             }
             // Compile the recovered local Startup implementation below rather
