@@ -5,7 +5,7 @@ public final class R {
 
     /* loaded from: classes2.dex */
     public static final class drawable {
-        public static int abc_vector_test = 0x7f070077;
+        public static int abc_vector_test = 0x7f07004e;
 
         private drawable() {
         }
