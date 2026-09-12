@@ -155,11 +155,11 @@
     <public type="attr" name="autoCompleteMode" id="0x7f030040" />
     <public type="attr" name="autoCompleteTextViewStyle" id="0x7f030041" />
     <public type="attr" name="autoShowKeyboard" id="0x7f030042" />
-    <public type="attr" name="autoSizeMaxTextSize" id="0x7f030043" />
-    <public type="attr" name="autoSizeMinTextSize" id="0x7f030044" />
-    <public type="attr" name="autoSizePresetSizes" id="0x7f030045" />
-    <public type="attr" name="autoSizeStepGranularity" id="0x7f030046" />
-    <public type="attr" name="autoSizeTextType" id="0x7f030047" />
+    <public type="attr" name="autoSizeMaxTextSize" id="0x7f030042" />
+    <public type="attr" name="autoSizeMinTextSize" id="0x7f030043" />
+    <public type="attr" name="autoSizePresetSizes" id="0x7f030044" />
+    <public type="attr" name="autoSizeStepGranularity" id="0x7f030045" />
+    <public type="attr" name="autoSizeTextType" id="0x7f030046" />
     <public type="attr" name="autoTransition" id="0x7f030048" />
     <public type="attr" name="background" id="0x7f030049" />
     <public type="attr" name="backgroundColor" id="0x7f03004a" />
@@ -482,15 +482,15 @@
     <public type="attr" name="dragScale" id="0x7f030187" />
     <public type="attr" name="dragThreshold" id="0x7f030188" />
     <public type="attr" name="drawPath" id="0x7f030189" />
-    <public type="attr" name="drawableBottomCompat" id="0x7f03018a" />
-    <public type="attr" name="drawableEndCompat" id="0x7f03018b" />
-    <public type="attr" name="drawableLeftCompat" id="0x7f03018c" />
-    <public type="attr" name="drawableRightCompat" id="0x7f03018d" />
+    <public type="attr" name="drawableBottomCompat" id="0x7f030189" />
+    <public type="attr" name="drawableEndCompat" id="0x7f03018a" />
+    <public type="attr" name="drawableLeftCompat" id="0x7f03018b" />
+    <public type="attr" name="drawableRightCompat" id="0x7f03018c" />
     <public type="attr" name="drawableSize" id="0x7f03018e" />
-    <public type="attr" name="drawableStartCompat" id="0x7f03018f" />
-    <public type="attr" name="drawableTint" id="0x7f030190" />
-    <public type="attr" name="drawableTintMode" id="0x7f030191" />
-    <public type="attr" name="drawableTopCompat" id="0x7f030192" />
+    <public type="attr" name="drawableStartCompat" id="0x7f03018e" />
+    <public type="attr" name="drawableTint" id="0x7f03018f" />
+    <public type="attr" name="drawableTintMode" id="0x7f030190" />
+    <public type="attr" name="drawableTopCompat" id="0x7f030191" />
     <public type="attr" name="drawerArrowStyle" id="0x7f030193" />
     <public type="attr" name="drawerLayoutCornerSize" id="0x7f030194" />
     <public type="attr" name="drawerLayoutStyle" id="0x7f030195" />
@@ -505,7 +505,7 @@
     <public type="attr" name="elevationOverlayAccentColor" id="0x7f03019e" />
     <public type="attr" name="elevationOverlayColor" id="0x7f03019f" />
     <public type="attr" name="elevationOverlayEnabled" id="0x7f0301a0" />
-    <public type="attr" name="emojiCompatEnabled" id="0x7f0301a1" />
+    <public type="attr" name="emojiCompatEnabled" id="0x7f0301a0" />
     <public type="attr" name="enableEdgeToEdge" id="0x7f0301a2" />
     <public type="attr" name="endIconCheckable" id="0x7f0301a3" />
     <public type="attr" name="endIconContentDescription" id="0x7f0301a4" />
@@ -565,7 +565,7 @@
     <public type="attr" name="fastScrollVerticalTrackDrawable" id="0x7f0301da" />
     <public type="attr" name="finishPrimaryWithSecondary" id="0x7f0301db" />
     <public type="attr" name="finishSecondaryWithPrimary" id="0x7f0301dc" />
-    <public type="attr" name="firstBaselineToTopHeight" id="0x7f0301dd" />
+    <public type="attr" name="firstBaselineToTopHeight" id="0x7f0301dc" />
     <public type="attr" name="floatingActionButtonLargePrimaryStyle" id="0x7f0301de" />
     <public type="attr" name="floatingActionButtonLargeSecondaryStyle" id="0x7f0301df" />
     <public type="attr" name="floatingActionButtonLargeStyle" id="0x7f0301e0" />
@@ -601,7 +601,7 @@
     <public type="attr" name="flow_verticalStyle" id="0x7f0301fe" />
     <public type="attr" name="flow_wrapMode" id="0x7f0301ff" />
     <public type="attr" name="font" id="0x7f030200" />
-    <public type="attr" name="fontFamily" id="0x7f030201" />
+    <public type="attr" name="fontFamily" id="0x7f0301ff" />
     <public type="attr" name="fontProviderAuthority" id="0x7f030202" />
     <public type="attr" name="fontProviderCerts" id="0x7f030203" />
     <public type="attr" name="fontProviderFetchStrategy" id="0x7f030204" />
@@ -708,7 +708,7 @@
     <public type="attr" name="labelBehavior" id="0x7f030269" />
     <public type="attr" name="labelStyle" id="0x7f03026a" />
     <public type="attr" name="labelVisibilityMode" id="0x7f03026b" />
-    <public type="attr" name="lastBaselineToBottomHeight" id="0x7f03026c" />
+    <public type="attr" name="lastBaselineToBottomHeight" id="0x7f030261" />
     <public type="attr" name="lastItemDecorated" id="0x7f03026d" />
     <public type="attr" name="launchSingleTop" id="0x7f03026e" />
     <public type="attr" name="layout" id="0x7f03026f" />
@@ -788,7 +788,7 @@
     <public type="attr" name="liftOnScrollColor" id="0x7f0302b9" />
     <public type="attr" name="liftOnScrollTargetViewId" id="0x7f0302ba" />
     <public type="attr" name="limitBoundsTo" id="0x7f0302bb" />
-    <public type="attr" name="lineHeight" id="0x7f0302bc" />
+    <public type="attr" name="lineHeight" id="0x7f0302b1" />
     <public type="attr" name="lineSpacing" id="0x7f0302bd" />
     <public type="attr" name="linearProgressIndicatorStyle" id="0x7f0302be" />
     <public type="attr" name="listChoiceBackgroundIndicator" id="0x7f0302bf" />
@@ -1175,7 +1175,7 @@
     <public type="attr" name="telltales_tailColor" id="0x7f03043c" />
     <public type="attr" name="telltales_tailScale" id="0x7f03043d" />
     <public type="attr" name="telltales_velocityMode" id="0x7f03043e" />
-    <public type="attr" name="textAllCaps" id="0x7f03043f" />
+    <public type="attr" name="textAllCaps" id="0x7f030434" />
     <public type="attr" name="textAppearanceBody1" id="0x7f030440" />
     <public type="attr" name="textAppearanceBody2" id="0x7f030441" />
     <public type="attr" name="textAppearanceBodyLarge" id="0x7f030442" />
@@ -1230,7 +1230,7 @@
     <public type="attr" name="textInputOutlinedExposedDropdownMenuStyle" id="0x7f030473" />
     <public type="attr" name="textInputOutlinedStyle" id="0x7f030474" />
     <public type="attr" name="textInputStyle" id="0x7f030475" />
-    <public type="attr" name="textLocale" id="0x7f030476" />
+    <public type="attr" name="textLocale" id="0x7f03046b" />
     <public type="attr" name="textOutlineColor" id="0x7f030477" />
     <public type="attr" name="textOutlineThickness" id="0x7f030478" />
     <public type="attr" name="textPanX" id="0x7f030479" />
