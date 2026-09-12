@@ -780,9 +780,9 @@
     <public type="attr" name="layout_keyline" id="0x7f0302b1" />
     <public type="attr" name="layout_marginBaseline" id="0x7f0302b2" />
     <public type="attr" name="layout_optimizationLevel" id="0x7f0302b3" />
-    <public type="attr" name="layout_scrollEffect" id="0x7f0302b4" />
-    <public type="attr" name="layout_scrollFlags" id="0x7f0302b5" />
-    <public type="attr" name="layout_scrollInterpolator" id="0x7f0302b6" />
+    <public type="attr" name="layout_scrollEffect" id="0x7f0302a9" />
+    <public type="attr" name="layout_scrollFlags" id="0x7f0302aa" />
+    <public type="attr" name="layout_scrollInterpolator" id="0x7f0302ab" />
     <public type="attr" name="layout_wrapBehaviorInParent" id="0x7f0302b7" />
     <public type="attr" name="liftOnScroll" id="0x7f0302b8" />
     <public type="attr" name="liftOnScrollColor" id="0x7f0302b9" />
