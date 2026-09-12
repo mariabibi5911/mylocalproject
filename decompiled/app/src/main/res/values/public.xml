@@ -242,14 +242,14 @@
     <public type="attr" name="buttonStyleSmall" id="0x7f030097" />
     <public type="attr" name="buttonTint" id="0x7f030098" />
     <public type="attr" name="buttonTintMode" id="0x7f030099" />
-    <public type="attr" name="cardBackgroundColor" id="0x7f03009a" />
-    <public type="attr" name="cardCornerRadius" id="0x7f03009b" />
-    <public type="attr" name="cardElevation" id="0x7f03009c" />
-    <public type="attr" name="cardForegroundColor" id="0x7f03009d" />
-    <public type="attr" name="cardMaxElevation" id="0x7f03009e" />
-    <public type="attr" name="cardPreventCornerOverlap" id="0x7f03009f" />
-    <public type="attr" name="cardUseCompatPadding" id="0x7f0300a0" />
-    <public type="attr" name="cardViewStyle" id="0x7f0300a1" />
+    <public type="attr" name="cardBackgroundColor" id="0x7f030099" />
+    <public type="attr" name="cardCornerRadius" id="0x7f03009a" />
+    <public type="attr" name="cardElevation" id="0x7f03009b" />
+    <public type="attr" name="cardForegroundColor" id="0x7f03009c" />
+    <public type="attr" name="cardMaxElevation" id="0x7f03009d" />
+    <public type="attr" name="cardPreventCornerOverlap" id="0x7f03009e" />
+    <public type="attr" name="cardUseCompatPadding" id="0x7f03009f" />
+    <public type="attr" name="cardViewStyle" id="0x7f0300a0" />
     <public type="attr" name="carousel_backwardTransition" id="0x7f0300a2" />
     <public type="attr" name="carousel_emptyViewsBehavior" id="0x7f0300a3" />
     <public type="attr" name="carousel_firstView" id="0x7f0300a4" />
