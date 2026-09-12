@@ -170,8 +170,8 @@
     <public type="attr" name="backgroundOverlayColorAlpha" id="0x7f03004f" />
     <public type="attr" name="backgroundSplit" id="0x7f030050" />
     <public type="attr" name="backgroundStacked" id="0x7f030051" />
-    <public type="attr" name="backgroundTint" id="0x7f030052" />
-    <public type="attr" name="backgroundTintMode" id="0x7f030053" />
+    <public type="attr" name="backgroundTint" id="0x7f030051" />
+    <public type="attr" name="backgroundTintMode" id="0x7f030052" />
     <public type="attr" name="badgeGravity" id="0x7f030054" />
     <public type="attr" name="badgeHeight" id="0x7f030055" />
     <public type="attr" name="badgeRadius" id="0x7f030056" />
@@ -206,7 +206,7 @@
     <public type="attr" name="blendSrc" id="0x7f030073" />
     <public type="attr" name="borderRound" id="0x7f030074" />
     <public type="attr" name="borderRoundPercent" id="0x7f030075" />
-    <public type="attr" name="borderWidth" id="0x7f030076" />
+    <public type="attr" name="borderWidth" id="0x7f030075" />
     <public type="attr" name="borderlessButtonStyle" id="0x7f030077" />
     <public type="attr" name="bottomAppBarStyle" id="0x7f030078" />
     <public type="attr" name="bottomInsetScrimEnabled" id="0x7f030079" />
@@ -517,7 +517,7 @@
     <public type="attr" name="endIconTintMode" id="0x7f0301aa" />
     <public type="attr" name="enforceMaterialTheme" id="0x7f0301ab" />
     <public type="attr" name="enforceTextAppearance" id="0x7f0301ac" />
-    <public type="attr" name="ensureMinTouchTargetSize" id="0x7f0301ad" />
+    <public type="attr" name="ensureMinTouchTargetSize" id="0x7f0301ac" />
     <public type="attr" name="enterAnim" id="0x7f0301ae" />
     <public type="attr" name="errorAccessibilityLabel" id="0x7f0301af" />
     <public type="attr" name="errorAccessibilityLiveRegion" id="0x7f0301b0" />
@@ -556,8 +556,8 @@
     <public type="attr" name="fabCradleMargin" id="0x7f0301d1" />
     <public type="attr" name="fabCradleRoundedCornerRadius" id="0x7f0301d2" />
     <public type="attr" name="fabCradleVerticalOffset" id="0x7f0301d3" />
-    <public type="attr" name="fabCustomSize" id="0x7f0301d4" />
-    <public type="attr" name="fabSize" id="0x7f0301d5" />
+    <public type="attr" name="fabCustomSize" id="0x7f0301d3" />
+    <public type="attr" name="fabSize" id="0x7f0301d4" />
     <public type="attr" name="fastScrollEnabled" id="0x7f0301d6" />
     <public type="attr" name="fastScrollHorizontalThumbDrawable" id="0x7f0301d7" />
     <public type="attr" name="fastScrollHorizontalTrackDrawable" id="0x7f0301d8" />
@@ -630,7 +630,7 @@
     <public type="attr" name="helperTextTextAppearance" id="0x7f03021b" />
     <public type="attr" name="helperTextTextColor" id="0x7f03021c" />
     <public type="attr" name="hideAnimationBehavior" id="0x7f03021d" />
-    <public type="attr" name="hideMotionSpec" id="0x7f03021e" />
+    <public type="attr" name="hideMotionSpec" id="0x7f030213" />
     <public type="attr" name="hideNavigationIcon" id="0x7f03021f" />
     <public type="attr" name="hideOnContentScroll" id="0x7f030220" />
     <public type="attr" name="hideOnScroll" id="0x7f030221" />
@@ -642,7 +642,7 @@
     <public type="attr" name="homeLayout" id="0x7f030227" />
     <public type="attr" name="horizontalOffset" id="0x7f030228" />
     <public type="attr" name="horizontalOffsetWithText" id="0x7f030229" />
-    <public type="attr" name="hoveredFocusedTranslationZ" id="0x7f03022a" />
+    <public type="attr" name="hoveredFocusedTranslationZ" id="0x7f03021f" />
     <public type="attr" name="icon" id="0x7f03022b" />
     <public type="attr" name="iconEndPadding" id="0x7f03022c" />
     <public type="attr" name="iconGravity" id="0x7f03022d" />
@@ -864,7 +864,7 @@
     <public type="attr" name="maxButtonHeight" id="0x7f0302fa" />
     <public type="attr" name="maxCharacterCount" id="0x7f030306" />
     <public type="attr" name="maxHeight" id="0x7f030307" />
-    <public type="attr" name="maxImageSize" id="0x7f030308" />
+    <public type="attr" name="maxImageSize" id="0x7f0302fd" />
     <public type="attr" name="maxLines" id="0x7f030309" />
     <public type="attr" name="maxVelocity" id="0x7f03030a" />
     <public type="attr" name="maxWidth" id="0x7f03030b" />
@@ -998,7 +998,7 @@
     <public type="attr" name="prefixTextAppearance" id="0x7f03038b" />
     <public type="attr" name="prefixTextColor" id="0x7f03038c" />
     <public type="attr" name="preserveIconSpacing" id="0x7f03038d" />
-    <public type="attr" name="pressedTranslationZ" id="0x7f03038e" />
+    <public type="attr" name="pressedTranslationZ" id="0x7f030383" />
     <public type="attr" name="primaryActivityName" id="0x7f03038f" />
     <public type="attr" name="progressBarPadding" id="0x7f030390" />
     <public type="attr" name="progressBarStyle" id="0x7f030391" />
@@ -1025,7 +1025,7 @@
     <public type="attr" name="removeEmbeddedFabElevation" id="0x7f0303a6" />
     <public type="attr" name="restoreState" id="0x7f0303a7" />
     <public type="attr" name="reverseLayout" id="0x7f0303a8" />
-    <public type="attr" name="rippleColor" id="0x7f0303a9" />
+    <public type="attr" name="rippleColor" id="0x7f03039e" />
     <public type="attr" name="rotationCenterId" id="0x7f0303aa" />
     <public type="attr" name="round" id="0x7f0303ab" />
     <public type="attr" name="roundPercent" id="0x7f0303ac" />
@@ -1047,7 +1047,7 @@
     <public type="attr" name="selectionRequired" id="0x7f0303bc" />
     <public type="attr" name="selectorSize" id="0x7f0303bd" />
     <public type="attr" name="setsTag" id="0x7f0303be" />
-    <public type="attr" name="shapeAppearance" id="0x7f0303bf" />
+    <public type="attr" name="shapeAppearance" id="0x7f0303b4" />
     <public type="attr" name="shapeAppearanceCornerExtraLarge" id="0x7f0303c0" />
     <public type="attr" name="shapeAppearanceCornerExtraSmall" id="0x7f0303c1" />
     <public type="attr" name="shapeAppearanceCornerLarge" id="0x7f0303c2" />
@@ -1055,7 +1055,7 @@
     <public type="attr" name="shapeAppearanceCornerSmall" id="0x7f0303c4" />
     <public type="attr" name="shapeAppearanceLargeComponent" id="0x7f0303c5" />
     <public type="attr" name="shapeAppearanceMediumComponent" id="0x7f0303c6" />
-    <public type="attr" name="shapeAppearanceOverlay" id="0x7f0303c7" />
+    <public type="attr" name="shapeAppearanceOverlay" id="0x7f0303bc" />
     <public type="attr" name="shapeAppearanceSmallComponent" id="0x7f0303c8" />
     <public type="attr" name="shapeCornerFamily" id="0x7f0303c9" />
     <public type="attr" name="shortcutMatchRequired" id="0x7f0303ca" />
@@ -1064,7 +1064,7 @@
     <public type="attr" name="showAsAction" id="0x7f0303cd" />
     <public type="attr" name="showDelay" id="0x7f0303ce" />
     <public type="attr" name="showDividers" id="0x7f0303cf" />
-    <public type="attr" name="showMotionSpec" id="0x7f0303d0" />
+    <public type="attr" name="showMotionSpec" id="0x7f0303c5" />
     <public type="attr" name="showPaths" id="0x7f0303d1" />
     <public type="attr" name="showText" id="0x7f0303d2" />
     <public type="attr" name="showTitle" id="0x7f0303d3" />
@@ -1317,7 +1317,7 @@
     <public type="attr" name="ttcIndex" id="0x7f0304ca" />
     <public type="attr" name="upDuration" id="0x7f0304cb" />
     <public type="attr" name="uri" id="0x7f0304cc" />
-    <public type="attr" name="useCompatPadding" id="0x7f0304cd" />
+    <public type="attr" name="useCompatPadding" id="0x7f0304c1" />
     <public type="attr" name="useDrawerArrowDrawable" id="0x7f0304ce" />
     <public type="attr" name="useMaterialThemeColors" id="0x7f0304cf" />
     <public type="attr" name="values" id="0x7f0304d0" />
