@@ -473,8 +473,8 @@
     <public type="attr" name="divider" id="0x7f03017e" />
     <public type="attr" name="dividerColor" id="0x7f03017f" />
     <public type="attr" name="dividerHorizontal" id="0x7f030180" />
-    <public type="attr" name="dividerInsetEnd" id="0x7f030181" />
-    <public type="attr" name="dividerInsetStart" id="0x7f030182" />
+    <public type="attr" name="dividerInsetEnd" id="0x7f030180" />
+    <public type="attr" name="dividerInsetStart" id="0x7f030181" />
     <public type="attr" name="dividerPadding" id="0x7f030183" />
     <public type="attr" name="dividerThickness" id="0x7f030184" />
     <public type="attr" name="dividerVertical" id="0x7f030185" />
@@ -492,7 +492,7 @@
     <public type="attr" name="drawableTintMode" id="0x7f030190" />
     <public type="attr" name="drawableTopCompat" id="0x7f030191" />
     <public type="attr" name="drawerArrowStyle" id="0x7f030193" />
-    <public type="attr" name="drawerLayoutCornerSize" id="0x7f030194" />
+    <public type="attr" name="drawerLayoutCornerSize" id="0x7f030193" />
     <public type="attr" name="drawerLayoutStyle" id="0x7f030195" />
     <public type="attr" name="dropDownListViewStyle" id="0x7f030196" />
     <public type="attr" name="dropdownListPreferredItemHeight" id="0x7f030197" />
@@ -938,7 +938,7 @@
     <public type="attr" name="navigationIconTint" id="0x7f03034f" />
     <public type="attr" name="navigationMode" id="0x7f030350" />
     <public type="attr" name="navigationRailStyle" id="0x7f030351" />
-    <public type="attr" name="navigationViewStyle" id="0x7f030352" />
+    <public type="attr" name="navigationViewStyle" id="0x7f030347" />
     <public type="attr" name="nestedScrollFlags" id="0x7f030353" />
     <public type="attr" name="nestedScrollViewStyle" id="0x7f030354" />
     <public type="attr" name="nestedScrollable" id="0x7f030355" />
