@@ -232,7 +232,7 @@
     <public type="attr" name="buttonBarPositiveButtonStyle" id="0x7f03008d" />
     <public type="attr" name="buttonBarStyle" id="0x7f03008e" />
     <public type="attr" name="buttonCompat" id="0x7f03008f" />
-    <public type="attr" name="buttonGravity" id="0x7f030090" />
+    <public type="attr" name="buttonGravity" id="0x7f03008f" />
     <public type="attr" name="buttonIcon" id="0x7f030091" />
     <public type="attr" name="buttonIconDimen" id="0x7f030092" />
     <public type="attr" name="buttonIconTint" id="0x7f030093" />
@@ -319,8 +319,8 @@
     <public type="attr" name="closeIconTint" id="0x7f0300e4" />
     <public type="attr" name="closeIconVisible" id="0x7f0300e5" />
     <public type="attr" name="closeItemLayout" id="0x7f0300e6" />
-    <public type="attr" name="collapseContentDescription" id="0x7f0300e7" />
-    <public type="attr" name="collapseIcon" id="0x7f0300e8" />
+    <public type="attr" name="collapseContentDescription" id="0x7f0300e6" />
+    <public type="attr" name="collapseIcon" id="0x7f0300e7" />
     <public type="attr" name="collapsedSize" id="0x7f0300e9" />
     <public type="attr" name="collapsedTitleGravity" id="0x7f0300ea" />
     <public type="attr" name="collapsedTitleTextAppearance" id="0x7f0300eb" />
@@ -402,12 +402,12 @@
     <public type="attr" name="constraints" id="0x7f030137" />
     <public type="attr" name="content" id="0x7f030138" />
     <public type="attr" name="contentDescription" id="0x7f030139" />
-    <public type="attr" name="contentInsetEnd" id="0x7f03013a" />
-    <public type="attr" name="contentInsetEndWithActions" id="0x7f03013b" />
-    <public type="attr" name="contentInsetLeft" id="0x7f03013c" />
-    <public type="attr" name="contentInsetRight" id="0x7f03013d" />
-    <public type="attr" name="contentInsetStart" id="0x7f03013e" />
-    <public type="attr" name="contentInsetStartWithNavigation" id="0x7f03013f" />
+    <public type="attr" name="contentInsetEnd" id="0x7f030139" />
+    <public type="attr" name="contentInsetEndWithActions" id="0x7f03013a" />
+    <public type="attr" name="contentInsetLeft" id="0x7f03013b" />
+    <public type="attr" name="contentInsetRight" id="0x7f03013c" />
+    <public type="attr" name="contentInsetStart" id="0x7f03013d" />
+    <public type="attr" name="contentInsetStartWithNavigation" id="0x7f03013e" />
     <public type="attr" name="contentPadding" id="0x7f030140" />
     <public type="attr" name="contentPaddingBottom" id="0x7f030141" />
     <public type="attr" name="contentPaddingEnd" id="0x7f030142" />
@@ -808,7 +808,7 @@
     <public type="attr" name="listPreferredItemPaddingStart" id="0x7f0302cd" />
     <public type="attr" name="logo" id="0x7f0302ce" />
     <public type="attr" name="logoAdjustViewBounds" id="0x7f0302cf" />
-    <public type="attr" name="logoDescription" id="0x7f0302d0" />
+    <public type="attr" name="logoDescription" id="0x7f0302c5" />
     <public type="attr" name="logoScaleType" id="0x7f0302d1" />
     <public type="attr" name="marginHorizontal" id="0x7f0302d2" />
     <public type="attr" name="marginLeftSystemWindowInsets" id="0x7f0302d3" />
@@ -861,7 +861,7 @@
     <public type="attr" name="materialTimePickerTitleStyle" id="0x7f030302" />
     <public type="attr" name="maxAcceleration" id="0x7f030303" />
     <public type="attr" name="maxActionInlineWidth" id="0x7f030304" />
-    <public type="attr" name="maxButtonHeight" id="0x7f030305" />
+    <public type="attr" name="maxButtonHeight" id="0x7f0302fa" />
     <public type="attr" name="maxCharacterCount" id="0x7f030306" />
     <public type="attr" name="maxHeight" id="0x7f030307" />
     <public type="attr" name="maxImageSize" id="0x7f030308" />
@@ -933,7 +933,7 @@
     <public type="attr" name="moveWhenScrollAtTop" id="0x7f03034a" />
     <public type="attr" name="multiChoiceItemLayout" id="0x7f03034b" />
     <public type="attr" name="navGraph" id="0x7f03034c" />
-    <public type="attr" name="navigationContentDescription" id="0x7f03034d" />
+    <public type="attr" name="navigationContentDescription" id="0x7f030342" />
     <public type="attr" name="navigationIcon" id="0x7f03034e" />
     <public type="attr" name="navigationIconTint" id="0x7f03034f" />
     <public type="attr" name="navigationMode" id="0x7f030350" />
@@ -992,7 +992,7 @@
     <public type="attr" name="popUpToSaveState" id="0x7f030385" />
     <public type="attr" name="popupMenuBackground" id="0x7f030386" />
     <public type="attr" name="popupMenuStyle" id="0x7f030387" />
-    <public type="attr" name="popupTheme" id="0x7f030388" />
+    <public type="attr" name="popupTheme" id="0x7f03037d" />
     <public type="attr" name="popupWindowStyle" id="0x7f030389" />
     <public type="attr" name="prefixText" id="0x7f03038a" />
     <public type="attr" name="prefixTextAppearance" id="0x7f03038b" />
@@ -1130,8 +1130,8 @@
     <public type="attr" name="submitBackground" id="0x7f03040f" />
     <public type="attr" name="subtitle" id="0x7f030410" />
     <public type="attr" name="subtitleCentered" id="0x7f030411" />
-    <public type="attr" name="subtitleTextAppearance" id="0x7f030412" />
-    <public type="attr" name="subtitleTextColor" id="0x7f030413" />
+    <public type="attr" name="subtitleTextAppearance" id="0x7f030407" />
+    <public type="attr" name="subtitleTextColor" id="0x7f030408" />
     <public type="attr" name="subtitleTextStyle" id="0x7f030414" />
     <public type="attr" name="suffixText" id="0x7f030415" />
     <public type="attr" name="suffixTextAppearance" id="0x7f030416" />
@@ -1269,15 +1269,15 @@
     <public type="attr" name="titleCentered" id="0x7f03049a" />
     <public type="attr" name="titleCollapseMode" id="0x7f03049b" />
     <public type="attr" name="titleEnabled" id="0x7f03049c" />
-    <public type="attr" name="titleMargin" id="0x7f03049d" />
-    <public type="attr" name="titleMarginBottom" id="0x7f03049e" />
-    <public type="attr" name="titleMarginEnd" id="0x7f03049f" />
-    <public type="attr" name="titleMarginStart" id="0x7f0304a0" />
-    <public type="attr" name="titleMarginTop" id="0x7f0304a1" />
-    <public type="attr" name="titleMargins" id="0x7f0304a2" />
+    <public type="attr" name="titleMargin" id="0x7f030492" />
+    <public type="attr" name="titleMarginBottom" id="0x7f030493" />
+    <public type="attr" name="titleMarginEnd" id="0x7f030494" />
+    <public type="attr" name="titleMarginStart" id="0x7f030495" />
+    <public type="attr" name="titleMarginTop" id="0x7f030496" />
+    <public type="attr" name="titleMargins" id="0x7f030497" />
     <public type="attr" name="titlePositionInterpolator" id="0x7f0304a3" />
-    <public type="attr" name="titleTextAppearance" id="0x7f0304a4" />
-    <public type="attr" name="titleTextColor" id="0x7f0304a5" />
+    <public type="attr" name="titleTextAppearance" id="0x7f030499" />
+    <public type="attr" name="titleTextColor" id="0x7f03049a" />
     <public type="attr" name="titleTextEllipsize" id="0x7f0304a6" />
     <public type="attr" name="titleTextStyle" id="0x7f0304a7" />
     <public type="attr" name="toggleCheckedStateOnClick" id="0x7f0304a8" />
