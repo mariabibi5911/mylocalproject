@@ -1337,16 +1337,16 @@
     <public type="attr" name="wavePhase" id="0x7f0304de" />
     <public type="attr" name="waveShape" id="0x7f0304df" />
     <public type="attr" name="waveVariesBy" id="0x7f0304e0" />
-    <public type="attr" name="windowActionBar" id="0x7f0304e1" />
-    <public type="attr" name="windowActionBarOverlay" id="0x7f0304e2" />
-    <public type="attr" name="windowActionModeOverlay" id="0x7f0304e3" />
+    <public type="attr" name="windowActionBar" id="0x7f0304d5" />
+    <public type="attr" name="windowActionBarOverlay" id="0x7f0304d6" />
+    <public type="attr" name="windowActionModeOverlay" id="0x7f0304d7" />
     <public type="attr" name="windowFixedHeightMajor" id="0x7f0304e4" />
     <public type="attr" name="windowFixedHeightMinor" id="0x7f0304e5" />
     <public type="attr" name="windowFixedWidthMajor" id="0x7f0304e6" />
     <public type="attr" name="windowFixedWidthMinor" id="0x7f0304e7" />
     <public type="attr" name="windowMinWidthMajor" id="0x7f0304e8" />
     <public type="attr" name="windowMinWidthMinor" id="0x7f0304e9" />
-    <public type="attr" name="windowNoTitle" id="0x7f0304ea" />
+    <public type="attr" name="windowNoTitle" id="0x7f0304de" />
     <public type="attr" name="yearSelectedStyle" id="0x7f0304eb" />
     <public type="attr" name="yearStyle" id="0x7f0304ec" />
     <public type="attr" name="yearTodayStyle" id="0x7f0304ed" />
