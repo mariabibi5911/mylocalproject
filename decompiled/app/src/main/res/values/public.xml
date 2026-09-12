@@ -673,21 +673,21 @@
     <public type="attr" name="isMaterial3Theme" id="0x7f030246" />
     <public type="attr" name="isMaterialTheme" id="0x7f030247" />
     <public type="attr" name="itemActiveIndicatorStyle" id="0x7f030248" />
-    <public type="attr" name="itemBackground" id="0x7f030249" />
+    <public type="attr" name="itemBackground" id="0x7f03023e" />
     <public type="attr" name="itemFillColor" id="0x7f03024a" />
     <public type="attr" name="itemHorizontalPadding" id="0x7f03024b" />
     <public type="attr" name="itemHorizontalTranslationEnabled" id="0x7f03024c" />
     <public type="attr" name="itemIconPadding" id="0x7f03024d" />
     <public type="attr" name="itemIconSize" id="0x7f03024e" />
-    <public type="attr" name="itemIconTint" id="0x7f03024f" />
+    <public type="attr" name="itemIconTint" id="0x7f030244" />
     <public type="attr" name="itemMaxLines" id="0x7f030250" />
     <public type="attr" name="itemMinHeight" id="0x7f030251" />
     <public type="attr" name="itemPadding" id="0x7f030252" />
     <public type="attr" name="itemPaddingBottom" id="0x7f030253" />
     <public type="attr" name="itemPaddingTop" id="0x7f030254" />
-    <public type="attr" name="itemRippleColor" id="0x7f030255" />
-    <public type="attr" name="itemShapeAppearance" id="0x7f030256" />
-    <public type="attr" name="itemShapeAppearanceOverlay" id="0x7f030257" />
+    <public type="attr" name="itemRippleColor" id="0x7f03024a" />
+    <public type="attr" name="itemShapeAppearance" id="0x7f03024b" />
+    <public type="attr" name="itemShapeAppearanceOverlay" id="0x7f03024c" />
     <public type="attr" name="itemShapeFillColor" id="0x7f030258" />
     <public type="attr" name="itemShapeInsetBottom" id="0x7f030259" />
     <public type="attr" name="itemShapeInsetEnd" id="0x7f03025a" />
@@ -699,7 +699,7 @@
     <public type="attr" name="itemTextAppearance" id="0x7f030260" />
     <public type="attr" name="itemTextAppearanceActive" id="0x7f030261" />
     <public type="attr" name="itemTextAppearanceInactive" id="0x7f030262" />
-    <public type="attr" name="itemTextColor" id="0x7f030263" />
+    <public type="attr" name="itemTextColor" id="0x7f030258" />
     <public type="attr" name="itemVerticalPadding" id="0x7f030264" />
     <public type="attr" name="keyPositionType" id="0x7f030265" />
     <public type="attr" name="keyboardIcon" id="0x7f030266" />
@@ -1123,7 +1123,7 @@
     <public type="attr" name="strokeColor" id="0x7f030408" />
     <public type="attr" name="strokeWidth" id="0x7f030409" />
     <public type="attr" name="subMenuArrow" id="0x7f03040a" />
-    <public type="attr" name="subheaderColor" id="0x7f03040b" />
+    <public type="attr" name="subheaderColor" id="0x7f030400" />
     <public type="attr" name="subheaderInsetEnd" id="0x7f03040c" />
     <public type="attr" name="subheaderInsetStart" id="0x7f03040d" />
     <public type="attr" name="subheaderTextAppearance" id="0x7f03040e" />
