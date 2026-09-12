@@ -617,7 +617,7 @@ public final class R {
     /* loaded from: classes2.dex */
     public static final class id {
         public static int action_bar = 0x7f080033;
-        public static int action_bar_activity_content = 0x7f080034;
+        public static int action_bar_activity_content = 0x7f080013;
         public static int action_bar_container = 0x7f080035;
         public static int action_bar_root = 0x7f080036;
         public static int action_bar_spinner = 0x7f080037;
